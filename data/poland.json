@@ -1,0 +1,3111 @@
+[
+ {
+  "codes": [
+   "DJ",
+   "VJ"
+  ],
+  "name": "Jelenia Góra",
+  "type": "miasto",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DL",
+   "VL"
+  ],
+  "name": "Legnica",
+  "type": "miasto",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DB",
+   "VB"
+  ],
+  "name": "Wałbrzych",
+  "type": "miasto",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DW",
+   "DX",
+   "VW",
+   "VX"
+  ],
+  "name": "Wrocław",
+  "type": "miasto",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DBL"
+  ],
+  "name": "bolesławiecki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DDZ"
+  ],
+  "name": "dzierżoniowski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DGL"
+  ],
+  "name": "głogowski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DGR"
+  ],
+  "name": "górowski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DJA"
+  ],
+  "name": "jaworski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DJE"
+  ],
+  "name": "karkonoski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DKA"
+  ],
+  "name": "kamiennogórski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "name": "kłodzki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DLE"
+  ],
+  "name": "legnicki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DLB"
+  ],
+  "name": "lubański",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DLU"
+  ],
+  "name": "lubiński",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DLW"
+  ],
+  "name": "lwówecki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DMI"
+  ],
+  "name": "milicki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DOL"
+  ],
+  "name": "oleśnicki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DOA"
+  ],
+  "name": "oławski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DPL"
+  ],
+  "name": "polkowicki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DST"
+  ],
+  "name": "strzeliński",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DSR"
+  ],
+  "name": "średzki (dolnośląski)",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DSW"
+  ],
+  "name": "świdnicki (dolnośląski)",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DTR"
+  ],
+  "name": "trzebnicki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DBA"
+  ],
+  "name": "wałbrzyski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DWL"
+  ],
+  "name": "wołowski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DWR"
+  ],
+  "name": "wrocławski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DZA"
+  ],
+  "name": "ząbkowicki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DZG"
+  ],
+  "name": "zgorzelecki",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "DZL"
+  ],
+  "name": "złotoryjski",
+  "type": "powiat",
+  "voivodeship": "dolnośląskie"
+ },
+ {
+  "codes": [
+   "CB"
+  ],
+  "name": "Bydgoszcz",
+  "type": "miasto",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CG"
+  ],
+  "name": "Grudziądz",
+  "type": "miasto",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CT"
+  ],
+  "name": "Toruń",
+  "type": "miasto",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CW"
+  ],
+  "name": "Włocławek",
+  "type": "miasto",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CAL"
+  ],
+  "name": "aleksandrowski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CBR"
+  ],
+  "name": "brodnicki",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CBY",
+   "CBC"
+  ],
+  "name": "bydgoski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CCH"
+  ],
+  "name": "chełmiński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CGD"
+  ],
+  "name": "golubsko-dobrzyński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CGR"
+  ],
+  "name": "grudziądzki",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CIN"
+  ],
+  "name": "inowrocławski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CLI"
+  ],
+  "name": "lipnowski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CMG"
+  ],
+  "name": "mogileński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CNA"
+  ],
+  "name": "nakielski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CRA"
+  ],
+  "name": "radziejowski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CRY"
+  ],
+  "name": "rypiński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CSE"
+  ],
+  "name": "sępoleński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CSW"
+  ],
+  "name": "świecki",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CTR"
+  ],
+  "name": "toruński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CTU"
+  ],
+  "name": "tucholski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CWA"
+  ],
+  "name": "wąbrzeski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "name": "włocławski",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "CZN"
+  ],
+  "name": "żniński",
+  "type": "powiat",
+  "voivodeship": "kujawsko-pomorskie"
+ },
+ {
+  "codes": [
+   "LB"
+  ],
+  "name": "Biała Podlaska",
+  "type": "miasto",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LC"
+  ],
+  "name": "Chełm",
+  "type": "miasto",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LU"
+  ],
+  "name": "Lublin",
+  "type": "miasto",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LZ"
+  ],
+  "name": "Zamość",
+  "type": "miasto",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LBI"
+  ],
+  "name": "bialski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "name": "biłgorajski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LCH"
+  ],
+  "name": "chełmski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LHR"
+  ],
+  "name": "hrubieszowski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LJA"
+  ],
+  "name": "janowski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LKS"
+  ],
+  "name": "krasnostawski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LKR"
+  ],
+  "name": "kraśnicki",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LLB"
+  ],
+  "name": "lubartowski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LUB"
+  ],
+  "name": "lubelski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LLE"
+  ],
+  "name": "łęczyński",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LLU"
+  ],
+  "name": "łukowski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LOP"
+  ],
+  "name": "opolski (lubelski)",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LPA"
+  ],
+  "name": "parczewski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "name": "puławski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LRA"
+  ],
+  "name": "radzyński",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LRY"
+  ],
+  "name": "rycki",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LSW"
+  ],
+  "name": "świdnicki (lubelski)",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LTM"
+  ],
+  "name": "tomaszowski (lubelski)",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LWL"
+  ],
+  "name": "włodawski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "LZA"
+  ],
+  "name": "zamojski",
+  "type": "powiat",
+  "voivodeship": "lubelskie"
+ },
+ {
+  "codes": [
+   "FG"
+  ],
+  "name": "Gorzów Wielkopolski",
+  "type": "miasto",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FZ"
+  ],
+  "name": "Zielona Góra",
+  "type": "miasto",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FGW"
+  ],
+  "name": "gorzowski",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FKR"
+  ],
+  "name": "krośnieński (lubuski)",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FMI"
+  ],
+  "name": "międzyrzecki",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FNW"
+  ],
+  "name": "nowosolski",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FSL"
+  ],
+  "name": "słubicki",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FSD"
+  ],
+  "name": "strzelecko-drezdenecki",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FSU"
+  ],
+  "name": "sulęciński",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FSW"
+  ],
+  "name": "świebodziński",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FWS"
+  ],
+  "name": "wschowski",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FZI"
+  ],
+  "name": "zielonogórski",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FZG"
+  ],
+  "name": "żagański",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "FZA"
+  ],
+  "name": "żarski",
+  "type": "powiat",
+  "voivodeship": "lubuskie"
+ },
+ {
+  "codes": [
+   "EL",
+   "ED"
+  ],
+  "name": "Łódź",
+  "type": "miasto",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EP"
+  ],
+  "name": "Piotrków Trybunalski",
+  "type": "miasto",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ES"
+  ],
+  "name": "Skierniewice",
+  "type": "miasto",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EBR"
+  ],
+  "name": "brzeziński",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EBE"
+  ],
+  "name": "bełchatowski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EKU"
+  ],
+  "name": "kutnowski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ELA"
+  ],
+  "name": "łaski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ELE"
+  ],
+  "name": "łęczycki",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ELC"
+  ],
+  "name": "łowicki",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ELW"
+  ],
+  "name": "łódzki wschodni",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EOP"
+  ],
+  "name": "opoczyński",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EPA"
+  ],
+  "name": "pabianicki",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EPJ"
+  ],
+  "name": "pajęczański",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EPI"
+  ],
+  "name": "piotrkowski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EPD"
+  ],
+  "name": "poddębicki",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ERA"
+  ],
+  "name": "radomszczański",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ERW"
+  ],
+  "name": "rawski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ESI"
+  ],
+  "name": "sieradzki",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ESK"
+  ],
+  "name": "skierniewicki",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "ETM"
+  ],
+  "name": "tomaszowski (łódzki)",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EWI"
+  ],
+  "name": "wieluński",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EWE"
+  ],
+  "name": "wieruszowski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EZD"
+  ],
+  "name": "zduńskowolski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "name": "zgierski",
+  "type": "powiat",
+  "voivodeship": "łódzkie"
+ },
+ {
+  "codes": [
+   "KR",
+   "KK",
+   "JR",
+   "JK"
+  ],
+  "name": "Kraków",
+  "type": "miasto",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KN",
+   "JN"
+  ],
+  "name": "Nowy Sącz",
+  "type": "miasto",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KT",
+   "JT"
+  ],
+  "name": "Tarnów",
+  "type": "miasto",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KBC",
+   "KBA"
+  ],
+  "name": "bocheński",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KBR"
+  ],
+  "name": "brzeski (małopolski)",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KCH"
+  ],
+  "name": "chrzanowski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KDA"
+  ],
+  "name": "dąbrowski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KGR"
+  ],
+  "name": "gorlicki",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KRA",
+   "KRK"
+  ],
+  "name": "krakowski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KLI"
+  ],
+  "name": "limanowski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KMI"
+  ],
+  "name": "miechowski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KMY"
+  ],
+  "name": "myślenicki",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KNS"
+  ],
+  "name": "nowosądecki",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KNT"
+  ],
+  "name": "nowotarski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KOL"
+  ],
+  "name": "olkuski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KOS"
+  ],
+  "name": "oświęcimski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KPR"
+  ],
+  "name": "proszowicki",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KSU"
+  ],
+  "name": "suski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "name": "tarnowski",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KTT"
+  ],
+  "name": "tatrzański",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KWA"
+  ],
+  "name": "wadowicki",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "KWI"
+  ],
+  "name": "wielicki",
+  "type": "powiat",
+  "voivodeship": "małopolskie"
+ },
+ {
+  "codes": [
+   "WA",
+   "WB",
+   "WD",
+   "WE",
+   "WF",
+   "WH",
+   "WI",
+   "WJ",
+   "WK",
+   "WN",
+   "WT",
+   "WU",
+   "WW",
+   "WX",
+   "WY"
+  ],
+  "name": "Warszawa (m.st.)",
+  "type": "miasto",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WO",
+   "AO"
+  ],
+  "name": "Ostrołęka",
+  "type": "miasto",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WP",
+   "AP"
+  ],
+  "name": "Płock",
+  "type": "miasto",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WR",
+   "AR"
+  ],
+  "name": "Radom",
+  "type": "miasto",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WS",
+   "AS"
+  ],
+  "name": "Siedlce",
+  "type": "miasto",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WBR"
+  ],
+  "name": "białobrzeski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WCI"
+  ],
+  "name": "ciechanowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WG"
+  ],
+  "name": "garwoliński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WGS"
+  ],
+  "name": "gostyniński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WGM"
+  ],
+  "name": "grodziski (mazowiecki)",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WGR"
+  ],
+  "name": "grójecki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WKZ"
+  ],
+  "name": "kozienicki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WL"
+  ],
+  "name": "legionowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WLI"
+  ],
+  "name": "lipski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WLS"
+  ],
+  "name": "łosicki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WMA"
+  ],
+  "name": "makowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "name": "miński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WML"
+  ],
+  "name": "mławski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WND"
+  ],
+  "name": "nowodworski (mazowiecki)",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WOS"
+  ],
+  "name": "ostrołęcki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WOR"
+  ],
+  "name": "ostrowski (mazowiecki)",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WOT"
+  ],
+  "name": "otwocki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPI",
+   "WPA",
+   "WPW",
+   "WPX"
+  ],
+  "name": "piaseczyński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPL"
+  ],
+  "name": "płocki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPN"
+  ],
+  "name": "płoński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPR",
+   "WPP",
+   "WPS"
+  ],
+  "name": "pruszkowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPZ"
+  ],
+  "name": "przasnyski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPY"
+  ],
+  "name": "przysuski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WPU"
+  ],
+  "name": "pułtuski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WRA"
+  ],
+  "name": "radomski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WSI"
+  ],
+  "name": "siedlecki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WSE"
+  ],
+  "name": "sierpecki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WSC"
+  ],
+  "name": "sochaczewski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WSK"
+  ],
+  "name": "sokołowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WSZ"
+  ],
+  "name": "szydłowiecki",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WZ"
+  ],
+  "name": "warszawski zachodni",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WWE"
+  ],
+  "name": "węgrowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "name": "wołomiński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WWY"
+  ],
+  "name": "wyszkowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WZW"
+  ],
+  "name": "zwoleński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WZU"
+  ],
+  "name": "żuromiński",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "WZY"
+  ],
+  "name": "żyrardowski",
+  "type": "powiat",
+  "voivodeship": "mazowieckie"
+ },
+ {
+  "codes": [
+   "OP"
+  ],
+  "name": "Opole",
+  "type": "miasto",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OB"
+  ],
+  "name": "brzeski (opolski)",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OGL"
+  ],
+  "name": "głubczycki",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OK"
+  ],
+  "name": "kędzierzyńsko-kozielski",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OKL"
+  ],
+  "name": "kluczborski",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OKR"
+  ],
+  "name": "krapkowicki",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "ONA"
+  ],
+  "name": "namysłowski",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "ONY"
+  ],
+  "name": "nyski",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OOL"
+  ],
+  "name": "oleski",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OPO"
+  ],
+  "name": "opolski",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OPR"
+  ],
+  "name": "prudnicki",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "OST"
+  ],
+  "name": "strzelecki (opolski)",
+  "type": "powiat",
+  "voivodeship": "opolskie"
+ },
+ {
+  "codes": [
+   "RK",
+   "YK"
+  ],
+  "name": "Krosno",
+  "type": "miasto",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RP",
+   "YP"
+  ],
+  "name": "Przemyśl",
+  "type": "miasto",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RZ",
+   "YZ"
+  ],
+  "name": "Rzeszów",
+  "type": "miasto",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RT",
+   "YT"
+  ],
+  "name": "Tarnobrzeg",
+  "type": "miasto",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RBI"
+  ],
+  "name": "bieszczadzki",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RBR"
+  ],
+  "name": "brzozowski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RDE"
+  ],
+  "name": "dębicki",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RJA"
+  ],
+  "name": "jarosławski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RJS"
+  ],
+  "name": "jasielski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RKL"
+  ],
+  "name": "kolbuszowski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RKR"
+  ],
+  "name": "krośnieński (podkarpacki)",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RLS"
+  ],
+  "name": "leski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RLE"
+  ],
+  "name": "leżajski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RLU"
+  ],
+  "name": "lubaczowski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RLA"
+  ],
+  "name": "łańcucki",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RMI"
+  ],
+  "name": "mielecki",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RNI"
+  ],
+  "name": "niżański",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RPR"
+  ],
+  "name": "przemyski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RPZ"
+  ],
+  "name": "przeworski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RRS"
+  ],
+  "name": "ropczycko-sędziszowski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "name": "rzeszowski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RSA"
+  ],
+  "name": "sanocki",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RST"
+  ],
+  "name": "stalowowolski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RSR"
+  ],
+  "name": "strzyżowski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "RTA"
+  ],
+  "name": "tarnobrzeski",
+  "type": "powiat",
+  "voivodeship": "podkarpackie"
+ },
+ {
+  "codes": [
+   "BI"
+  ],
+  "name": "Białystok",
+  "type": "miasto",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BL"
+  ],
+  "name": "Łomża",
+  "type": "miasto",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BS"
+  ],
+  "name": "Suwałki",
+  "type": "miasto",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BAU"
+  ],
+  "name": "augustowski",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "name": "białostocki",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BBI"
+  ],
+  "name": "bielski (podlaski)",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BGR"
+  ],
+  "name": "grajewski",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BHA"
+  ],
+  "name": "hajnowski",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BKL"
+  ],
+  "name": "kolneński",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BLM"
+  ],
+  "name": "łomżyński",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BMN"
+  ],
+  "name": "moniecki",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BSE"
+  ],
+  "name": "sejneński",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BSI"
+  ],
+  "name": "siemiatycki",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BSK"
+  ],
+  "name": "sokólski",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BSU"
+  ],
+  "name": "suwalski",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BWM"
+  ],
+  "name": "wysokomazowiecki",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "BZA"
+  ],
+  "name": "zambrowski",
+  "type": "powiat",
+  "voivodeship": "podlaskie"
+ },
+ {
+  "codes": [
+   "GD",
+   "XD"
+  ],
+  "name": "Gdańsk",
+  "type": "miasto",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GA",
+   "XA"
+  ],
+  "name": "Gdynia",
+  "type": "miasto",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GS",
+   "XS"
+  ],
+  "name": "Słupsk",
+  "type": "miasto",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GSP",
+   "XSP"
+  ],
+  "name": "Sopot",
+  "type": "miasto",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GBY"
+  ],
+  "name": "bytowski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GCH"
+  ],
+  "name": "chojnicki",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GCZ"
+  ],
+  "name": "człuchowski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GDA"
+  ],
+  "name": "gdański",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GKA",
+   "GKY",
+   "GKZ"
+  ],
+  "name": "kartuski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GKS"
+  ],
+  "name": "kościerski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GKW"
+  ],
+  "name": "kwidzyński",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GLE"
+  ],
+  "name": "lęborski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GMB"
+  ],
+  "name": "malborski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GND"
+  ],
+  "name": "nowodworski (pomorski)",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GPU"
+  ],
+  "name": "pucki",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GSL"
+  ],
+  "name": "słupski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GST"
+  ],
+  "name": "starogardzki",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GSZ"
+  ],
+  "name": "sztumski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GTC"
+  ],
+  "name": "tczewski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "GWE",
+   "GWO"
+  ],
+  "name": "wejherowski",
+  "type": "powiat",
+  "voivodeship": "pomorskie"
+ },
+ {
+  "codes": [
+   "SB"
+  ],
+  "name": "Bielsko-Biała",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SY"
+  ],
+  "name": "Bytom",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SH"
+  ],
+  "name": "Chorzów",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SC"
+  ],
+  "name": "Częstochowa",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SD"
+  ],
+  "name": "Dąbrowa Górnicza",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SG"
+  ],
+  "name": "Gliwice",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SJZ"
+  ],
+  "name": "Jastrzębie-Zdrój",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SJ"
+  ],
+  "name": "Jaworzno",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SK"
+  ],
+  "name": "Katowice",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SM"
+  ],
+  "name": "Mysłowice",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SPI"
+  ],
+  "name": "Piekary Śląskie",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SRS",
+   "SL"
+  ],
+  "name": "Ruda Śląska",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SR"
+  ],
+  "name": "Rybnik",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SI"
+  ],
+  "name": "Siemianowice Śląskie",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SO"
+  ],
+  "name": "Sosnowiec",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SW"
+  ],
+  "name": "Świętochłowice",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "ST"
+  ],
+  "name": "Tychy",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SZ"
+  ],
+  "name": "Zabrze",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SZO"
+  ],
+  "name": "Żory",
+  "type": "miasto",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SBE",
+   "SE",
+   "SBN"
+  ],
+  "name": "będziński",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SBI"
+  ],
+  "name": "bielski (śląski)",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SCI",
+   "SCN"
+  ],
+  "name": "cieszyński",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SCZ"
+  ],
+  "name": "częstochowski",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SGL"
+  ],
+  "name": "gliwicki",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SKL"
+  ],
+  "name": "kłobucki",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SLU"
+  ],
+  "name": "lubliniecki",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SMI"
+  ],
+  "name": "mikołowski",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SMY"
+  ],
+  "name": "myszkowski",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SPS"
+  ],
+  "name": "pszczyński",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SRC"
+  ],
+  "name": "raciborski",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SRB"
+  ],
+  "name": "rybnicki",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "STA"
+  ],
+  "name": "tarnogórski",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SBL"
+  ],
+  "name": "bieruńsko-lędziński",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SWD",
+   "SWZ"
+  ],
+  "name": "wodzisławski",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "name": "zawierciański",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "SZY"
+  ],
+  "name": "żywiecki",
+  "type": "powiat",
+  "voivodeship": "śląskie"
+ },
+ {
+  "codes": [
+   "TK"
+  ],
+  "name": "Kielce",
+  "type": "miasto",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TBU"
+  ],
+  "name": "buski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TJE"
+  ],
+  "name": "jędrzejowski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TKA"
+  ],
+  "name": "kazimierski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "name": "kielecki",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TKN"
+  ],
+  "name": "konecki",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TOP"
+  ],
+  "name": "opatowski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TOS"
+  ],
+  "name": "ostrowiecki",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TPI"
+  ],
+  "name": "pińczowski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TSA"
+  ],
+  "name": "sandomierski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TSK"
+  ],
+  "name": "skarżyski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TST"
+  ],
+  "name": "starachowicki",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TSZ"
+  ],
+  "name": "staszowski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "TLW"
+  ],
+  "name": "włoszczowski",
+  "type": "powiat",
+  "voivodeship": "świętokrzyskie"
+ },
+ {
+  "codes": [
+   "NE"
+  ],
+  "name": "Elbląg",
+  "type": "miasto",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NO"
+  ],
+  "name": "Olsztyn",
+  "type": "miasto",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NBA"
+  ],
+  "name": "bartoszycki",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NBR"
+  ],
+  "name": "braniewski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NDZ"
+  ],
+  "name": "działdowski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NEB"
+  ],
+  "name": "elbląski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NEL"
+  ],
+  "name": "ełcki",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NGI"
+  ],
+  "name": "giżycki",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NIL"
+  ],
+  "name": "iławski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NKE"
+  ],
+  "name": "kętrzyński",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NLI"
+  ],
+  "name": "lidzbarski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NMR"
+  ],
+  "name": "mrągowski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NNI"
+  ],
+  "name": "nidzicki",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NNM"
+  ],
+  "name": "nowomiejski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NOE"
+  ],
+  "name": "olecki",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NGO"
+  ],
+  "name": "gołdapski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NOL"
+  ],
+  "name": "olsztyński",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NOS",
+   "NOT",
+   "NOX"
+  ],
+  "name": "ostródzki",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NPI"
+  ],
+  "name": "piski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NSZ"
+  ],
+  "name": "szczycieński",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "NWE"
+  ],
+  "name": "węgorzewski",
+  "type": "powiat",
+  "voivodeship": "warmińsko-mazurskie"
+ },
+ {
+  "codes": [
+   "PK",
+   "PA"
+  ],
+  "name": "Kalisz",
+  "type": "miasto",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKO",
+   "PN"
+  ],
+  "name": "Konin",
+  "type": "miasto",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PL"
+  ],
+  "name": "Leszno",
+  "type": "miasto",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PO",
+   "PY",
+   "PX"
+  ],
+  "name": "Poznań",
+  "type": "miasto",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PCH"
+  ],
+  "name": "chodzieski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PCT"
+  ],
+  "name": "czarnkowsko-trzcianecki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PGN"
+  ],
+  "name": "gnieźnieński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PGS"
+  ],
+  "name": "gostyński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PGO"
+  ],
+  "name": "grodziski (wielkopolski)",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PJA"
+  ],
+  "name": "jarociński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKA"
+  ],
+  "name": "kaliski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKE"
+  ],
+  "name": "kępiński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKL"
+  ],
+  "name": "kolski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKN"
+  ],
+  "name": "koniński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKS"
+  ],
+  "name": "kościański",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PKR"
+  ],
+  "name": "krotoszyński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PLE"
+  ],
+  "name": "leszczyński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PMI"
+  ],
+  "name": "międzychodzki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PNT"
+  ],
+  "name": "nowotomyski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "POB"
+  ],
+  "name": "obornicki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "POS"
+  ],
+  "name": "ostrowski (wielkopolski)",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "POT"
+  ],
+  "name": "ostrzeszowski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "name": "pilski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PPL"
+  ],
+  "name": "pleszewski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "name": "poznański",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PRA"
+  ],
+  "name": "rawicki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PSL"
+  ],
+  "name": "słupecki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PSZ"
+  ],
+  "name": "szamotulski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PSR"
+  ],
+  "name": "średzki (wielkopolski)",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PSE"
+  ],
+  "name": "śremski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PTU"
+  ],
+  "name": "turecki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PWA"
+  ],
+  "name": "wągrowiecki",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PWL"
+  ],
+  "name": "wolsztyński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PWR"
+  ],
+  "name": "wrzesiński",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "PZL"
+  ],
+  "name": "złotowski",
+  "type": "powiat",
+  "voivodeship": "wielkopolskie"
+ },
+ {
+  "codes": [
+   "ZK"
+  ],
+  "name": "Koszalin",
+  "type": "miasto",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZS",
+   "ZZ"
+  ],
+  "name": "Szczecin",
+  "type": "miasto",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZSW"
+  ],
+  "name": "Świnoujście",
+  "type": "miasto",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZBI"
+  ],
+  "name": "białogardzki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZCH"
+  ],
+  "name": "choszczeński",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZDR"
+  ],
+  "name": "drawski",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZGL"
+  ],
+  "name": "goleniowski",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZGY"
+  ],
+  "name": "gryficki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "name": "gryfiński",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZKA"
+  ],
+  "name": "kamieński",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZKL"
+  ],
+  "name": "kołobrzeski",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZKO"
+  ],
+  "name": "koszaliński",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZLO"
+  ],
+  "name": "łobeski",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZMY"
+  ],
+  "name": "myśliborski",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZPL"
+  ],
+  "name": "policki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZPY"
+  ],
+  "name": "pyrzycki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZSL"
+  ],
+  "name": "sławieński",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZST"
+  ],
+  "name": "stargardzki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZSZ"
+  ],
+  "name": "szczecinecki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZSD"
+  ],
+  "name": "świdwiński",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ },
+ {
+  "codes": [
+   "ZWA"
+  ],
+  "name": "wałecki",
+  "type": "powiat",
+  "voivodeship": "zachodniopomorskie"
+ }
+]

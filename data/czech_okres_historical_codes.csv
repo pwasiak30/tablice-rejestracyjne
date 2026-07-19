@@ -1,0 +1,103 @@
+code,okres_mesto,kraj_region_today
+A,Praha,Praha
+MO,Most,Ústecký
+AA,For vehicles used by the government (until 1989),
+NA,Náchod,Královéhradecký
+BE,Beroun,Středočeský
+NB,Nymburk,Středočeský
+BI,Brno-venkov (only ever used with a yellow background for heavy goods vehicles),Jihomoravský
+NJ,Nový Jičín,Moravskoslezský
+BK,Blansko,Jihomoravský
+OC,Olomouc,Olomoucký
+BM,Brno-město,Jihomoravský
+OL,Olomouc,Olomoucký
+BN,Benešov,Středočeský
+OM,Olomouc,Olomoucký
+BO,Brno-venkov,Jihomoravský
+OP,Opava,Moravskoslezský
+BR,Bruntál,Moravskoslezský
+OS,Ostrava-město,Moravskoslezský
+BS,Brno-město,Jihomoravský
+OT,Ostrava-město,Moravskoslezský
+BV,Břeclav,Jihomoravský
+OV,Ostrava-město,Moravskoslezský
+BZ,Brno-město,Jihomoravský
+PA,Pardubice,Pardubický
+CB,České Budějovice,Jihočeský
+PB,Příbram,Středočeský
+CE,České Budějovice,Jihočeský
+PC,Praha-západ,Středočeský
+CH,Cheb,Karlovarský
+PE,Pelhřímov,Vysočina
+CK,Český Krumlov,Jihočeský
+PH,Praha-východ,Středočeský
+CL,Česká Lípa,Liberecký
+PI,Písek,Jihočeský
+CR,Chrudim,Pardubický
+PJ,Plzeň-jih,Plzeňský
+CV,Chomutov,Ústecký
+PM,Plzeň-město,Plzeňský
+DC,Děčín,Ústecký
+PN,Plzeň-město,Plzeňský
+DD,Diplomatic corps,
+PR,Přerov,Olomoucký
+DO,Domažlice,Plzeňský
+PS,Plzeň-sever,Plzeňský
+FI,Frýdek-Místek (never used),Moravskoslezský
+PT,Prachatice,Jihočeský
+FM,Frýdek-Místek,Moravskoslezský
+PU,Pardubice,Pardubický
+GT,"Gottwaldov (until 1989, town then renamed to Zlín)",
+PV,Prostějov,Olomoucký
+GV,Gottwaldov (until 1989),
+PY,Praha-východ,Středočeský
+HB,Havlíčkův Brod,Vysočina
+PZ,Praha-západ,Středočeský
+HK,Hradec Králové,Královéhradecký
+RA,Rakovník,Středočeský
+HO,Hodonín,Jihomoravský
+RK,Rychnov nad Kněžnou,Královéhradecký
+HR,Hradec Králové,Královéhradecký
+RO,Rokycany,Plzeňský
+JC,Jičín,Královéhradecký
+SM,Semily,Liberecký
+JE,Jeseník (from 1996),Olomoucký
+SO,Sokolov,Karlovarský
+JI,Jihlava,Vysočina
+ST,Strakonice,Jihočeský
+JH,Jindřichův Hradec,Jihočeský
+SU,Šumperk,Olomoucký
+JN,Jablonec nad Nisou,Liberecký
+SY,Svitavy,Pardubický
+KA,Karviná,Moravskoslezský
+TA,Tábor,Jihočeský
+KD,Kladno,Středočeský
+TC,Tachov,Plzeňský
+KH,Kutná Hora,Středočeský
+TP,Teplice,Ústecký
+KI,Karviná,Moravskoslezský
+TR,Třebíč,Vysočina
+KL,Kladno,Středočeský
+TU,Trutnov,Královéhradecký
+KM,Kroměříž,Zlínský
+UH,Uherské Hradiště,Zlínský
+KO,Kolín,Středočeský
+UL,Ústí nad Labem,Ústecký
+KR,Karlovy Vary,Karlovarský
+UO,Ústí nad Orlici,Pardubický
+KT,Klatovy,Plzeňský
+US,Ústí nad Labem (never used),Ústecký
+KV,Karlovy Vary,Karlovarský
+VS,Vsetín,Zlínský
+LB,Liberec,Liberecký
+VY,Vyškov,Jihomoravský
+LI,Liberec,Liberecký
+XX,Consular corps,
+LN,Louny,Ústecký
+ZL,"Zlín (since 1990, previously GT/GV - Gottwaldov)",Zlínský
+LT,Litoměřice,Ústecký
+ZN,Znojmo,Jihomoravský
+MB,Mladá Boleslav,Středočeský
+ZR,Žďár nad Sázavou,Vysočina
+ME,Mělník,Středočeský
+Numbers,Military vehicle,

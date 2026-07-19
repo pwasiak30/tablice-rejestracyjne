@@ -1,0 +1,7756 @@
+[
+ {
+  "codes": [
+   "DLU"
+  ],
+  "location": "Lubin",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lubińskim"
+ },
+ {
+  "codes": [
+   "DGL"
+  ],
+  "location": "Głogów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie głogowskim"
+ },
+ {
+  "codes": [
+   "DSW"
+  ],
+  "location": "Świdnica",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "DBL"
+  ],
+  "location": "Bolesławiec",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie bolesławieckim"
+ },
+ {
+  "codes": [
+   "DOL"
+  ],
+  "location": "Oleśnica",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oleśnickim"
+ },
+ {
+  "codes": [
+   "DOA"
+  ],
+  "location": "Oława",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oławskim"
+ },
+ {
+  "codes": [
+   "DDZ"
+  ],
+  "location": "Dzierżoniów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie dzierżoniowskim"
+ },
+ {
+  "codes": [
+   "DZG"
+  ],
+  "location": "Zgorzelec",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie zgorzeleckim"
+ },
+ {
+  "codes": [
+   "DDZ"
+  ],
+  "location": "Bielawa",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie dzierżoniowskim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Kłodzko",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DSW"
+  ],
+  "location": "Świebodzice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "DPL"
+  ],
+  "location": "Polkowice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie polkowickim"
+ },
+ {
+  "codes": [
+   "DJA"
+  ],
+  "location": "Jawor",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie jaworskim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Nowa Ruda",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DLB"
+  ],
+  "location": "Lubań",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lubańskim"
+ },
+ {
+  "codes": [
+   "DKA"
+  ],
+  "location": "Kamienna Góra",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kamiennogórskim"
+ },
+ {
+  "codes": [
+   "DZG"
+  ],
+  "location": "Bogatynia",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie zgorzeleckim"
+ },
+ {
+  "codes": [
+   "DOA"
+  ],
+  "location": "Jelcz-Laskowice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oławskim"
+ },
+ {
+  "codes": [
+   "DSW"
+  ],
+  "location": "Strzegom",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "DZA"
+  ],
+  "location": "Ząbkowice Śląskie",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie ząbkowickim"
+ },
+ {
+  "codes": [
+   "DBA"
+  ],
+  "location": "Boguszów-Gorce",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wałbrzyskim"
+ },
+ {
+  "codes": [
+   "DZL"
+  ],
+  "location": "Złotoryja",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie złotoryjskim"
+ },
+ {
+  "codes": [
+   "DTR"
+  ],
+  "location": "Trzebnica",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie trzebnickim"
+ },
+ {
+  "codes": [
+   "DWL"
+  ],
+  "location": "Brzeg Dolny",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wołowskim"
+ },
+ {
+  "codes": [
+   "DLE"
+  ],
+  "location": "Chojnów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie legnickim"
+ },
+ {
+  "codes": [
+   "DWL"
+  ],
+  "location": "Wołów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wołowskim"
+ },
+ {
+  "codes": [
+   "DST"
+  ],
+  "location": "Strzelin",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie strzelińskim"
+ },
+ {
+  "codes": [
+   "DGR"
+  ],
+  "location": "Góra",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie górowskim"
+ },
+ {
+  "codes": [
+   "DMI"
+  ],
+  "location": "Milicz",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie milickim"
+ },
+ {
+  "codes": [
+   "DWR"
+  ],
+  "location": "Siechnice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wrocławskim"
+ },
+ {
+  "codes": [
+   "DOL"
+  ],
+  "location": "Syców",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oleśnickim"
+ },
+ {
+  "codes": [
+   "DJE"
+  ],
+  "location": "Kowary",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie karkonoskim"
+ },
+ {
+  "codes": [
+   "DSR"
+  ],
+  "location": "Środa Śląska",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie średzkim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Kudowa-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Bystrzyca Kłodzka",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DTR"
+  ],
+  "location": "Oborniki Śląskie",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie trzebnickim"
+ },
+ {
+  "codes": [
+   "DLW"
+  ],
+  "location": "Lwówek Śląski",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lwóweckim"
+ },
+ {
+  "codes": [
+   "DZA"
+  ],
+  "location": "Ziębice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie ząbkowickim"
+ },
+ {
+  "codes": [
+   "DPL"
+  ],
+  "location": "Chocianów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie polkowickim"
+ },
+ {
+  "codes": [
+   "DWR"
+  ],
+  "location": "Kąty Wrocławskie",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wrocławskim"
+ },
+ {
+  "codes": [
+   "DWR"
+  ],
+  "location": "Sobótka",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wrocławskim"
+ },
+ {
+  "codes": [
+   "DDZ"
+  ],
+  "location": "Pieszyce",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie dzierżoniowskim"
+ },
+ {
+  "codes": [
+   "DSW"
+  ],
+  "location": "Żarów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "DOL"
+  ],
+  "location": "Twardogóra",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oleśnickim"
+ },
+ {
+  "codes": [
+   "DTR"
+  ],
+  "location": "Żmigród",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie trzebnickim"
+ },
+ {
+  "codes": [
+   "DLW"
+  ],
+  "location": "Gryfów Śląski",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lwóweckim"
+ },
+ {
+  "codes": [
+   "DBA"
+  ],
+  "location": "Głuszyca",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wałbrzyskim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Polanica-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DDZ"
+  ],
+  "location": "Piława Górna",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie dzierżoniowskim"
+ },
+ {
+  "codes": [
+   "DJE"
+  ],
+  "location": "Piechowice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie karkonoskim"
+ },
+ {
+  "codes": [
+   "DJE"
+  ],
+  "location": "Szklarska Poręba",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie karkonoskim"
+ },
+ {
+  "codes": [
+   "DKA"
+  ],
+  "location": "Lubawka",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kamiennogórskim"
+ },
+ {
+  "codes": [
+   "DPL"
+  ],
+  "location": "Przemków",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie polkowickim"
+ },
+ {
+  "codes": [
+   "DZG"
+  ],
+  "location": "Pieńsk",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie zgorzeleckim"
+ },
+ {
+  "codes": [
+   "DLU"
+  ],
+  "location": "Ścinawa",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lubińskim"
+ },
+ {
+  "codes": [
+   "DBA"
+  ],
+  "location": "Szczawno-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wałbrzyskim"
+ },
+ {
+  "codes": [
+   "DSW"
+  ],
+  "location": "Jaworzyna Śląska",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Lądek-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Stronie Śląskie",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Szczytna",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DJA"
+  ],
+  "location": "Bolków",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie jaworskim"
+ },
+ {
+  "codes": [
+   "DBA"
+  ],
+  "location": "Jedlina-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wałbrzyskim"
+ },
+ {
+  "codes": [
+   "DOL"
+  ],
+  "location": "Bierutów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oleśnickim"
+ },
+ {
+  "codes": [
+   "DZA"
+  ],
+  "location": "Kamieniec Ząbkowicki",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie ząbkowickim"
+ },
+ {
+  "codes": [
+   "DLB"
+  ],
+  "location": "Olszyna",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lubańskim"
+ },
+ {
+  "codes": [
+   "DJE"
+  ],
+  "location": "Karpacz",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie karkonoskim"
+ },
+ {
+  "codes": [
+   "DBL"
+  ],
+  "location": "Nowogrodziec",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie bolesławieckim"
+ },
+ {
+  "codes": [
+   "DLB"
+  ],
+  "location": "Leśna",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lubańskim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Duszniki-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DLB"
+  ],
+  "location": "Świeradów-Zdrój",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lubańskim"
+ },
+ {
+  "codes": [
+   "DBA"
+  ],
+  "location": "Mieroszów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie wałbrzyskim"
+ },
+ {
+  "codes": [
+   "DZG"
+  ],
+  "location": "Zawidów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie zgorzeleckim"
+ },
+ {
+  "codes": [
+   "DLW"
+  ],
+  "location": "Mirsk",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lwóweckim"
+ },
+ {
+  "codes": [
+   "DLE"
+  ],
+  "location": "Prochowice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie legnickim"
+ },
+ {
+  "codes": [
+   "DZL"
+  ],
+  "location": "Wojcieszów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie złotoryjskim"
+ },
+ {
+  "codes": [
+   "DDZ"
+  ],
+  "location": "Niemcza",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie dzierżoniowskim"
+ },
+ {
+  "codes": [
+   "DZG"
+  ],
+  "location": "Węgliniec",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie zgorzeleckim"
+ },
+ {
+  "codes": [
+   "DGR"
+  ],
+  "location": "Wąsosz",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie górowskim"
+ },
+ {
+  "codes": [
+   "DZA"
+  ],
+  "location": "Złoty Stok",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie ząbkowickim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Międzylesie",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DZA"
+  ],
+  "location": "Bardo",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie ząbkowickim"
+ },
+ {
+  "codes": [
+   "DOL"
+  ],
+  "location": "Międzybórz",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie oleśnickim"
+ },
+ {
+  "codes": [
+   "DKL"
+  ],
+  "location": "Radków",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie kłodzkim"
+ },
+ {
+  "codes": [
+   "DST"
+  ],
+  "location": "Wiązów",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie strzelińskim"
+ },
+ {
+  "codes": [
+   "DTR"
+  ],
+  "location": "Prusice",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie trzebnickim"
+ },
+ {
+  "codes": [
+   "DSR"
+  ],
+  "location": "Miękinia",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie średzkim"
+ },
+ {
+  "codes": [
+   "DZL"
+  ],
+  "location": "Świerzawa",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie złotoryjskim"
+ },
+ {
+  "codes": [
+   "DLW"
+  ],
+  "location": "Lubomierz",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lwóweckim"
+ },
+ {
+  "codes": [
+   "DLW"
+  ],
+  "location": "Wleń",
+  "region": "dolnośląskie",
+  "unit": "miasto w powiecie lwóweckim"
+ },
+ {
+  "codes": [
+   "CIN"
+  ],
+  "location": "Inowrocław",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie inowrocławskim"
+ },
+ {
+  "codes": [
+   "CBR"
+  ],
+  "location": "Brodnica",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie brodnickim"
+ },
+ {
+  "codes": [
+   "CSW"
+  ],
+  "location": "Świecie",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie świeckim"
+ },
+ {
+  "codes": [
+   "CCH"
+  ],
+  "location": "Chełmno",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie chełmińskim"
+ },
+ {
+  "codes": [
+   "CNA"
+  ],
+  "location": "Nakło nad Notecią",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie nakielskim"
+ },
+ {
+  "codes": [
+   "CRY"
+  ],
+  "location": "Rypin",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie rypińskim"
+ },
+ {
+  "codes": [
+   "CBY",
+   "CBC"
+  ],
+  "location": "Solec Kujawski",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie bydgoskim"
+ },
+ {
+  "codes": [
+   "CTR"
+  ],
+  "location": "Chełmża",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie toruńskim"
+ },
+ {
+  "codes": [
+   "CLI"
+  ],
+  "location": "Lipno",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie lipnowskim"
+ },
+ {
+  "codes": [
+   "CTU"
+  ],
+  "location": "Tuchola",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie tucholskim"
+ },
+ {
+  "codes": [
+   "CZN"
+  ],
+  "location": "Żnin",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie żnińskim"
+ },
+ {
+  "codes": [
+   "CWA"
+  ],
+  "location": "Wąbrzeźno",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie wąbrzeskim"
+ },
+ {
+  "codes": [
+   "CAL"
+  ],
+  "location": "Aleksandrów Kujawski",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie aleksandrowskim"
+ },
+ {
+  "codes": [
+   "CGD"
+  ],
+  "location": "Golub-Dobrzyń",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie golubsko-dobrzyńskim"
+ },
+ {
+  "codes": [
+   "CMG"
+  ],
+  "location": "Mogilno",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie mogileńskim"
+ },
+ {
+  "codes": [
+   "CBY",
+   "CBC"
+  ],
+  "location": "Koronowo",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie bydgoskim"
+ },
+ {
+  "codes": [
+   "CAL"
+  ],
+  "location": "Ciechocinek",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie aleksandrowskim"
+ },
+ {
+  "codes": [
+   "CNA"
+  ],
+  "location": "Szubin",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie nakielskim"
+ },
+ {
+  "codes": [
+   "CIN"
+  ],
+  "location": "Kruszwica",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie inowrocławskim"
+ },
+ {
+  "codes": [
+   "CSE"
+  ],
+  "location": "Sępólno Krajeńskie",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie sępoleńskim"
+ },
+ {
+  "codes": [
+   "CIN"
+  ],
+  "location": "Janikowo",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie inowrocławskim"
+ },
+ {
+  "codes": [
+   "CZN"
+  ],
+  "location": "Barcin",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie żnińskim"
+ },
+ {
+  "codes": [
+   "CIN"
+  ],
+  "location": "Gniewkowo",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie inowrocławskim"
+ },
+ {
+  "codes": [
+   "CSE"
+  ],
+  "location": "Więcbork",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie sępoleńskim"
+ },
+ {
+  "codes": [
+   "CSW"
+  ],
+  "location": "Nowe",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie świeckim"
+ },
+ {
+  "codes": [
+   "CMG"
+  ],
+  "location": "Strzelno",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie mogileńskim"
+ },
+ {
+  "codes": [
+   "CIN"
+  ],
+  "location": "Pakość",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie inowrocławskim"
+ },
+ {
+  "codes": [
+   "CRA"
+  ],
+  "location": "Radziejów",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie radziejowskim"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "location": "Brześć Kujawski",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie włocławskim"
+ },
+ {
+  "codes": [
+   "CZN"
+  ],
+  "location": "Łabiszyn",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie żnińskim"
+ },
+ {
+  "codes": [
+   "CNA"
+  ],
+  "location": "Kcynia",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie nakielskim"
+ },
+ {
+  "codes": [
+   "CRA"
+  ],
+  "location": "Piotrków Kujawski",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie radziejowskim"
+ },
+ {
+  "codes": [
+   "CNA"
+  ],
+  "location": "Mrocza",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie nakielskim"
+ },
+ {
+  "codes": [
+   "CGD"
+  ],
+  "location": "Kowalewo Pomorskie",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie golubsko-dobrzyńskim"
+ },
+ {
+  "codes": [
+   "CBR"
+  ],
+  "location": "Jabłonowo Pomorskie",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie brodnickim"
+ },
+ {
+  "codes": [
+   "CZN"
+  ],
+  "location": "Janowiec Wielkopolski",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie żnińskim"
+ },
+ {
+  "codes": [
+   "CLI"
+  ],
+  "location": "Skępe",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie lipnowskim"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "location": "Kowal",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie włocławskim"
+ },
+ {
+  "codes": [
+   "CGR"
+  ],
+  "location": "Łasin",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie grudziądzkim"
+ },
+ {
+  "codes": [
+   "CSW"
+  ],
+  "location": "Pruszcz",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie świeckim"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "location": "Lubraniec",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie włocławskim"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "location": "Izbica Kujawska",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie włocławskim"
+ },
+ {
+  "codes": [
+   "CSE"
+  ],
+  "location": "Kamień Krajeński",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie sępoleńskim"
+ },
+ {
+  "codes": [
+   "CLI"
+  ],
+  "location": "Kikół",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie lipnowskim"
+ },
+ {
+  "codes": [
+   "CLI"
+  ],
+  "location": "Dobrzyń nad Wisłą",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie lipnowskim"
+ },
+ {
+  "codes": [
+   "CGR"
+  ],
+  "location": "Radzyń Chełmiński",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie grudziądzkim"
+ },
+ {
+  "codes": [
+   "CAL"
+  ],
+  "location": "Nieszawa",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie aleksandrowskim"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "location": "Chodecz",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie włocławskim"
+ },
+ {
+  "codes": [
+   "CZN"
+  ],
+  "location": "Gąsawa",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie żnińskim"
+ },
+ {
+  "codes": [
+   "CBR"
+  ],
+  "location": "Górzno",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie brodnickim"
+ },
+ {
+  "codes": [
+   "CWL"
+  ],
+  "location": "Lubień Kujawski",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie włocławskim"
+ },
+ {
+  "codes": [
+   "CLI"
+  ],
+  "location": "Bobrowniki",
+  "region": "kujawsko-pomorskie",
+  "unit": "miasto w powiecie lipnowskim"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "location": "Puławy",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie puławskim"
+ },
+ {
+  "codes": [
+   "LSW"
+  ],
+  "location": "Świdnik",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "LKR"
+  ],
+  "location": "Kraśnik",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie kraśnickim"
+ },
+ {
+  "codes": [
+   "LLU"
+  ],
+  "location": "Łuków",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie łukowskim"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "location": "Biłgoraj",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie biłgorajskim"
+ },
+ {
+  "codes": [
+   "LLB"
+  ],
+  "location": "Lubartów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie lubartowskim"
+ },
+ {
+  "codes": [
+   "LTM"
+  ],
+  "location": "Tomaszów Lubelski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "LLE"
+  ],
+  "location": "Łęczna",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie łęczyńskim"
+ },
+ {
+  "codes": [
+   "LKS"
+  ],
+  "location": "Krasnystaw",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie krasnostawskim"
+ },
+ {
+  "codes": [
+   "LHR"
+  ],
+  "location": "Hrubieszów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie hrubieszowskim"
+ },
+ {
+  "codes": [
+   "LBI"
+  ],
+  "location": "Międzyrzec Podlaski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie bialskim"
+ },
+ {
+  "codes": [
+   "LRA"
+  ],
+  "location": "Radzyń Podlaski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie radzyńskim"
+ },
+ {
+  "codes": [
+   "LRY"
+  ],
+  "location": "Dęblin",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie ryckim"
+ },
+ {
+  "codes": [
+   "LWL"
+  ],
+  "location": "Włodawa",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie włodawskim"
+ },
+ {
+  "codes": [
+   "LJA"
+  ],
+  "location": "Janów Lubelski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie janowskim"
+ },
+ {
+  "codes": [
+   "LPA"
+  ],
+  "location": "Parczew",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie parczewskim"
+ },
+ {
+  "codes": [
+   "LRY"
+  ],
+  "location": "Ryki",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie ryckim"
+ },
+ {
+  "codes": [
+   "LOP"
+  ],
+  "location": "Poniatowa",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "LOP"
+  ],
+  "location": "Opole Lubelskie",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "LUB"
+  ],
+  "location": "Bełżyce",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie lubelskim"
+ },
+ {
+  "codes": [
+   "LBI"
+  ],
+  "location": "Terespol",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie bialskim"
+ },
+ {
+  "codes": [
+   "LZA"
+  ],
+  "location": "Szczebrzeszyn",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie zamojskim"
+ },
+ {
+  "codes": [
+   "LUB"
+  ],
+  "location": "Bychawa",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie lubelskim"
+ },
+ {
+  "codes": [
+   "LCH"
+  ],
+  "location": "Rejowiec Fabryczny",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie chełmskim"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "location": "Nałęczów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie puławskim"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "location": "Kazimierz Dolny",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie puławskim"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "location": "Tarnogród",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie biłgorajskim"
+ },
+ {
+  "codes": [
+   "LZA"
+  ],
+  "location": "Krasnobród",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie zamojskim"
+ },
+ {
+  "codes": [
+   "LLB"
+  ],
+  "location": "Kock",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie lubartowskim"
+ },
+ {
+  "codes": [
+   "LZA"
+  ],
+  "location": "Zwierzyniec",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie zamojskim"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "location": "Kurów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie puławskim"
+ },
+ {
+  "codes": [
+   "LBI"
+  ],
+  "location": "Janów Podlaski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie bialskim"
+ },
+ {
+  "codes": [
+   "LSW"
+  ],
+  "location": "Piaski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie świdnickim"
+ },
+ {
+  "codes": [
+   "LLU"
+  ],
+  "location": "Stoczek Łukowski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie łukowskim"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "location": "Józefów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie biłgorajskim"
+ },
+ {
+  "codes": [
+   "LKR"
+  ],
+  "location": "Annopol",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie kraśnickim"
+ },
+ {
+  "codes": [
+   "LTM"
+  ],
+  "location": "Lubycza Królewska",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "LBI"
+  ],
+  "location": "Piszczac",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie bialskim"
+ },
+ {
+  "codes": [
+   "LCH"
+  ],
+  "location": "Rejowiec",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie chełmskim"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "location": "Końskowola",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie puławskim"
+ },
+ {
+  "codes": [
+   "LTM"
+  ],
+  "location": "Łaszczów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "LLB"
+  ],
+  "location": "Ostrów Lubelski",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie lubartowskim"
+ },
+ {
+  "codes": [
+   "LTM"
+  ],
+  "location": "Tyszowce",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "LLB"
+  ],
+  "location": "Kamionka",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie lubartowskim"
+ },
+ {
+  "codes": [
+   "LKR"
+  ],
+  "location": "Urzędów",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie kraśnickim"
+ },
+ {
+  "codes": [
+   "LKS"
+  ],
+  "location": "Izbica",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie krasnostawskim"
+ },
+ {
+  "codes": [
+   "LJA"
+  ],
+  "location": "Modliborzyce",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie janowskim"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "location": "Frampol",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie biłgorajskim"
+ },
+ {
+  "codes": [
+   "LCH"
+  ],
+  "location": "Siedliszcze",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie chełmskim"
+ },
+ {
+  "codes": [
+   "LRA"
+  ],
+  "location": "Czemierniki",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie radzyńskim"
+ },
+ {
+  "codes": [
+   "LPU"
+  ],
+  "location": "Wąwolnica",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie puławskim"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "location": "Goraj",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie biłgorajskim"
+ },
+ {
+  "codes": [
+   "LBL"
+  ],
+  "location": "Turobin",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie biłgorajskim"
+ },
+ {
+  "codes": [
+   "LOP"
+  ],
+  "location": "Józefów nad Wisłą",
+  "region": "lubelskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "FNW"
+  ],
+  "location": "Nowa Sól",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie nowosolskim"
+ },
+ {
+  "codes": [
+   "FZA"
+  ],
+  "location": "Żary",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żarskim"
+ },
+ {
+  "codes": [
+   "FZG"
+  ],
+  "location": "Żagań",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żagańskim"
+ },
+ {
+  "codes": [
+   "FSW"
+  ],
+  "location": "Świebodzin",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie świebodzińskim"
+ },
+ {
+  "codes": [
+   "FGW"
+  ],
+  "location": "Kostrzyn nad Odrą",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie gorzowskim"
+ },
+ {
+  "codes": [
+   "FMI"
+  ],
+  "location": "Międzyrzecz",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie międzyrzeckim"
+ },
+ {
+  "codes": [
+   "FSL"
+  ],
+  "location": "Słubice",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie słubickim"
+ },
+ {
+  "codes": [
+   "FKR"
+  ],
+  "location": "Gubin",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie krośnieńskim"
+ },
+ {
+  "codes": [
+   "FZI"
+  ],
+  "location": "Sulechów",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie zielonogórskim"
+ },
+ {
+  "codes": [
+   "FWS"
+  ],
+  "location": "Wschowa",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie wschowskim"
+ },
+ {
+  "codes": [
+   "FZA"
+  ],
+  "location": "Lubsko",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żarskim"
+ },
+ {
+  "codes": [
+   "FZG"
+  ],
+  "location": "Szprotawa",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żagańskim"
+ },
+ {
+  "codes": [
+   "FKR"
+  ],
+  "location": "Krosno Odrzańskie",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie krośnieńskim"
+ },
+ {
+  "codes": [
+   "FSU"
+  ],
+  "location": "Sulęcin",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie sulęcińskim"
+ },
+ {
+  "codes": [
+   "FSD"
+  ],
+  "location": "Strzelce Krajeńskie",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie strzelecko-drezdeneckim"
+ },
+ {
+  "codes": [
+   "FSD"
+  ],
+  "location": "Drezdenko",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie strzelecko-drezdeneckim"
+ },
+ {
+  "codes": [
+   "FMI"
+  ],
+  "location": "Skwierzyna",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie międzyrzeckim"
+ },
+ {
+  "codes": [
+   "FNW"
+  ],
+  "location": "Kożuchów",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie nowosolskim"
+ },
+ {
+  "codes": [
+   "FGW"
+  ],
+  "location": "Witnica",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie gorzowskim"
+ },
+ {
+  "codes": [
+   "FSL"
+  ],
+  "location": "Rzepin",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie słubickim"
+ },
+ {
+  "codes": [
+   "FSW"
+  ],
+  "location": "Zbąszynek",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie świebodzińskim"
+ },
+ {
+  "codes": [
+   "FZI"
+  ],
+  "location": "Nowogród Bobrzański",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie zielonogórskim"
+ },
+ {
+  "codes": [
+   "FWS"
+  ],
+  "location": "Sława",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie wschowskim"
+ },
+ {
+  "codes": [
+   "FZA"
+  ],
+  "location": "Jasień",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żarskim"
+ },
+ {
+  "codes": [
+   "FNW"
+  ],
+  "location": "Bytom Odrzański",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie nowosolskim"
+ },
+ {
+  "codes": [
+   "FSL"
+  ],
+  "location": "Ośno Lubuskie",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie słubickim"
+ },
+ {
+  "codes": [
+   "FZI"
+  ],
+  "location": "Babimost",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie zielonogórskim"
+ },
+ {
+  "codes": [
+   "FZI"
+  ],
+  "location": "Kargowa",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie zielonogórskim"
+ },
+ {
+  "codes": [
+   "FZI"
+  ],
+  "location": "Czerwieńsk",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie zielonogórskim"
+ },
+ {
+  "codes": [
+   "FZG"
+  ],
+  "location": "Iłowa",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żagańskim"
+ },
+ {
+  "codes": [
+   "FZG"
+  ],
+  "location": "Małomice",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żagańskim"
+ },
+ {
+  "codes": [
+   "FSD"
+  ],
+  "location": "Dobiegniew",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie strzelecko-drezdeneckim"
+ },
+ {
+  "codes": [
+   "FZG"
+  ],
+  "location": "Gozdnica",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żagańskim"
+ },
+ {
+  "codes": [
+   "FSL"
+  ],
+  "location": "Cybinka",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie słubickim"
+ },
+ {
+  "codes": [
+   "FNW"
+  ],
+  "location": "Nowe Miasteczko",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie nowosolskim"
+ },
+ {
+  "codes": [
+   "FSU"
+  ],
+  "location": "Torzym",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie sulęcińskim"
+ },
+ {
+  "codes": [
+   "FZA"
+  ],
+  "location": "Łęknica",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żarskim"
+ },
+ {
+  "codes": [
+   "FMI"
+  ],
+  "location": "Trzciel",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie międzyrzeckim"
+ },
+ {
+  "codes": [
+   "FSU"
+  ],
+  "location": "Lubniewice",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie sulęcińskim"
+ },
+ {
+  "codes": [
+   "FNW"
+  ],
+  "location": "Otyń",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie nowosolskim"
+ },
+ {
+  "codes": [
+   "FWS"
+  ],
+  "location": "Szlichtyngowa",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie wschowskim"
+ },
+ {
+  "codes": [
+   "FZA"
+  ],
+  "location": "Brody",
+  "region": "lubuskie",
+  "unit": "miasto w powiecie żarskim"
+ },
+ {
+  "codes": [
+   "EPA"
+  ],
+  "location": "Pabianice",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie pabianickim"
+ },
+ {
+  "codes": [
+   "ETM"
+  ],
+  "location": "Tomaszów Mazowiecki",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "location": "Zgierz",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zgierskim"
+ },
+ {
+  "codes": [
+   "EBE"
+  ],
+  "location": "Bełchatów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie bełchatowskim"
+ },
+ {
+  "codes": [
+   "ERA"
+  ],
+  "location": "Radomsko",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie radomszczańskim"
+ },
+ {
+  "codes": [
+   "EKU"
+  ],
+  "location": "Kutno",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie kutnowskim"
+ },
+ {
+  "codes": [
+   "ESI"
+  ],
+  "location": "Sieradz",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie sieradzkim"
+ },
+ {
+  "codes": [
+   "EZD"
+  ],
+  "location": "Zduńska Wola",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zduńskowolskim"
+ },
+ {
+  "codes": [
+   "ELC"
+  ],
+  "location": "Łowicz",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łowickim"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "location": "Aleksandrów Łódzki",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zgierskim"
+ },
+ {
+  "codes": [
+   "EWI"
+  ],
+  "location": "Wieluń",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie wieluńskim"
+ },
+ {
+  "codes": [
+   "EOP"
+  ],
+  "location": "Opoczno",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie opoczyńskim"
+ },
+ {
+  "codes": [
+   "EPA"
+  ],
+  "location": "Konstantynów Łódzki",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie pabianickim"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "location": "Ozorków",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zgierskim"
+ },
+ {
+  "codes": [
+   "ELA"
+  ],
+  "location": "Łask",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łaskim"
+ },
+ {
+  "codes": [
+   "ERW"
+  ],
+  "location": "Rawa Mazowiecka",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie rawskim"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "location": "Głowno",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zgierskim"
+ },
+ {
+  "codes": [
+   "ELE"
+  ],
+  "location": "Łęczyca",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łęczyckim"
+ },
+ {
+  "codes": [
+   "ELW"
+  ],
+  "location": "Koluszki",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łódzkim wschodnim"
+ },
+ {
+  "codes": [
+   "EBR"
+  ],
+  "location": "Brzeziny",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie brzezińskim"
+ },
+ {
+  "codes": [
+   "EWE"
+  ],
+  "location": "Wieruszów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie wieruszowskim"
+ },
+ {
+  "codes": [
+   "EKU"
+  ],
+  "location": "Żychlin",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie kutnowskim"
+ },
+ {
+  "codes": [
+   "ELW"
+  ],
+  "location": "Tuszyn",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łódzkim wschodnim"
+ },
+ {
+  "codes": [
+   "EBE"
+  ],
+  "location": "Zelów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie bełchatowskim"
+ },
+ {
+  "codes": [
+   "EPD"
+  ],
+  "location": "Poddębice",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie poddębickim"
+ },
+ {
+  "codes": [
+   "EPJ"
+  ],
+  "location": "Pajęczno",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie pajęczańskim"
+ },
+ {
+  "codes": [
+   "EPI"
+  ],
+  "location": "Sulejów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie piotrkowskim"
+ },
+ {
+  "codes": [
+   "EPJ"
+  ],
+  "location": "Działoszyn",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie pajęczańskim"
+ },
+ {
+  "codes": [
+   "EKU"
+  ],
+  "location": "Krośniewice",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie kutnowskim"
+ },
+ {
+  "codes": [
+   "EOP"
+  ],
+  "location": "Drzewica",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie opoczyńskim"
+ },
+ {
+  "codes": [
+   "ELW"
+  ],
+  "location": "Rzgów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łódzkim wschodnim"
+ },
+ {
+  "codes": [
+   "ESI"
+  ],
+  "location": "Złoczew",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie sieradzkim"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "location": "Stryków",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zgierskim"
+ },
+ {
+  "codes": [
+   "ERA"
+  ],
+  "location": "Przedbórz",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie radomszczańskim"
+ },
+ {
+  "codes": [
+   "ERW"
+  ],
+  "location": "Biała Rawska",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie rawskim"
+ },
+ {
+  "codes": [
+   "ESI"
+  ],
+  "location": "Warta",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie sieradzkim"
+ },
+ {
+  "codes": [
+   "EPD"
+  ],
+  "location": "Uniejów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie poddębickim"
+ },
+ {
+  "codes": [
+   "ERA"
+  ],
+  "location": "Kamieńsk",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie radomszczańskim"
+ },
+ {
+  "codes": [
+   "EPI"
+  ],
+  "location": "Wolbórz",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie piotrkowskim"
+ },
+ {
+  "codes": [
+   "EWE"
+  ],
+  "location": "Lututów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie wieruszowskim"
+ },
+ {
+  "codes": [
+   "ESI"
+  ],
+  "location": "Błaszki",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie sieradzkim"
+ },
+ {
+  "codes": [
+   "EZD"
+  ],
+  "location": "Szadek",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zduńskowolskim"
+ },
+ {
+  "codes": [
+   "EPI"
+  ],
+  "location": "Rozprza",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie piotrkowskim"
+ },
+ {
+  "codes": [
+   "EPA"
+  ],
+  "location": "Lutomiersk",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie pabianickim"
+ },
+ {
+  "codes": [
+   "ELE"
+  ],
+  "location": "Piątek",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łęczyckim"
+ },
+ {
+  "codes": [
+   "ETM"
+  ],
+  "location": "Ujazd",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "EWI"
+  ],
+  "location": "Osjaków",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie wieluńskim"
+ },
+ {
+  "codes": [
+   "EBR"
+  ],
+  "location": "Jeżów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie brzezińskim"
+ },
+ {
+  "codes": [
+   "EWE"
+  ],
+  "location": "Bolesławiec",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie wieruszowskim"
+ },
+ {
+  "codes": [
+   "EOP"
+  ],
+  "location": "Żarnów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie opoczyńskim"
+ },
+ {
+  "codes": [
+   "EOP"
+  ],
+  "location": "Białaczów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie opoczyńskim"
+ },
+ {
+  "codes": [
+   "ELE"
+  ],
+  "location": "Grabów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łęczyckim"
+ },
+ {
+  "codes": [
+   "EKU"
+  ],
+  "location": "Dąbrowice",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie kutnowskim"
+ },
+ {
+  "codes": [
+   "EZG"
+  ],
+  "location": "Parzęczew",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie zgierskim"
+ },
+ {
+  "codes": [
+   "ESK"
+  ],
+  "location": "Bolimów",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie skierniewickim"
+ },
+ {
+  "codes": [
+   "ELC"
+  ],
+  "location": "Kiernozia",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie łowickim"
+ },
+ {
+  "codes": [
+   "ETM"
+  ],
+  "location": "Inowłódz",
+  "region": "łódzkie",
+  "unit": "miasto w powiecie tomaszowskim"
+ },
+ {
+  "codes": [
+   "KOS"
+  ],
+  "location": "Oświęcim",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie oświęcimskim"
+ },
+ {
+  "codes": [
+   "KCH"
+  ],
+  "location": "Chrzanów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie chrzanowskim"
+ },
+ {
+  "codes": [
+   "KNT"
+  ],
+  "location": "Nowy Targ",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowotarskim"
+ },
+ {
+  "codes": [
+   "KOL"
+  ],
+  "location": "Olkusz",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie olkuskim"
+ },
+ {
+  "codes": [
+   "KBC",
+   "KBA"
+  ],
+  "location": "Bochnia",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie bocheńskim"
+ },
+ {
+  "codes": [
+   "KWI"
+  ],
+  "location": "Wieliczka",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie wielickim"
+ },
+ {
+  "codes": [
+   "KGR"
+  ],
+  "location": "Gorlice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie gorlickim"
+ },
+ {
+  "codes": [
+   "KTT"
+  ],
+  "location": "Zakopane",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tatrzańskim"
+ },
+ {
+  "codes": [
+   "KRA",
+   "KRK"
+  ],
+  "location": "Skawina",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie krakowskim"
+ },
+ {
+  "codes": [
+   "KCH"
+  ],
+  "location": "Trzebinia",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie chrzanowskim"
+ },
+ {
+  "codes": [
+   "KWA"
+  ],
+  "location": "Andrychów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie wadowickim"
+ },
+ {
+  "codes": [
+   "KMY"
+  ],
+  "location": "Myślenice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie myślenickim"
+ },
+ {
+  "codes": [
+   "KOS"
+  ],
+  "location": "Kęty",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie oświęcimskim"
+ },
+ {
+  "codes": [
+   "KWA"
+  ],
+  "location": "Wadowice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie wadowickim"
+ },
+ {
+  "codes": [
+   "KWI"
+  ],
+  "location": "Niepołomice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie wielickim"
+ },
+ {
+  "codes": [
+   "KBR"
+  ],
+  "location": "Brzesko",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie brzeskim"
+ },
+ {
+  "codes": [
+   "KCH"
+  ],
+  "location": "Libiąż",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie chrzanowskim"
+ },
+ {
+  "codes": [
+   "KLI"
+  ],
+  "location": "Limanowa",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie limanowskim"
+ },
+ {
+  "codes": [
+   "KNT"
+  ],
+  "location": "Rabka-Zdrój",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowotarskim"
+ },
+ {
+  "codes": [
+   "KDA"
+  ],
+  "location": "Dąbrowa Tarnowska",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie dąbrowskim"
+ },
+ {
+  "codes": [
+   "KMI"
+  ],
+  "location": "Miechów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie miechowskim"
+ },
+ {
+  "codes": [
+   "KOS"
+  ],
+  "location": "Brzeszcze",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie oświęcimskim"
+ },
+ {
+  "codes": [
+   "KRA",
+   "KRK"
+  ],
+  "location": "Krzeszowice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie krakowskim"
+ },
+ {
+  "codes": [
+   "KNS"
+  ],
+  "location": "Krynica-Zdrój",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowosądeckim"
+ },
+ {
+  "codes": [
+   "KOL"
+  ],
+  "location": "Bukowno",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie olkuskim"
+ },
+ {
+  "codes": [
+   "KSU"
+  ],
+  "location": "Sucha Beskidzka",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie suskim"
+ },
+ {
+  "codes": [
+   "KNS"
+  ],
+  "location": "Stary Sącz",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowosądeckim"
+ },
+ {
+  "codes": [
+   "KOS"
+  ],
+  "location": "Chełmek",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie oświęcimskim"
+ },
+ {
+  "codes": [
+   "KOL"
+  ],
+  "location": "Wolbrom",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie olkuskim"
+ },
+ {
+  "codes": [
+   "KLI"
+  ],
+  "location": "Mszana Dolna",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie limanowskim"
+ },
+ {
+  "codes": [
+   "KMY"
+  ],
+  "location": "Sułkowice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie myślenickim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Tuchów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KMY"
+  ],
+  "location": "Dobczyce",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie myślenickim"
+ },
+ {
+  "codes": [
+   "KNS"
+  ],
+  "location": "Grybów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowosądeckim"
+ },
+ {
+  "codes": [
+   "KPR"
+  ],
+  "location": "Proszowice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie proszowickim"
+ },
+ {
+  "codes": [
+   "KSU"
+  ],
+  "location": "Maków Podhalański",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie suskim"
+ },
+ {
+  "codes": [
+   "KSU"
+  ],
+  "location": "Jordanów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie suskim"
+ },
+ {
+  "codes": [
+   "KNS"
+  ],
+  "location": "Piwniczna-Zdrój",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowosądeckim"
+ },
+ {
+  "codes": [
+   "KNT"
+  ],
+  "location": "Szczawnica",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowotarskim"
+ },
+ {
+  "codes": [
+   "KNS"
+  ],
+  "location": "Muszyna",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowosądeckim"
+ },
+ {
+  "codes": [
+   "KGR"
+  ],
+  "location": "Biecz",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie gorlickim"
+ },
+ {
+  "codes": [
+   "KWA"
+  ],
+  "location": "Kalwaria Zebrzydowska",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie wadowickim"
+ },
+ {
+  "codes": [
+   "KRA",
+   "KRK"
+  ],
+  "location": "Słomniki",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie krakowskim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Żabno",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KDA"
+  ],
+  "location": "Szczucin",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie dąbrowskim"
+ },
+ {
+  "codes": [
+   "KRA",
+   "KRK"
+  ],
+  "location": "Skała",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie krakowskim"
+ },
+ {
+  "codes": [
+   "KNT"
+  ],
+  "location": "Czarny Dunajec",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie nowotarskim"
+ },
+ {
+  "codes": [
+   "KOS"
+  ],
+  "location": "Zator",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie oświęcimskim"
+ },
+ {
+  "codes": [
+   "KCH"
+  ],
+  "location": "Alwernia",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie chrzanowskim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Wojnicz",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KGR"
+  ],
+  "location": "Bobowa",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie gorlickim"
+ },
+ {
+  "codes": [
+   "KBC",
+   "KBA"
+  ],
+  "location": "Nowy Wiśnicz",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie bocheńskim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Radłów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Ryglice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Ciężkowice",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KRA",
+   "KRK"
+  ],
+  "location": "Świątniki Górne",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie krakowskim"
+ },
+ {
+  "codes": [
+   "KBR"
+  ],
+  "location": "Czchów",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie brzeskim"
+ },
+ {
+  "codes": [
+   "KPR"
+  ],
+  "location": "Nowe Brzesko",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie proszowickim"
+ },
+ {
+  "codes": [
+   "KTA"
+  ],
+  "location": "Zakliczyn",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie tarnowskim"
+ },
+ {
+  "codes": [
+   "KMI"
+  ],
+  "location": "Książ Wielki",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie miechowskim"
+ },
+ {
+  "codes": [
+   "KPR"
+  ],
+  "location": "Koszyce",
+  "region": "małopolskie",
+  "unit": "miasto w powiecie proszowickim"
+ },
+ {
+  "codes": [
+   "WPR",
+   "WPP",
+   "WPS"
+  ],
+  "location": "Pruszków",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie pruszkowskim"
+ },
+ {
+  "codes": [
+   "WL"
+  ],
+  "location": "Legionowo",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie legionowskim"
+ },
+ {
+  "codes": [
+   "WPI",
+   "WPA",
+   "WPW",
+   "WPX"
+  ],
+  "location": "Piaseczno",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie piaseczyńskim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Ząbki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WOT"
+  ],
+  "location": "Otwock",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie otwockim"
+ },
+ {
+  "codes": [
+   "WCI"
+  ],
+  "location": "Ciechanów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie ciechanowskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Mińsk Mazowiecki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Marki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WZY"
+  ],
+  "location": "Żyrardów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie żyrardowskim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Wołomin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WGM"
+  ],
+  "location": "Grodzisk Mazowiecki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grodziskim"
+ },
+ {
+  "codes": [
+   "WSC"
+  ],
+  "location": "Sochaczew",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie sochaczewskim"
+ },
+ {
+  "codes": [
+   "WML"
+  ],
+  "location": "Mława",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mławskim"
+ },
+ {
+  "codes": [
+   "WND"
+  ],
+  "location": "Nowy Dwór Mazowiecki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie nowodworskim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Kobyłka",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WWY"
+  ],
+  "location": "Wyszków",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wyszkowskim"
+ },
+ {
+  "codes": [
+   "WPR",
+   "WPP",
+   "WPS"
+  ],
+  "location": "Piastów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie pruszkowskim"
+ },
+ {
+  "codes": [
+   "WOR"
+  ],
+  "location": "Ostrów Mazowiecka",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie ostrowskim"
+ },
+ {
+  "codes": [
+   "WPN"
+  ],
+  "location": "Płońsk",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płońskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Sulejówek",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WOT"
+  ],
+  "location": "Józefów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie otwockim"
+ },
+ {
+  "codes": [
+   "WPU"
+  ],
+  "location": "Pułtusk",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie pułtuskim"
+ },
+ {
+  "codes": [
+   "WSK"
+  ],
+  "location": "Sokołów Podlaski",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie sokołowskim"
+ },
+ {
+  "codes": [
+   "WZ"
+  ],
+  "location": "Łomianki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie warszawskim zachodnim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Zielonka",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WG"
+  ],
+  "location": "Garwolin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie garwolińskim"
+ },
+ {
+  "codes": [
+   "WGS"
+  ],
+  "location": "Gostynin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie gostynińskim"
+ },
+ {
+  "codes": [
+   "WSE"
+  ],
+  "location": "Sierpc",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie sierpeckim"
+ },
+ {
+  "codes": [
+   "WPI",
+   "WPA",
+   "WPW",
+   "WPX"
+  ],
+  "location": "Konstancin-Jeziorna",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie piaseczyńskim"
+ },
+ {
+  "codes": [
+   "WGR"
+  ],
+  "location": "Grójec",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grójeckim"
+ },
+ {
+  "codes": [
+   "WGM"
+  ],
+  "location": "Milanówek",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grodziskim"
+ },
+ {
+  "codes": [
+   "WPZ"
+  ],
+  "location": "Przasnysz",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie przasnyskim"
+ },
+ {
+  "codes": [
+   "WRA"
+  ],
+  "location": "Pionki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie radomskim"
+ },
+ {
+  "codes": [
+   "WZ"
+  ],
+  "location": "Ożarów Mazowiecki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie warszawskim zachodnim"
+ },
+ {
+  "codes": [
+   "WKZ"
+  ],
+  "location": "Kozienice",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie kozienickim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Radzymin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WPR",
+   "WPP",
+   "WPS"
+  ],
+  "location": "Brwinów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie pruszkowskim"
+ },
+ {
+  "codes": [
+   "WZ"
+  ],
+  "location": "Błonie",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie warszawskim zachodnim"
+ },
+ {
+  "codes": [
+   "WPI",
+   "WPA",
+   "WPW",
+   "WPX"
+  ],
+  "location": "Góra Kalwaria",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie piaseczyńskim"
+ },
+ {
+  "codes": [
+   "WGR"
+  ],
+  "location": "Warka",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grójeckim"
+ },
+ {
+  "codes": [
+   "WWE"
+  ],
+  "location": "Węgrów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie węgrowskim"
+ },
+ {
+  "codes": [
+   "WSZ"
+  ],
+  "location": "Szydłowiec",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie szydłowieckim"
+ },
+ {
+  "codes": [
+   "WOT"
+  ],
+  "location": "Karczew",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie otwockim"
+ },
+ {
+  "codes": [
+   "WMA"
+  ],
+  "location": "Maków Mazowiecki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie makowskim"
+ },
+ {
+  "codes": [
+   "WZU"
+  ],
+  "location": "Żuromin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie żuromińskim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Tłuszcz",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WND"
+  ],
+  "location": "Nasielsk",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie nowodworskim"
+ },
+ {
+  "codes": [
+   "WZW"
+  ],
+  "location": "Zwoleń",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie zwoleńskim"
+ },
+ {
+  "codes": [
+   "WLS"
+  ],
+  "location": "Łosice",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie łosickim"
+ },
+ {
+  "codes": [
+   "WWE"
+  ],
+  "location": "Łochów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie węgrowskim"
+ },
+ {
+  "codes": [
+   "WBR"
+  ],
+  "location": "Białobrzegi",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie białobrzeskim"
+ },
+ {
+  "codes": [
+   "WZY"
+  ],
+  "location": "Mszczonów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie żyrardowskim"
+ },
+ {
+  "codes": [
+   "WPY"
+  ],
+  "location": "Przysucha",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie przysuskim"
+ },
+ {
+  "codes": [
+   "WL"
+  ],
+  "location": "Serock",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie legionowskim"
+ },
+ {
+  "codes": [
+   "WLI"
+  ],
+  "location": "Lipsko",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie lipskim"
+ },
+ {
+  "codes": [
+   "WG"
+  ],
+  "location": "Łaskarzew",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie garwolińskim"
+ },
+ {
+  "codes": [
+   "WRA"
+  ],
+  "location": "Skaryszew",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie radomskim"
+ },
+ {
+  "codes": [
+   "WG"
+  ],
+  "location": "Pilawa",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie garwolińskim"
+ },
+ {
+  "codes": [
+   "WPI",
+   "WPA",
+   "WPW",
+   "WPX"
+  ],
+  "location": "Tarczyn",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie piaseczyńskim"
+ },
+ {
+  "codes": [
+   "WRA"
+  ],
+  "location": "Iłża",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie radomskim"
+ },
+ {
+  "codes": [
+   "WPL"
+  ],
+  "location": "Gąbin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płockim"
+ },
+ {
+  "codes": [
+   "WPN"
+  ],
+  "location": "Raciąż",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płońskim"
+ },
+ {
+  "codes": [
+   "WRA"
+  ],
+  "location": "Jedlnia-Letnisko",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie radomskim"
+ },
+ {
+  "codes": [
+   "WGM"
+  ],
+  "location": "Podkowa Leśna",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grodziskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Halinów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WG"
+  ],
+  "location": "Żelechów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie garwolińskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Mrozy",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WGR"
+  ],
+  "location": "Nowe Miasto nad Pilicą",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grójeckim"
+ },
+ {
+  "codes": [
+   "WOS"
+  ],
+  "location": "Myszyniec",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie ostrołęckim"
+ },
+ {
+  "codes": [
+   "WND"
+  ],
+  "location": "Zakroczym",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie nowodworskim"
+ },
+ {
+  "codes": [
+   "WPZ"
+  ],
+  "location": "Chorzele",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie przasnyskim"
+ },
+ {
+  "codes": [
+   "WCI"
+  ],
+  "location": "Glinojeck",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie ciechanowskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Kałuszyn",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WPL"
+  ],
+  "location": "Drobin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płockim"
+ },
+ {
+  "codes": [
+   "WMA"
+  ],
+  "location": "Różan",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie makowskim"
+ },
+ {
+  "codes": [
+   "WPL"
+  ],
+  "location": "Wyszogród",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płockim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Cegłów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Siennica",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WGR"
+  ],
+  "location": "Mogielnica",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie grójeckim"
+ },
+ {
+  "codes": [
+   "WSK"
+  ],
+  "location": "Kosów Lacki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie sokołowskim"
+ },
+ {
+  "codes": [
+   "WPN"
+  ],
+  "location": "Sochocin",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płońskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Dobre",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WOR"
+  ],
+  "location": "Brok",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie ostrowskim"
+ },
+ {
+  "codes": [
+   "WGS"
+  ],
+  "location": "Sanniki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie gostynińskim"
+ },
+ {
+  "codes": [
+   "WZU"
+  ],
+  "location": "Bieżuń",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie żuromińskim"
+ },
+ {
+  "codes": [
+   "WSI"
+  ],
+  "location": "Mordy",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie siedleckim"
+ },
+ {
+  "codes": [
+   "WPN"
+  ],
+  "location": "Nowe Miasto",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płońskim"
+ },
+ {
+  "codes": [
+   "WZU"
+  ],
+  "location": "Lubowidz",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie żuromińskim"
+ },
+ {
+  "codes": [
+   "WZY"
+  ],
+  "location": "Wiskitki",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie żyrardowskim"
+ },
+ {
+  "codes": [
+   "WG"
+  ],
+  "location": "Maciejowice",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie garwolińskim"
+ },
+ {
+  "codes": [
+   "WM"
+  ],
+  "location": "Latowicz",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie mińskim"
+ },
+ {
+  "codes": [
+   "WSZ"
+  ],
+  "location": "Jastrząb",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie szydłowieckim"
+ },
+ {
+  "codes": [
+   "WPL"
+  ],
+  "location": "Bodzanów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płockim"
+ },
+ {
+  "codes": [
+   "WOT"
+  ],
+  "location": "Osieck",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie otwockim"
+ },
+ {
+  "codes": [
+   "WPY"
+  ],
+  "location": "Odrzywół",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie przysuskim"
+ },
+ {
+  "codes": [
+   "WPN"
+  ],
+  "location": "Czerwińsk nad Wisłą",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie płońskim"
+ },
+ {
+  "codes": [
+   "WKZ"
+  ],
+  "location": "Magnuszew",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie kozienickim"
+ },
+ {
+  "codes": [
+   "WLI"
+  ],
+  "location": "Solec nad Wisłą",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie lipskim"
+ },
+ {
+  "codes": [
+   "WLI"
+  ],
+  "location": "Sienno",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie lipskim"
+ },
+ {
+  "codes": [
+   "WWL",
+   "WV"
+  ],
+  "location": "Jadów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie wołomińskim"
+ },
+ {
+  "codes": [
+   "WRA"
+  ],
+  "location": "Przytyk",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie radomskim"
+ },
+ {
+  "codes": [
+   "WBR"
+  ],
+  "location": "Wyśmierzyce",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie białobrzeskim"
+ },
+ {
+  "codes": [
+   "WKZ"
+  ],
+  "location": "Głowaczów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie kozienickim"
+ },
+ {
+  "codes": [
+   "WPY"
+  ],
+  "location": "Gielniów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie przysuskim"
+ },
+ {
+  "codes": [
+   "WLI"
+  ],
+  "location": "Ciepielów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie lipskim"
+ },
+ {
+  "codes": [
+   "WZW"
+  ],
+  "location": "Kazanów",
+  "region": "mazowieckie",
+  "unit": "miasto w powiecie zwoleńskim"
+ },
+ {
+  "codes": [
+   "OK"
+  ],
+  "location": "Kędzierzyn-Koźle",
+  "region": "opolskie",
+  "unit": "miasto w powiecie kędzierzyńsko-kozielskim"
+ },
+ {
+  "codes": [
+   "ONY"
+  ],
+  "location": "Nysa",
+  "region": "opolskie",
+  "unit": "miasto w powiecie nyskim"
+ },
+ {
+  "codes": [
+   "OB"
+  ],
+  "location": "Brzeg",
+  "region": "opolskie",
+  "unit": "miasto w powiecie brzeskim"
+ },
+ {
+  "codes": [
+   "OKL"
+  ],
+  "location": "Kluczbork",
+  "region": "opolskie",
+  "unit": "miasto w powiecie kluczborskim"
+ },
+ {
+  "codes": [
+   "OPR"
+  ],
+  "location": "Prudnik",
+  "region": "opolskie",
+  "unit": "miasto w powiecie prudnickim"
+ },
+ {
+  "codes": [
+   "OST"
+  ],
+  "location": "Strzelce Opolskie",
+  "region": "opolskie",
+  "unit": "miasto w powiecie strzeleckim"
+ },
+ {
+  "codes": [
+   "ONA"
+  ],
+  "location": "Namysłów",
+  "region": "opolskie",
+  "unit": "miasto w powiecie namysłowskim"
+ },
+ {
+  "codes": [
+   "OKR"
+  ],
+  "location": "Krapkowice",
+  "region": "opolskie",
+  "unit": "miasto w powiecie krapkowickim"
+ },
+ {
+  "codes": [
+   "ONY"
+  ],
+  "location": "Głuchołazy",
+  "region": "opolskie",
+  "unit": "miasto w powiecie nyskim"
+ },
+ {
+  "codes": [
+   "OGL"
+  ],
+  "location": "Głubczyce",
+  "region": "opolskie",
+  "unit": "miasto w powiecie głubczyckim"
+ },
+ {
+  "codes": [
+   "OKR"
+  ],
+  "location": "Zdzieszowice",
+  "region": "opolskie",
+  "unit": "miasto w powiecie krapkowickim"
+ },
+ {
+  "codes": [
+   "OOL"
+  ],
+  "location": "Olesno",
+  "region": "opolskie",
+  "unit": "miasto w powiecie oleskim"
+ },
+ {
+  "codes": [
+   "OPO"
+  ],
+  "location": "Ozimek",
+  "region": "opolskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "OB"
+  ],
+  "location": "Grodków",
+  "region": "opolskie",
+  "unit": "miasto w powiecie brzeskim"
+ },
+ {
+  "codes": [
+   "OOL"
+  ],
+  "location": "Praszka",
+  "region": "opolskie",
+  "unit": "miasto w powiecie oleskim"
+ },
+ {
+  "codes": [
+   "ONY"
+  ],
+  "location": "Paczków",
+  "region": "opolskie",
+  "unit": "miasto w powiecie nyskim"
+ },
+ {
+  "codes": [
+   "OKR"
+  ],
+  "location": "Gogolin",
+  "region": "opolskie",
+  "unit": "miasto w powiecie krapkowickim"
+ },
+ {
+  "codes": [
+   "OST"
+  ],
+  "location": "Zawadzkie",
+  "region": "opolskie",
+  "unit": "miasto w powiecie strzeleckim"
+ },
+ {
+  "codes": [
+   "ONY"
+  ],
+  "location": "Otmuchów",
+  "region": "opolskie",
+  "unit": "miasto w powiecie nyskim"
+ },
+ {
+  "codes": [
+   "OPO"
+  ],
+  "location": "Niemodlin",
+  "region": "opolskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "OB"
+  ],
+  "location": "Lewin Brzeski",
+  "region": "opolskie",
+  "unit": "miasto w powiecie brzeskim"
+ },
+ {
+  "codes": [
+   "OGL"
+  ],
+  "location": "Kietrz",
+  "region": "opolskie",
+  "unit": "miasto w powiecie głubczyckim"
+ },
+ {
+  "codes": [
+   "OPR"
+  ],
+  "location": "Głogówek",
+  "region": "opolskie",
+  "unit": "miasto w powiecie prudnickim"
+ },
+ {
+  "codes": [
+   "OKL"
+  ],
+  "location": "Wołczyn",
+  "region": "opolskie",
+  "unit": "miasto w powiecie kluczborskim"
+ },
+ {
+  "codes": [
+   "OPO"
+  ],
+  "location": "Tułowice",
+  "region": "opolskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "OOL"
+  ],
+  "location": "Dobrodzień",
+  "region": "opolskie",
+  "unit": "miasto w powiecie oleskim"
+ },
+ {
+  "codes": [
+   "OKL"
+  ],
+  "location": "Byczyna",
+  "region": "opolskie",
+  "unit": "miasto w powiecie kluczborskim"
+ },
+ {
+  "codes": [
+   "OST"
+  ],
+  "location": "Kolonowskie",
+  "region": "opolskie",
+  "unit": "miasto w powiecie strzeleckim"
+ },
+ {
+  "codes": [
+   "OGL"
+  ],
+  "location": "Baborów",
+  "region": "opolskie",
+  "unit": "miasto w powiecie głubczyckim"
+ },
+ {
+  "codes": [
+   "OPO"
+  ],
+  "location": "Prószków",
+  "region": "opolskie",
+  "unit": "miasto w powiecie opolskim"
+ },
+ {
+  "codes": [
+   "OST"
+  ],
+  "location": "Leśnica",
+  "region": "opolskie",
+  "unit": "miasto w powiecie strzeleckim"
+ },
+ {
+  "codes": [
+   "OOL"
+  ],
+  "location": "Gorzów Śląski",
+  "region": "opolskie",
+  "unit": "miasto w powiecie oleskim"
+ },
+ {
+  "codes": [
+   "OPR"
+  ],
+  "location": "Biała",
+  "region": "opolskie",
+  "unit": "miasto w powiecie prudnickim"
+ },
+ {
+  "codes": [
+   "OST"
+  ],
+  "location": "Ujazd",
+  "region": "opolskie",
+  "unit": "miasto w powiecie strzeleckim"
+ },
+ {
+  "codes": [
+   "ONY"
+  ],
+  "location": "Korfantów",
+  "region": "opolskie",
+  "unit": "miasto w powiecie nyskim"
+ },
+ {
+  "codes": [
+   "OKR"
+  ],
+  "location": "Strzeleczki",
+  "region": "opolskie",
+  "unit": "miasto w powiecie krapkowickim"
+ },
+ {
+  "codes": [
+   "OGL"
+  ],
+  "location": "Branice",
+  "region": "opolskie",
+  "unit": "miasto w powiecie głubczyckim"
+ },
+ {
+  "codes": [
+   "RMI"
+  ],
+  "location": "Mielec",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie mieleckim"
+ },
+ {
+  "codes": [
+   "RST"
+  ],
+  "location": "Stalowa Wola",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie stalowowolskim"
+ },
+ {
+  "codes": [
+   "RDE"
+  ],
+  "location": "Dębica",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie dębickim"
+ },
+ {
+  "codes": [
+   "RJA"
+  ],
+  "location": "Jarosław",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie jarosławskim"
+ },
+ {
+  "codes": [
+   "RSA"
+  ],
+  "location": "Sanok",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie sanockim"
+ },
+ {
+  "codes": [
+   "RJS"
+  ],
+  "location": "Jasło",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie jasielskim"
+ },
+ {
+  "codes": [
+   "RLA"
+  ],
+  "location": "Łańcut",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie łańcuckim"
+ },
+ {
+  "codes": [
+   "RRS"
+  ],
+  "location": "Ropczyce",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie ropczycko-sędziszowskim"
+ },
+ {
+  "codes": [
+   "RPZ"
+  ],
+  "location": "Przeworsk",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie przeworskim"
+ },
+ {
+  "codes": [
+   "RNI"
+  ],
+  "location": "Nisko",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie niżańskim"
+ },
+ {
+  "codes": [
+   "RLE"
+  ],
+  "location": "Leżajsk",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie leżajskim"
+ },
+ {
+  "codes": [
+   "RRS"
+  ],
+  "location": "Sędziszów Małopolski",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie ropczycko-sędziszowskim"
+ },
+ {
+  "codes": [
+   "RLU"
+  ],
+  "location": "Lubaczów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie lubaczowskim"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "location": "Głogów Małopolski",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie rzeszowskim"
+ },
+ {
+  "codes": [
+   "RTA"
+  ],
+  "location": "Nowa Dęba",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie tarnobrzeskim"
+ },
+ {
+  "codes": [
+   "RKL"
+  ],
+  "location": "Kolbuszowa",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie kolbuszowskim"
+ },
+ {
+  "codes": [
+   "RBI"
+  ],
+  "location": "Ustrzyki Dolne",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie bieszczadzkim"
+ },
+ {
+  "codes": [
+   "RSR"
+  ],
+  "location": "Strzyżów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie strzyżowskim"
+ },
+ {
+  "codes": [
+   "RBR"
+  ],
+  "location": "Brzozów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie brzozowskim"
+ },
+ {
+  "codes": [
+   "RNI"
+  ],
+  "location": "Rudnik nad Sanem",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie niżańskim"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "location": "Boguchwała",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie rzeszowskim"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "location": "Dynów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie rzeszowskim"
+ },
+ {
+  "codes": [
+   "RKR"
+  ],
+  "location": "Jedlicze",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie krośnieńskim"
+ },
+ {
+  "codes": [
+   "RLE"
+  ],
+  "location": "Nowa Sarzyna",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie leżajskim"
+ },
+ {
+  "codes": [
+   "RLS"
+  ],
+  "location": "Lesko",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie leskim"
+ },
+ {
+  "codes": [
+   "RDE"
+  ],
+  "location": "Pilzno",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie dębickim"
+ },
+ {
+  "codes": [
+   "RJA"
+  ],
+  "location": "Radymno",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie jarosławskim"
+ },
+ {
+  "codes": [
+   "RSA"
+  ],
+  "location": "Zagórz",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie sanockim"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "location": "Tyczyn",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie rzeszowskim"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "location": "Sokołów Małopolski",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie rzeszowskim"
+ },
+ {
+  "codes": [
+   "RJA"
+  ],
+  "location": "Pruchnik",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie jarosławskim"
+ },
+ {
+  "codes": [
+   "RKR"
+  ],
+  "location": "Rymanów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie krośnieńskim"
+ },
+ {
+  "codes": [
+   "RMI"
+  ],
+  "location": "Radomyśl Wielki",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie mieleckim"
+ },
+ {
+  "codes": [
+   "RPZ"
+  ],
+  "location": "Kańczuga",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie przeworskim"
+ },
+ {
+  "codes": [
+   "RLU"
+  ],
+  "location": "Oleszyce",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie lubaczowskim"
+ },
+ {
+  "codes": [
+   "RST"
+  ],
+  "location": "Zaklików",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie stalowowolskim"
+ },
+ {
+  "codes": [
+   "RDE"
+  ],
+  "location": "Brzostek",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie dębickim"
+ },
+ {
+  "codes": [
+   "RZE",
+   "RZZ",
+   "RZR"
+  ],
+  "location": "Błażowa",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie rzeszowskim"
+ },
+ {
+  "codes": [
+   "RPZ"
+  ],
+  "location": "Sieniawa",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie przeworskim"
+ },
+ {
+  "codes": [
+   "RLU"
+  ],
+  "location": "Narol",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie lubaczowskim"
+ },
+ {
+  "codes": [
+   "RKR"
+  ],
+  "location": "Dukla",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie krośnieńskim"
+ },
+ {
+  "codes": [
+   "RMI"
+  ],
+  "location": "Przecław",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie mieleckim"
+ },
+ {
+  "codes": [
+   "RLU"
+  ],
+  "location": "Cieszanów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie lubaczowskim"
+ },
+ {
+  "codes": [
+   "RKR"
+  ],
+  "location": "Iwonicz-Zdrój",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie krośnieńskim"
+ },
+ {
+  "codes": [
+   "RTA"
+  ],
+  "location": "Baranów Sandomierski",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie tarnobrzeskim"
+ },
+ {
+  "codes": [
+   "RNI"
+  ],
+  "location": "Ulanów",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie niżańskim"
+ },
+ {
+  "codes": [
+   "RJS"
+  ],
+  "location": "Kołaczyce",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie jasielskim"
+ },
+ {
+  "codes": [
+   "RPZ"
+  ],
+  "location": "Jawornik Polski",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie przeworskim"
+ },
+ {
+  "codes": [
+   "RPR"
+  ],
+  "location": "Bircza",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie przemyskim"
+ },
+ {
+  "codes": [
+   "RPR"
+  ],
+  "location": "Dubiecko",
+  "region": "podkarpackie",
+  "unit": "miasto w powiecie przemyskim"
+ },
+ {
+  "codes": [
+   "BAU"
+  ],
+  "location": "Augustów",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie augustowskim"
+ },
+ {
+  "codes": [
+   "BBI"
+  ],
+  "location": "Bielsk Podlaski",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie bielskim"
+ },
+ {
+  "codes": [
+   "BGR"
+  ],
+  "location": "Grajewo",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie grajewskim"
+ },
+ {
+  "codes": [
+   "BZA"
+  ],
+  "location": "Zambrów",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie zambrowskim"
+ },
+ {
+  "codes": [
+   "BHA"
+  ],
+  "location": "Hajnówka",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie hajnowskim"
+ },
+ {
+  "codes": [
+   "BSK"
+  ],
+  "location": "Sokółka",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie sokólskim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Łapy",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BSI"
+  ],
+  "location": "Siemiatycze",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie siemiatyckim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Wasilków",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BKL"
+  ],
+  "location": "Kolno",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie kolneńskim"
+ },
+ {
+  "codes": [
+   "BMN"
+  ],
+  "location": "Mońki",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie monieckim"
+ },
+ {
+  "codes": [
+   "BWM"
+  ],
+  "location": "Wysokie Mazowieckie",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie wysokomazowieckim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Czarna Białostocka",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Choroszcz",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BSK"
+  ],
+  "location": "Dąbrowa Białostocka",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie sokólskim"
+ },
+ {
+  "codes": [
+   "BSE"
+  ],
+  "location": "Sejny",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie sejneńskim"
+ },
+ {
+  "codes": [
+   "BWM"
+  ],
+  "location": "Ciechanowiec",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie wysokomazowieckim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Supraśl",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BBI"
+  ],
+  "location": "Brańsk",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie bielskim"
+ },
+ {
+  "codes": [
+   "BGR"
+  ],
+  "location": "Szczuczyn",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie grajewskim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Michałowo",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BMN"
+  ],
+  "location": "Knyszyn",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie monieckim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Zabłudów",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BWM"
+  ],
+  "location": "Czyżew",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie wysokomazowieckim"
+ },
+ {
+  "codes": [
+   "BSK"
+  ],
+  "location": "Krynki",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie sokólskim"
+ },
+ {
+  "codes": [
+   "BLM"
+  ],
+  "location": "Nowogród",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie łomżyńskim"
+ },
+ {
+  "codes": [
+   "BAU"
+  ],
+  "location": "Lipsk",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie augustowskim"
+ },
+ {
+  "codes": [
+   "BSK"
+  ],
+  "location": "Suchowola",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie sokólskim"
+ },
+ {
+  "codes": [
+   "BWM"
+  ],
+  "location": "Szepietowo",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie wysokomazowieckim"
+ },
+ {
+  "codes": [
+   "BKL"
+  ],
+  "location": "Stawiski",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie kolneńskim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Tykocin",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "BSI"
+  ],
+  "location": "Drohiczyn",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie siemiatyckim"
+ },
+ {
+  "codes": [
+   "BMN"
+  ],
+  "location": "Goniądz",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie monieckim"
+ },
+ {
+  "codes": [
+   "BLM"
+  ],
+  "location": "Jedwabne",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie łomżyńskim"
+ },
+ {
+  "codes": [
+   "BGR"
+  ],
+  "location": "Rajgród",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie grajewskim"
+ },
+ {
+  "codes": [
+   "BHA"
+  ],
+  "location": "Kleszczele",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie hajnowskim"
+ },
+ {
+  "codes": [
+   "BIA",
+   "BIB"
+  ],
+  "location": "Suraż",
+  "region": "podlaskie",
+  "unit": "miasto w powiecie białostockim"
+ },
+ {
+  "codes": [
+   "GTC"
+  ],
+  "location": "Tczew",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie tczewskim"
+ },
+ {
+  "codes": [
+   "GWE",
+   "GWO"
+  ],
+  "location": "Rumia",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie wejherowskim"
+ },
+ {
+  "codes": [
+   "GWE",
+   "GWO"
+  ],
+  "location": "Wejherowo",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie wejherowskim"
+ },
+ {
+  "codes": [
+   "GST"
+  ],
+  "location": "Starogard Gdański",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie starogardzkim"
+ },
+ {
+  "codes": [
+   "GCH"
+  ],
+  "location": "Chojnice",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie chojnickim"
+ },
+ {
+  "codes": [
+   "GKW"
+  ],
+  "location": "Kwidzyn",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie kwidzyńskim"
+ },
+ {
+  "codes": [
+   "GMB"
+  ],
+  "location": "Malbork",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie malborskim"
+ },
+ {
+  "codes": [
+   "GLE"
+  ],
+  "location": "Lębork",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie lęborskim"
+ },
+ {
+  "codes": [
+   "GDA"
+  ],
+  "location": "Pruszcz Gdański",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie gdańskim"
+ },
+ {
+  "codes": [
+   "GWE",
+   "GWO"
+  ],
+  "location": "Reda",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie wejherowskim"
+ },
+ {
+  "codes": [
+   "GKS"
+  ],
+  "location": "Kościerzyna",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie kościerskim"
+ },
+ {
+  "codes": [
+   "GBY"
+  ],
+  "location": "Bytów",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie bytowskim"
+ },
+ {
+  "codes": [
+   "GKA",
+   "GKY",
+   "GKZ"
+  ],
+  "location": "Kartuzy",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie kartuskim"
+ },
+ {
+  "codes": [
+   "GSL"
+  ],
+  "location": "Ustka",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie słupskim"
+ },
+ {
+  "codes": [
+   "GCZ"
+  ],
+  "location": "Człuchów",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie człuchowskim"
+ },
+ {
+  "codes": [
+   "GPU"
+  ],
+  "location": "Puck",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie puckim"
+ },
+ {
+  "codes": [
+   "GCH"
+  ],
+  "location": "Czersk",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie chojnickim"
+ },
+ {
+  "codes": [
+   "GND"
+  ],
+  "location": "Nowy Dwór Gdański",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie nowodworskim"
+ },
+ {
+  "codes": [
+   "GBY"
+  ],
+  "location": "Miastko",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie bytowskim"
+ },
+ {
+  "codes": [
+   "GPU"
+  ],
+  "location": "Władysławowo",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie puckim"
+ },
+ {
+  "codes": [
+   "GSZ"
+  ],
+  "location": "Sztum",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie sztumskim"
+ },
+ {
+  "codes": [
+   "GKW"
+  ],
+  "location": "Prabuty",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie kwidzyńskim"
+ },
+ {
+  "codes": [
+   "GTC"
+  ],
+  "location": "Pelplin",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie tczewskim"
+ },
+ {
+  "codes": [
+   "GKA",
+   "GKY",
+   "GKZ"
+  ],
+  "location": "Żukowo",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie kartuskim"
+ },
+ {
+  "codes": [
+   "GST"
+  ],
+  "location": "Skarszewy",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie starogardzkim"
+ },
+ {
+  "codes": [
+   "GTC"
+  ],
+  "location": "Gniew",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie tczewskim"
+ },
+ {
+  "codes": [
+   "GCZ"
+  ],
+  "location": "Czarne",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie człuchowskim"
+ },
+ {
+  "codes": [
+   "GCH"
+  ],
+  "location": "Brusy",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie chojnickim"
+ },
+ {
+  "codes": [
+   "GSZ"
+  ],
+  "location": "Dzierzgoń",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie sztumskim"
+ },
+ {
+  "codes": [
+   "GCZ"
+  ],
+  "location": "Debrzno",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie człuchowskim"
+ },
+ {
+  "codes": [
+   "GSL"
+  ],
+  "location": "Kobylnica",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie słupskim"
+ },
+ {
+  "codes": [
+   "GMB"
+  ],
+  "location": "Nowy Staw",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie malborskim"
+ },
+ {
+  "codes": [
+   "GST"
+  ],
+  "location": "Skórcz",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie starogardzkim"
+ },
+ {
+  "codes": [
+   "GSL"
+  ],
+  "location": "Kępice",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie słupskim"
+ },
+ {
+  "codes": [
+   "GLE"
+  ],
+  "location": "Łeba",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie lęborskim"
+ },
+ {
+  "codes": [
+   "GPU"
+  ],
+  "location": "Hel",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie puckim"
+ },
+ {
+  "codes": [
+   "GST"
+  ],
+  "location": "Czarna Woda",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie starogardzkim"
+ },
+ {
+  "codes": [
+   "GPU"
+  ],
+  "location": "Jastarnia",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie puckim"
+ },
+ {
+  "codes": [
+   "GND"
+  ],
+  "location": "Krynica Morska",
+  "region": "pomorskie",
+  "unit": "miasto w powiecie nowodworskim"
+ },
+ {
+  "codes": [
+   "STA"
+  ],
+  "location": "Tarnowskie Góry",
+  "region": "śląskie",
+  "unit": "miasto w powiecie tarnogórskim"
+ },
+ {
+  "codes": [
+   "SBE",
+   "SE",
+   "SBN"
+  ],
+  "location": "Będzin",
+  "region": "śląskie",
+  "unit": "miasto w powiecie będzińskim"
+ },
+ {
+  "codes": [
+   "SRC"
+  ],
+  "location": "Racibórz",
+  "region": "śląskie",
+  "unit": "miasto w powiecie raciborskim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Zawiercie",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "SWD",
+   "SWZ"
+  ],
+  "location": "Wodzisław Śląski",
+  "region": "śląskie",
+  "unit": "miasto w powiecie wodzisławskim"
+ },
+ {
+  "codes": [
+   "SMI"
+  ],
+  "location": "Mikołów",
+  "region": "śląskie",
+  "unit": "miasto w powiecie mikołowskim"
+ },
+ {
+  "codes": [
+   "SGL"
+  ],
+  "location": "Knurów",
+  "region": "śląskie",
+  "unit": "miasto w powiecie gliwickim"
+ },
+ {
+  "codes": [
+   "SBI"
+  ],
+  "location": "Czechowice-Dziedzice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie bielskim"
+ },
+ {
+  "codes": [
+   "SCI",
+   "SCN"
+  ],
+  "location": "Cieszyn",
+  "region": "śląskie",
+  "unit": "miasto w powiecie cieszyńskim"
+ },
+ {
+  "codes": [
+   "SBE",
+   "SE",
+   "SBN"
+  ],
+  "location": "Czeladź",
+  "region": "śląskie",
+  "unit": "miasto w powiecie będzińskim"
+ },
+ {
+  "codes": [
+   "SZY"
+  ],
+  "location": "Żywiec",
+  "region": "śląskie",
+  "unit": "miasto w powiecie żywieckim"
+ },
+ {
+  "codes": [
+   "SMY"
+  ],
+  "location": "Myszków",
+  "region": "śląskie",
+  "unit": "miasto w powiecie myszkowskim"
+ },
+ {
+  "codes": [
+   "SRB"
+  ],
+  "location": "Czerwionka-Leszczyny",
+  "region": "śląskie",
+  "unit": "miasto w powiecie rybnickim"
+ },
+ {
+  "codes": [
+   "SPS"
+  ],
+  "location": "Pszczyna",
+  "region": "śląskie",
+  "unit": "miasto w powiecie pszczyńskim"
+ },
+ {
+  "codes": [
+   "SLU"
+  ],
+  "location": "Lubliniec",
+  "region": "śląskie",
+  "unit": "miasto w powiecie lublinieckim"
+ },
+ {
+  "codes": [
+   "SMI"
+  ],
+  "location": "Orzesze",
+  "region": "śląskie",
+  "unit": "miasto w powiecie mikołowskim"
+ },
+ {
+  "codes": [
+   "SMI"
+  ],
+  "location": "Łaziska Górne",
+  "region": "śląskie",
+  "unit": "miasto w powiecie mikołowskim"
+ },
+ {
+  "codes": [
+   "SWD",
+   "SWZ"
+  ],
+  "location": "Rydułtowy",
+  "region": "śląskie",
+  "unit": "miasto w powiecie wodzisławskim"
+ },
+ {
+  "codes": [
+   "SBL"
+  ],
+  "location": "Bieruń",
+  "region": "śląskie",
+  "unit": "miasto w powiecie bieruńsko-lędzińskim"
+ },
+ {
+  "codes": [
+   "SGL"
+  ],
+  "location": "Pyskowice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie gliwickim"
+ },
+ {
+  "codes": [
+   "SWD",
+   "SWZ"
+  ],
+  "location": "Radlin",
+  "region": "śląskie",
+  "unit": "miasto w powiecie wodzisławskim"
+ },
+ {
+  "codes": [
+   "SBL"
+  ],
+  "location": "Lędziny",
+  "region": "śląskie",
+  "unit": "miasto w powiecie bieruńsko-lędzińskim"
+ },
+ {
+  "codes": [
+   "STA"
+  ],
+  "location": "Radzionków",
+  "region": "śląskie",
+  "unit": "miasto w powiecie tarnogórskim"
+ },
+ {
+  "codes": [
+   "SCI",
+   "SCN"
+  ],
+  "location": "Ustroń",
+  "region": "śląskie",
+  "unit": "miasto w powiecie cieszyńskim"
+ },
+ {
+  "codes": [
+   "SCI",
+   "SCN"
+  ],
+  "location": "Skoczów",
+  "region": "śląskie",
+  "unit": "miasto w powiecie cieszyńskim"
+ },
+ {
+  "codes": [
+   "SWD",
+   "SWZ"
+  ],
+  "location": "Pszów",
+  "region": "śląskie",
+  "unit": "miasto w powiecie wodzisławskim"
+ },
+ {
+  "codes": [
+   "SKL"
+  ],
+  "location": "Kłobuck",
+  "region": "śląskie",
+  "unit": "miasto w powiecie kłobuckim"
+ },
+ {
+  "codes": [
+   "SCI",
+   "SCN"
+  ],
+  "location": "Wisła",
+  "region": "śląskie",
+  "unit": "miasto w powiecie cieszyńskim"
+ },
+ {
+  "codes": [
+   "SBL"
+  ],
+  "location": "Imielin",
+  "region": "śląskie",
+  "unit": "miasto w powiecie bieruńsko-lędzińskim"
+ },
+ {
+  "codes": [
+   "SCZ"
+  ],
+  "location": "Blachownia",
+  "region": "śląskie",
+  "unit": "miasto w powiecie częstochowskim"
+ },
+ {
+  "codes": [
+   "SBE",
+   "SE",
+   "SBN"
+  ],
+  "location": "Wojkowice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie będzińskim"
+ },
+ {
+  "codes": [
+   "STA"
+  ],
+  "location": "Kalety",
+  "region": "śląskie",
+  "unit": "miasto w powiecie tarnogórskim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Poręba",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "STA"
+  ],
+  "location": "Miasteczko Śląskie",
+  "region": "śląskie",
+  "unit": "miasto w powiecie tarnogórskim"
+ },
+ {
+  "codes": [
+   "SBE",
+   "SE",
+   "SBN"
+  ],
+  "location": "Sławków",
+  "region": "śląskie",
+  "unit": "miasto w powiecie będzińskim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Łazy",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "SBE",
+   "SE",
+   "SBN"
+  ],
+  "location": "Siewierz",
+  "region": "śląskie",
+  "unit": "miasto w powiecie będzińskim"
+ },
+ {
+  "codes": [
+   "SCZ"
+  ],
+  "location": "Koniecpol",
+  "region": "śląskie",
+  "unit": "miasto w powiecie częstochowskim"
+ },
+ {
+  "codes": [
+   "SBI"
+  ],
+  "location": "Szczyrk",
+  "region": "śląskie",
+  "unit": "miasto w powiecie bielskim"
+ },
+ {
+  "codes": [
+   "SRC"
+  ],
+  "location": "Kuźnia Raciborska",
+  "region": "śląskie",
+  "unit": "miasto w powiecie raciborskim"
+ },
+ {
+  "codes": [
+   "SMY"
+  ],
+  "location": "Żarki",
+  "region": "śląskie",
+  "unit": "miasto w powiecie myszkowskim"
+ },
+ {
+  "codes": [
+   "SLU"
+  ],
+  "location": "Woźniki",
+  "region": "śląskie",
+  "unit": "miasto w powiecie lublinieckim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Ogrodzieniec",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "SKL"
+  ],
+  "location": "Krzepice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie kłobuckim"
+ },
+ {
+  "codes": [
+   "SCI",
+   "SCN"
+  ],
+  "location": "Strumień",
+  "region": "śląskie",
+  "unit": "miasto w powiecie cieszyńskim"
+ },
+ {
+  "codes": [
+   "SGL"
+  ],
+  "location": "Toszek",
+  "region": "śląskie",
+  "unit": "miasto w powiecie gliwickim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Szczekociny",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "SBI"
+  ],
+  "location": "Wilamowice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie bielskim"
+ },
+ {
+  "codes": [
+   "SCZ"
+  ],
+  "location": "Olsztyn",
+  "region": "śląskie",
+  "unit": "miasto w powiecie częstochowskim"
+ },
+ {
+  "codes": [
+   "SMY"
+  ],
+  "location": "Koziegłowy",
+  "region": "śląskie",
+  "unit": "miasto w powiecie myszkowskim"
+ },
+ {
+  "codes": [
+   "SRC"
+  ],
+  "location": "Krzanowice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie raciborskim"
+ },
+ {
+  "codes": [
+   "SGL"
+  ],
+  "location": "Sośnicowice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie gliwickim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Pilica",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "SZA"
+  ],
+  "location": "Włodowice",
+  "region": "śląskie",
+  "unit": "miasto w powiecie zawierciańskim"
+ },
+ {
+  "codes": [
+   "SCZ"
+  ],
+  "location": "Przyrów",
+  "region": "śląskie",
+  "unit": "miasto w powiecie częstochowskim"
+ },
+ {
+  "codes": [
+   "TOS"
+  ],
+  "location": "Ostrowiec Świętokrzyski",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie ostrowieckim"
+ },
+ {
+  "codes": [
+   "TST"
+  ],
+  "location": "Starachowice",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie starachowickim"
+ },
+ {
+  "codes": [
+   "TSK"
+  ],
+  "location": "Skarżysko-Kamienna",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie skarżyskim"
+ },
+ {
+  "codes": [
+   "TSA"
+  ],
+  "location": "Sandomierz",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie sandomierskim"
+ },
+ {
+  "codes": [
+   "TKN"
+  ],
+  "location": "Końskie",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie koneckim"
+ },
+ {
+  "codes": [
+   "TBU"
+  ],
+  "location": "Busko-Zdrój",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie buskim"
+ },
+ {
+  "codes": [
+   "TJE"
+  ],
+  "location": "Jędrzejów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie jędrzejowskim"
+ },
+ {
+  "codes": [
+   "TSZ"
+  ],
+  "location": "Staszów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie staszowskim"
+ },
+ {
+  "codes": [
+   "TPI"
+  ],
+  "location": "Pińczów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie pińczowskim"
+ },
+ {
+  "codes": [
+   "TLW"
+  ],
+  "location": "Włoszczowa",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie włoszczowskim"
+ },
+ {
+  "codes": [
+   "TSK"
+  ],
+  "location": "Suchedniów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie skarżyskim"
+ },
+ {
+  "codes": [
+   "TSZ"
+  ],
+  "location": "Połaniec",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie staszowskim"
+ },
+ {
+  "codes": [
+   "TJE"
+  ],
+  "location": "Sędziszów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie jędrzejowskim"
+ },
+ {
+  "codes": [
+   "TOP"
+  ],
+  "location": "Opatów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie opatowskim"
+ },
+ {
+  "codes": [
+   "TKN"
+  ],
+  "location": "Stąporków",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie koneckim"
+ },
+ {
+  "codes": [
+   "TKA"
+  ],
+  "location": "Kazimierza Wielka",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kazimierskim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Chęciny",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TOP"
+  ],
+  "location": "Ożarów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie opatowskim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Chmielnik",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TJE"
+  ],
+  "location": "Małogoszcz",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie jędrzejowskim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Piekoszów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TKN"
+  ],
+  "location": "Radoszyce",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie koneckim"
+ },
+ {
+  "codes": [
+   "TOS"
+  ],
+  "location": "Ćmielów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie ostrowieckim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Daleszyce",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TOS"
+  ],
+  "location": "Kunów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie ostrowieckim"
+ },
+ {
+  "codes": [
+   "TST"
+  ],
+  "location": "Wąchock",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie starachowickim"
+ },
+ {
+  "codes": [
+   "TSA"
+  ],
+  "location": "Koprzywnica",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie sandomierskim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Bodzentyn",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TSZ"
+  ],
+  "location": "Osiek",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie staszowskim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Morawica",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TSA"
+  ],
+  "location": "Klimontów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie sandomierskim"
+ },
+ {
+  "codes": [
+   "TSZ"
+  ],
+  "location": "Oleśnica",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie staszowskim"
+ },
+ {
+  "codes": [
+   "TSA"
+  ],
+  "location": "Zawichost",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie sandomierskim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Łagów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Łopuszno",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Nowa Słupia",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TKI",
+   "TKC",
+   "TKM",
+   "TKP"
+  ],
+  "location": "Pierzchnica",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kieleckim"
+ },
+ {
+  "codes": [
+   "TOP"
+  ],
+  "location": "Iwaniska",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie opatowskim"
+ },
+ {
+  "codes": [
+   "TKA"
+  ],
+  "location": "Skalbmierz",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kazimierskim"
+ },
+ {
+  "codes": [
+   "TBU"
+  ],
+  "location": "Stopnica",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie buskim"
+ },
+ {
+  "codes": [
+   "TBU"
+  ],
+  "location": "Pacanów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie buskim"
+ },
+ {
+  "codes": [
+   "TJE"
+  ],
+  "location": "Wodzisław",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie jędrzejowskim"
+ },
+ {
+  "codes": [
+   "TSZ"
+  ],
+  "location": "Szydłów",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie staszowskim"
+ },
+ {
+  "codes": [
+   "TBU"
+  ],
+  "location": "Nowy Korczyn",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie buskim"
+ },
+ {
+  "codes": [
+   "TPI"
+  ],
+  "location": "Działoszyce",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie pińczowskim"
+ },
+ {
+  "codes": [
+   "TBU"
+  ],
+  "location": "Wiślica",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie buskim"
+ },
+ {
+  "codes": [
+   "TKA"
+  ],
+  "location": "Opatowiec",
+  "region": "świętokrzyskie",
+  "unit": "miasto w powiecie kazimierskim"
+ },
+ {
+  "codes": [
+   "NEL"
+  ],
+  "location": "Ełk",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie ełckim"
+ },
+ {
+  "codes": [
+   "NIL"
+  ],
+  "location": "Iława",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie iławskim"
+ },
+ {
+  "codes": [
+   "NOS",
+   "NOT",
+   "NOX"
+  ],
+  "location": "Ostróda",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie ostródzkim"
+ },
+ {
+  "codes": [
+   "NGI"
+  ],
+  "location": "Giżycko",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie giżyckim"
+ },
+ {
+  "codes": [
+   "NKE"
+  ],
+  "location": "Kętrzyn",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie kętrzyńskim"
+ },
+ {
+  "codes": [
+   "NSZ"
+  ],
+  "location": "Szczytno",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie szczycieńskim"
+ },
+ {
+  "codes": [
+   "NBA"
+  ],
+  "location": "Bartoszyce",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie bartoszyckim"
+ },
+ {
+  "codes": [
+   "NMR"
+  ],
+  "location": "Mrągowo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie mrągowskim"
+ },
+ {
+  "codes": [
+   "NDZ"
+  ],
+  "location": "Działdowo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie działdowskim"
+ },
+ {
+  "codes": [
+   "NPI"
+  ],
+  "location": "Pisz",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie piskim"
+ },
+ {
+  "codes": [
+   "NBR"
+  ],
+  "location": "Braniewo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie braniewskim"
+ },
+ {
+  "codes": [
+   "NOE"
+  ],
+  "location": "Olecko",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie oleckim"
+ },
+ {
+  "codes": [
+   "NLI"
+  ],
+  "location": "Lidzbark Warmiński",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie lidzbarskim"
+ },
+ {
+  "codes": [
+   "NGO"
+  ],
+  "location": "Gołdap",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie gołdapskim"
+ },
+ {
+  "codes": [
+   "NOS",
+   "NOT",
+   "NOX"
+  ],
+  "location": "Morąg",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie ostródzkim"
+ },
+ {
+  "codes": [
+   "NNI"
+  ],
+  "location": "Nidzica",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie nidzickim"
+ },
+ {
+  "codes": [
+   "NEB"
+  ],
+  "location": "Pasłęk",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie elbląskim"
+ },
+ {
+  "codes": [
+   "NIL"
+  ],
+  "location": "Lubawa",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie iławskim"
+ },
+ {
+  "codes": [
+   "NWE"
+  ],
+  "location": "Węgorzewo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie węgorzewskim"
+ },
+ {
+  "codes": [
+   "NNM"
+  ],
+  "location": "Nowe Miasto Lubawskie",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie nowomiejskim"
+ },
+ {
+  "codes": [
+   "NOL"
+  ],
+  "location": "Biskupiec",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie olsztyńskim"
+ },
+ {
+  "codes": [
+   "NOL"
+  ],
+  "location": "Dobre Miasto",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie olsztyńskim"
+ },
+ {
+  "codes": [
+   "NLI"
+  ],
+  "location": "Orneta",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie lidzbarskim"
+ },
+ {
+  "codes": [
+   "NOL"
+  ],
+  "location": "Barczewo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie olsztyńskim"
+ },
+ {
+  "codes": [
+   "NDZ"
+  ],
+  "location": "Lidzbark",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie działdowskim"
+ },
+ {
+  "codes": [
+   "NOL"
+  ],
+  "location": "Olsztynek",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie olsztyńskim"
+ },
+ {
+  "codes": [
+   "NPI"
+  ],
+  "location": "Orzysz",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie piskim"
+ },
+ {
+  "codes": [
+   "NIL"
+  ],
+  "location": "Susz",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie iławskim"
+ },
+ {
+  "codes": [
+   "NPI"
+  ],
+  "location": "Ruciane-Nida",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie piskim"
+ },
+ {
+  "codes": [
+   "NKE"
+  ],
+  "location": "Reszel",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie kętrzyńskim"
+ },
+ {
+  "codes": [
+   "NKE"
+  ],
+  "location": "Korsze",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie kętrzyńskim"
+ },
+ {
+  "codes": [
+   "NPI"
+  ],
+  "location": "Biała Piska",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie piskim"
+ },
+ {
+  "codes": [
+   "NBA"
+  ],
+  "location": "Górowo Iławeckie",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie bartoszyckim"
+ },
+ {
+  "codes": [
+   "NMR"
+  ],
+  "location": "Mikołajki",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie mrągowskim"
+ },
+ {
+  "codes": [
+   "NSZ"
+  ],
+  "location": "Wielbark",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie szczycieńskim"
+ },
+ {
+  "codes": [
+   "NOL"
+  ],
+  "location": "Jeziorany",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie olsztyńskim"
+ },
+ {
+  "codes": [
+   "NGI"
+  ],
+  "location": "Ryn",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie giżyckim"
+ },
+ {
+  "codes": [
+   "NBR"
+  ],
+  "location": "Pieniężno",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie braniewskim"
+ },
+ {
+  "codes": [
+   "NOS",
+   "NOT",
+   "NOX"
+  ],
+  "location": "Miłomłyn",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie ostródzkim"
+ },
+ {
+  "codes": [
+   "NOS",
+   "NOT",
+   "NOX"
+  ],
+  "location": "Miłakowo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie ostródzkim"
+ },
+ {
+  "codes": [
+   "NEB"
+  ],
+  "location": "Tolkmicko",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie elbląskim"
+ },
+ {
+  "codes": [
+   "NSZ"
+  ],
+  "location": "Pasym",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie szczycieńskim"
+ },
+ {
+  "codes": [
+   "NBA"
+  ],
+  "location": "Bisztynek",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie bartoszyckim"
+ },
+ {
+  "codes": [
+   "NBR"
+  ],
+  "location": "Frombork",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie braniewskim"
+ },
+ {
+  "codes": [
+   "NIL"
+  ],
+  "location": "Zalewo",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie iławskim"
+ },
+ {
+  "codes": [
+   "NIL"
+  ],
+  "location": "Kisielice",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie iławskim"
+ },
+ {
+  "codes": [
+   "NBA"
+  ],
+  "location": "Sępopol",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie bartoszyckim"
+ },
+ {
+  "codes": [
+   "NEB"
+  ],
+  "location": "Młynary",
+  "region": "warmińsko-mazurskie",
+  "unit": "miasto w powiecie elbląskim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Piła",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "POS"
+  ],
+  "location": "Ostrów Wielkopolski",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrowskim"
+ },
+ {
+  "codes": [
+   "PGN"
+  ],
+  "location": "Gniezno",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gnieźnieńskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Luboń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PWR"
+  ],
+  "location": "Września",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wrzesińskim"
+ },
+ {
+  "codes": [
+   "PKR"
+  ],
+  "location": "Krotoszyn",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie krotoszyńskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Swarzędz",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PSE"
+  ],
+  "location": "Śrem",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie śremskim"
+ },
+ {
+  "codes": [
+   "PJA"
+  ],
+  "location": "Jarocin",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie jarocińskim"
+ },
+ {
+  "codes": [
+   "PWA"
+  ],
+  "location": "Wągrowiec",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wągrowieckim"
+ },
+ {
+  "codes": [
+   "PSR"
+  ],
+  "location": "Środa Wielkopolska",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie średzkim"
+ },
+ {
+  "codes": [
+   "PTU"
+  ],
+  "location": "Turek",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie tureckim"
+ },
+ {
+  "codes": [
+   "PKS"
+  ],
+  "location": "Kościan",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kościańskim"
+ },
+ {
+  "codes": [
+   "PGS"
+  ],
+  "location": "Gostyń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gostyńskim"
+ },
+ {
+  "codes": [
+   "PRA"
+  ],
+  "location": "Rawicz",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie rawickim"
+ },
+ {
+  "codes": [
+   "PKL"
+  ],
+  "location": "Koło",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kolskim"
+ },
+ {
+  "codes": [
+   "PSZ"
+  ],
+  "location": "Szamotuły",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie szamotulskim"
+ },
+ {
+  "codes": [
+   "PZL"
+  ],
+  "location": "Złotów",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie złotowskim"
+ },
+ {
+  "codes": [
+   "PCH"
+  ],
+  "location": "Chodzież",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie chodzieskim"
+ },
+ {
+  "codes": [
+   "POB"
+  ],
+  "location": "Oborniki",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie obornickim"
+ },
+ {
+  "codes": [
+   "PPL"
+  ],
+  "location": "Pleszew",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pleszewskim"
+ },
+ {
+  "codes": [
+   "PCT"
+  ],
+  "location": "Trzcianka",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie czarnkowsko-trzcianeckim"
+ },
+ {
+  "codes": [
+   "PGO"
+  ],
+  "location": "Grodzisk Wielkopolski",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie grodziskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Mosina",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "POT"
+  ],
+  "location": "Ostrzeszów",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrzeszowskim"
+ },
+ {
+  "codes": [
+   "PNT"
+  ],
+  "location": "Nowy Tomyśl",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie nowotomyskim"
+ },
+ {
+  "codes": [
+   "PKE"
+  ],
+  "location": "Kępno",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kępińskim"
+ },
+ {
+  "codes": [
+   "PSL"
+  ],
+  "location": "Słupca",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie słupeckim"
+ },
+ {
+  "codes": [
+   "PWL"
+  ],
+  "location": "Wolsztyn",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wolsztyńskim"
+ },
+ {
+  "codes": [
+   "POB"
+  ],
+  "location": "Rogoźno",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie obornickim"
+ },
+ {
+  "codes": [
+   "PSZ"
+  ],
+  "location": "Wronki",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie szamotulskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Murowana Goślina",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PMI"
+  ],
+  "location": "Międzychód",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie międzychodzkim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Pobiedziska",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Kostrzyn",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PCT"
+  ],
+  "location": "Czarnków",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie czarnkowsko-trzcianeckim"
+ },
+ {
+  "codes": [
+   "PNT"
+  ],
+  "location": "Opalenica",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie nowotomyskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Puszczykowo",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PZL"
+  ],
+  "location": "Jastrowie",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie złotowskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Kórnik",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PSZ"
+  ],
+  "location": "Pniewy",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie szamotulskim"
+ },
+ {
+  "codes": [
+   "PGN"
+  ],
+  "location": "Witkowo",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gnieźnieńskim"
+ },
+ {
+  "codes": [
+   "PGN"
+  ],
+  "location": "Trzemeszno",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gnieźnieńskim"
+ },
+ {
+  "codes": [
+   "PNT"
+  ],
+  "location": "Zbąszyń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie nowotomyskim"
+ },
+ {
+  "codes": [
+   "PKR"
+  ],
+  "location": "Koźmin Wielkopolski",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie krotoszyńskim"
+ },
+ {
+  "codes": [
+   "PCT"
+  ],
+  "location": "Krzyż Wielkopolski",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie czarnkowsko-trzcianeckim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Stęszew",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PKL"
+  ],
+  "location": "Kłodawa",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kolskim"
+ },
+ {
+  "codes": [
+   "PMI"
+  ],
+  "location": "Sieraków",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie międzychodzkim"
+ },
+ {
+  "codes": [
+   "PCT"
+  ],
+  "location": "Wieleń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie czarnkowsko-trzcianeckim"
+ },
+ {
+  "codes": [
+   "PKS"
+  ],
+  "location": "Śmigiel",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kościańskim"
+ },
+ {
+  "codes": [
+   "POZ",
+   "PZ"
+  ],
+  "location": "Buk",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie poznańskim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Wyrzysk",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "PKS"
+  ],
+  "location": "Czempiń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kościańskim"
+ },
+ {
+  "codes": [
+   "POS"
+  ],
+  "location": "Odolanów",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrowskim"
+ },
+ {
+  "codes": [
+   "PWA"
+  ],
+  "location": "Skoki",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wągrowieckim"
+ },
+ {
+  "codes": [
+   "PCH"
+  ],
+  "location": "Budzyń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie chodzieskim"
+ },
+ {
+  "codes": [
+   "POS"
+  ],
+  "location": "Nowe Skalmierzyce",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrowskim"
+ },
+ {
+  "codes": [
+   "PGS"
+  ],
+  "location": "Krobia",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gostyńskim"
+ },
+ {
+  "codes": [
+   "PKR"
+  ],
+  "location": "Zduny",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie krotoszyńskim"
+ },
+ {
+  "codes": [
+   "PKN"
+  ],
+  "location": "Golina",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie konińskim"
+ },
+ {
+  "codes": [
+   "PCH"
+  ],
+  "location": "Szamocin",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie chodzieskim"
+ },
+ {
+  "codes": [
+   "PKN"
+  ],
+  "location": "Kleczew",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie konińskim"
+ },
+ {
+  "codes": [
+   "PWR"
+  ],
+  "location": "Nekla",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wrzesińskim"
+ },
+ {
+  "codes": [
+   "PZL"
+  ],
+  "location": "Okonek",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie złotowskim"
+ },
+ {
+  "codes": [
+   "PGO"
+  ],
+  "location": "Rakoniewice",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie grodziskim"
+ },
+ {
+  "codes": [
+   "PKA"
+  ],
+  "location": "Opatówek",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kaliskim"
+ },
+ {
+  "codes": [
+   "PZL"
+  ],
+  "location": "Krajenka",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie złotowskim"
+ },
+ {
+  "codes": [
+   "PWR"
+  ],
+  "location": "Miłosław",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wrzesińskim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Ujście",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "PKN"
+  ],
+  "location": "Sompolno",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie konińskim"
+ },
+ {
+  "codes": [
+   "PKR"
+  ],
+  "location": "Kobylin",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie krotoszyńskim"
+ },
+ {
+  "codes": [
+   "PWA"
+  ],
+  "location": "Gołańcz",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wągrowieckim"
+ },
+ {
+  "codes": [
+   "PKN"
+  ],
+  "location": "Ślesin",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie konińskim"
+ },
+ {
+  "codes": [
+   "PRA"
+  ],
+  "location": "Miejska Górka",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie rawickim"
+ },
+ {
+  "codes": [
+   "PTU"
+  ],
+  "location": "Tuliszków",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie tureckim"
+ },
+ {
+  "codes": [
+   "PCH"
+  ],
+  "location": "Margonin",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie chodzieskim"
+ },
+ {
+  "codes": [
+   "PSE"
+  ],
+  "location": "Książ Wielkopolski",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie śremskim"
+ },
+ {
+  "codes": [
+   "PWR"
+  ],
+  "location": "Pyzdry",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wrzesińskim"
+ },
+ {
+  "codes": [
+   "PPL"
+  ],
+  "location": "Dobrzyca",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pleszewskim"
+ },
+ {
+  "codes": [
+   "PNT"
+  ],
+  "location": "Lwówek",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie nowotomyskim"
+ },
+ {
+  "codes": [
+   "PGS"
+  ],
+  "location": "Poniec",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gostyńskim"
+ },
+ {
+  "codes": [
+   "PLE"
+  ],
+  "location": "Rydzyna",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie leszczyńskim"
+ },
+ {
+  "codes": [
+   "PRA"
+  ],
+  "location": "Bojanowo",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie rawickim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Kaczory",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Łobżenica",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "PKR"
+  ],
+  "location": "Sulmierzyce",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie krotoszyńskim"
+ },
+ {
+  "codes": [
+   "PSL"
+  ],
+  "location": "Zagórów",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie słupeckim"
+ },
+ {
+  "codes": [
+   "PSR"
+  ],
+  "location": "Zaniemyśl",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie średzkim"
+ },
+ {
+  "codes": [
+   "PGN"
+  ],
+  "location": "Czerniejewo",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gnieźnieńskim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Wysoka",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "PGN"
+  ],
+  "location": "Kłecko",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gnieźnieńskim"
+ },
+ {
+  "codes": [
+   "PLE"
+  ],
+  "location": "Osieczna",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie leszczyńskim"
+ },
+ {
+  "codes": [
+   "PGS"
+  ],
+  "location": "Borek Wielkopolski",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gostyńskim"
+ },
+ {
+  "codes": [
+   "PWA"
+  ],
+  "location": "Mieścisko",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie wągrowieckim"
+ },
+ {
+  "codes": [
+   "PSZ"
+  ],
+  "location": "Obrzycko",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie szamotulskim"
+ },
+ {
+  "codes": [
+   "PKN"
+  ],
+  "location": "Rychwał",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie konińskim"
+ },
+ {
+  "codes": [
+   "POS"
+  ],
+  "location": "Raszków",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrowskim"
+ },
+ {
+  "codes": [
+   "PJA"
+  ],
+  "location": "Żerków",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie jarocińskim"
+ },
+ {
+  "codes": [
+   "PGS"
+  ],
+  "location": "Pogorzela",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie gostyńskim"
+ },
+ {
+  "codes": [
+   "POT"
+  ],
+  "location": "Grabów nad Prosną",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrzeszowskim"
+ },
+ {
+  "codes": [
+   "PRA"
+  ],
+  "location": "Jutrosin",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie rawickim"
+ },
+ {
+  "codes": [
+   "PSZ"
+  ],
+  "location": "Ostroróg",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie szamotulskim"
+ },
+ {
+  "codes": [
+   "PKA"
+  ],
+  "location": "Koźminek",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kaliskim"
+ },
+ {
+  "codes": [
+   "PKL"
+  ],
+  "location": "Dąbie",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kolskim"
+ },
+ {
+  "codes": [
+   "POT"
+  ],
+  "location": "Mikstat",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie ostrzeszowskim"
+ },
+ {
+  "codes": [
+   "PKS"
+  ],
+  "location": "Krzywiń",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kościańskim"
+ },
+ {
+  "codes": [
+   "PGO"
+  ],
+  "location": "Wielichowo",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie grodziskim"
+ },
+ {
+  "codes": [
+   "PPL"
+  ],
+  "location": "Chocz",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pleszewskim"
+ },
+ {
+  "codes": [
+   "PSE"
+  ],
+  "location": "Dolsk",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie śremskim"
+ },
+ {
+  "codes": [
+   "PKL"
+  ],
+  "location": "Przedecz",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kolskim"
+ },
+ {
+  "codes": [
+   "PJA"
+  ],
+  "location": "Jaraczewo",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie jarocińskim"
+ },
+ {
+  "codes": [
+   "PKA"
+  ],
+  "location": "Stawiszyn",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kaliskim"
+ },
+ {
+  "codes": [
+   "PKE"
+  ],
+  "location": "Rychtal",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie kępińskim"
+ },
+ {
+  "codes": [
+   "PTU"
+  ],
+  "location": "Dobra",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie tureckim"
+ },
+ {
+  "codes": [
+   "PP"
+  ],
+  "location": "Miasteczko Krajeńskie",
+  "region": "wielkopolskie",
+  "unit": "miasto w powiecie pilskim"
+ },
+ {
+  "codes": [
+   "ZST"
+  ],
+  "location": "Stargard",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie stargardzkim"
+ },
+ {
+  "codes": [
+   "ZKL"
+  ],
+  "location": "Kołobrzeg",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kołobrzeskim"
+ },
+ {
+  "codes": [
+   "ZSZ"
+  ],
+  "location": "Szczecinek",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie szczecineckim"
+ },
+ {
+  "codes": [
+   "ZPL"
+  ],
+  "location": "Police",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie polickim"
+ },
+ {
+  "codes": [
+   "ZWA"
+  ],
+  "location": "Wałcz",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie wałeckim"
+ },
+ {
+  "codes": [
+   "ZBI"
+  ],
+  "location": "Białogard",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie białogardzkim"
+ },
+ {
+  "codes": [
+   "ZGL"
+  ],
+  "location": "Goleniów",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie goleniowskim"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "location": "Gryfino",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfińskim"
+ },
+ {
+  "codes": [
+   "ZGL"
+  ],
+  "location": "Nowogard",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie goleniowskim"
+ },
+ {
+  "codes": [
+   "ZGY"
+  ],
+  "location": "Gryfice",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfickim"
+ },
+ {
+  "codes": [
+   "ZSD"
+  ],
+  "location": "Świdwin",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie świdwińskim"
+ },
+ {
+  "codes": [
+   "ZCH"
+  ],
+  "location": "Choszczno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie choszczeńskim"
+ },
+ {
+  "codes": [
+   "ZMY"
+  ],
+  "location": "Barlinek",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie myśliborskim"
+ },
+ {
+  "codes": [
+   "ZMY"
+  ],
+  "location": "Dębno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie myśliborskim"
+ },
+ {
+  "codes": [
+   "ZSL"
+  ],
+  "location": "Darłowo",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie sławieńskim"
+ },
+ {
+  "codes": [
+   "ZDR"
+  ],
+  "location": "Złocieniec",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie drawskim"
+ },
+ {
+  "codes": [
+   "ZPY"
+  ],
+  "location": "Pyrzyce",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie pyrzyckim"
+ },
+ {
+  "codes": [
+   "ZSL"
+  ],
+  "location": "Sławno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie sławieńskim"
+ },
+ {
+  "codes": [
+   "ZDR"
+  ],
+  "location": "Drawsko Pomorskie",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie drawskim"
+ },
+ {
+  "codes": [
+   "ZMY"
+  ],
+  "location": "Myślibórz",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie myśliborskim"
+ },
+ {
+  "codes": [
+   "ZLO"
+  ],
+  "location": "Łobez",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie łobeskim"
+ },
+ {
+  "codes": [
+   "ZGY"
+  ],
+  "location": "Trzebiatów",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfickim"
+ },
+ {
+  "codes": [
+   "ZKA"
+  ],
+  "location": "Kamień Pomorski",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kamieńskim"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "location": "Chojna",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfińskim"
+ },
+ {
+  "codes": [
+   "ZSD"
+  ],
+  "location": "Połczyn-Zdrój",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie świdwińskim"
+ },
+ {
+  "codes": [
+   "ZKO"
+  ],
+  "location": "Sianów",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie koszalińskim"
+ },
+ {
+  "codes": [
+   "ZDR"
+  ],
+  "location": "Czaplinek",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie drawskim"
+ },
+ {
+  "codes": [
+   "ZBI"
+  ],
+  "location": "Karlino",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie białogardzkim"
+ },
+ {
+  "codes": [
+   "ZKA"
+  ],
+  "location": "Międzyzdroje",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kamieńskim"
+ },
+ {
+  "codes": [
+   "ZSZ"
+  ],
+  "location": "Borne Sulinowo",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie szczecineckim"
+ },
+ {
+  "codes": [
+   "ZKA"
+  ],
+  "location": "Wolin",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kamieńskim"
+ },
+ {
+  "codes": [
+   "ZDR"
+  ],
+  "location": "Kalisz Pomorski",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie drawskim"
+ },
+ {
+  "codes": [
+   "ZLO"
+  ],
+  "location": "Resko",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie łobeskim"
+ },
+ {
+  "codes": [
+   "ZPY"
+  ],
+  "location": "Lipiany",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie pyrzyckim"
+ },
+ {
+  "codes": [
+   "ZGY"
+  ],
+  "location": "Płoty",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfickim"
+ },
+ {
+  "codes": [
+   "ZKO"
+  ],
+  "location": "Bobolice",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie koszalińskim"
+ },
+ {
+  "codes": [
+   "ZSZ"
+  ],
+  "location": "Barwice",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie szczecineckim"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "location": "Mieszkowice",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfińskim"
+ },
+ {
+  "codes": [
+   "ZGL"
+  ],
+  "location": "Maszewo",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie goleniowskim"
+ },
+ {
+  "codes": [
+   "ZWA"
+  ],
+  "location": "Mirosławiec",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie wałeckim"
+ },
+ {
+  "codes": [
+   "ZST"
+  ],
+  "location": "Chociwel",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie stargardzkim"
+ },
+ {
+  "codes": [
+   "ZKO"
+  ],
+  "location": "Polanów",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie koszalińskim"
+ },
+ {
+  "codes": [
+   "ZKO"
+  ],
+  "location": "Mielno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie koszalińskim"
+ },
+ {
+  "codes": [
+   "ZKL"
+  ],
+  "location": "Gościno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kołobrzeskim"
+ },
+ {
+  "codes": [
+   "ZCH"
+  ],
+  "location": "Recz",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie choszczeńskim"
+ },
+ {
+  "codes": [
+   "ZLO"
+  ],
+  "location": "Węgorzyno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie łobeskim"
+ },
+ {
+  "codes": [
+   "ZGL"
+  ],
+  "location": "Stepnica",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie goleniowskim"
+ },
+ {
+  "codes": [
+   "ZKA"
+  ],
+  "location": "Golczewo",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kamieńskim"
+ },
+ {
+  "codes": [
+   "ZCH"
+  ],
+  "location": "Pełczyce",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie choszczeńskim"
+ },
+ {
+  "codes": [
+   "ZBI"
+  ],
+  "location": "Tychowo",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie białogardzkim"
+ },
+ {
+  "codes": [
+   "ZKA"
+  ],
+  "location": "Dziwnów",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie kamieńskim"
+ },
+ {
+  "codes": [
+   "ZCH"
+  ],
+  "location": "Drawno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie choszczeńskim"
+ },
+ {
+  "codes": [
+   "ZST"
+  ],
+  "location": "Dobrzany",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie stargardzkim"
+ },
+ {
+  "codes": [
+   "ZWA"
+  ],
+  "location": "Człopa",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie wałeckim"
+ },
+ {
+  "codes": [
+   "ZSZ"
+  ],
+  "location": "Biały Bór",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie szczecineckim"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "location": "Trzcińsko-Zdrój",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfińskim"
+ },
+ {
+  "codes": [
+   "ZLO"
+  ],
+  "location": "Dobra",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie łobeskim"
+ },
+ {
+  "codes": [
+   "ZWA"
+  ],
+  "location": "Tuczno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie wałeckim"
+ },
+ {
+  "codes": [
+   "ZST"
+  ],
+  "location": "Ińsko",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie stargardzkim"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "location": "Moryń",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfińskim"
+ },
+ {
+  "codes": [
+   "ZGR"
+  ],
+  "location": "Cedynia",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie gryfińskim"
+ },
+ {
+  "codes": [
+   "ZST"
+  ],
+  "location": "Suchań",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie stargardzkim"
+ },
+ {
+  "codes": [
+   "ZPL"
+  ],
+  "location": "Nowe Warpno",
+  "region": "zachodniopomorskie",
+  "unit": "miasto w powiecie polickim"
+ }
+]

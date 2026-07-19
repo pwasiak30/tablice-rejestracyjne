@@ -1,0 +1,954 @@
+city,powiat,voivodeship
+Lubin,lubiński,dolnośląskie
+Głogów,głogowski,dolnośląskie
+Świdnica,świdnicki,dolnośląskie
+Bolesławiec,bolesławiecki,dolnośląskie
+Oleśnica,oleśnicki,dolnośląskie
+Oława,oławski,dolnośląskie
+Dzierżoniów,dzierżoniowski,dolnośląskie
+Zgorzelec,zgorzelecki,dolnośląskie
+Bielawa,dzierżoniowski,dolnośląskie
+Kłodzko,kłodzki,dolnośląskie
+Świebodzice,świdnicki,dolnośląskie
+Polkowice,polkowicki,dolnośląskie
+Jawor,jaworski,dolnośląskie
+Nowa Ruda,kłodzki,dolnośląskie
+Lubań,lubański,dolnośląskie
+Kamienna Góra,kamiennogórski,dolnośląskie
+Bogatynia,zgorzelecki,dolnośląskie
+Jelcz-Laskowice,oławski,dolnośląskie
+Strzegom,świdnicki,dolnośląskie
+Ząbkowice Śląskie,ząbkowicki,dolnośląskie
+Boguszów-Gorce,wałbrzyski,dolnośląskie
+Złotoryja,złotoryjski,dolnośląskie
+Trzebnica,trzebnicki,dolnośląskie
+Brzeg Dolny,wołowski,dolnośląskie
+Chojnów,legnicki,dolnośląskie
+Wołów,wołowski,dolnośląskie
+Strzelin,strzeliński,dolnośląskie
+Góra,górowski,dolnośląskie
+Milicz,milicki,dolnośląskie
+Siechnice,wrocławski,dolnośląskie
+Syców,oleśnicki,dolnośląskie
+Kowary,karkonoski,dolnośląskie
+Środa Śląska,średzki,dolnośląskie
+Kudowa-Zdrój,kłodzki,dolnośląskie
+Bystrzyca Kłodzka,kłodzki,dolnośląskie
+Oborniki Śląskie,trzebnicki,dolnośląskie
+Lwówek Śląski,lwówecki,dolnośląskie
+Ziębice,ząbkowicki,dolnośląskie
+Chocianów,polkowicki,dolnośląskie
+Kąty Wrocławskie,wrocławski,dolnośląskie
+Sobótka,wrocławski,dolnośląskie
+Pieszyce,dzierżoniowski,dolnośląskie
+Żarów,świdnicki,dolnośląskie
+Twardogóra,oleśnicki,dolnośląskie
+Żmigród,trzebnicki,dolnośląskie
+Gryfów Śląski,lwówecki,dolnośląskie
+Głuszyca,wałbrzyski,dolnośląskie
+Polanica-Zdrój,kłodzki,dolnośląskie
+Piława Górna,dzierżoniowski,dolnośląskie
+Piechowice,karkonoski,dolnośląskie
+Szklarska Poręba,karkonoski,dolnośląskie
+Lubawka,kamiennogórski,dolnośląskie
+Przemków,polkowicki,dolnośląskie
+Pieńsk,zgorzelecki,dolnośląskie
+Ścinawa,lubiński,dolnośląskie
+Szczawno-Zdrój,wałbrzyski,dolnośląskie
+Jaworzyna Śląska,świdnicki,dolnośląskie
+Lądek-Zdrój,kłodzki,dolnośląskie
+Stronie Śląskie,kłodzki,dolnośląskie
+Szczytna,kłodzki,dolnośląskie
+Bolków,jaworski,dolnośląskie
+Jedlina-Zdrój,wałbrzyski,dolnośląskie
+Bierutów,oleśnicki,dolnośląskie
+Kamieniec Ząbkowicki,ząbkowicki,dolnośląskie
+Olszyna,lubański,dolnośląskie
+Karpacz,karkonoski,dolnośląskie
+Nowogrodziec,bolesławiecki,dolnośląskie
+Leśna,lubański,dolnośląskie
+Duszniki-Zdrój,kłodzki,dolnośląskie
+Świeradów-Zdrój,lubański,dolnośląskie
+Mieroszów,wałbrzyski,dolnośląskie
+Zawidów,zgorzelecki,dolnośląskie
+Mirsk,lwówecki,dolnośląskie
+Prochowice,legnicki,dolnośląskie
+Wojcieszów,złotoryjski,dolnośląskie
+Niemcza,dzierżoniowski,dolnośląskie
+Węgliniec,zgorzelecki,dolnośląskie
+Wąsosz,górowski,dolnośląskie
+Złoty Stok,ząbkowicki,dolnośląskie
+Międzylesie,kłodzki,dolnośląskie
+Bardo,ząbkowicki,dolnośląskie
+Międzybórz,oleśnicki,dolnośląskie
+Radków,kłodzki,dolnośląskie
+Wiązów,strzeliński,dolnośląskie
+Prusice,trzebnicki,dolnośląskie
+Miękinia,średzki,dolnośląskie
+Świerzawa,złotoryjski,dolnośląskie
+Lubomierz,lwówecki,dolnośląskie
+Wleń,lwówecki,dolnośląskie
+Inowrocław,inowrocławski,kujawsko-pomorskie
+Brodnica,brodnicki,kujawsko-pomorskie
+Świecie,świecki,kujawsko-pomorskie
+Chełmno,chełmiński,kujawsko-pomorskie
+Nakło nad Notecią,nakielski,kujawsko-pomorskie
+Rypin,rypiński,kujawsko-pomorskie
+Solec Kujawski,bydgoski,kujawsko-pomorskie
+Chełmża,toruński,kujawsko-pomorskie
+Lipno,lipnowski,kujawsko-pomorskie
+Tuchola,tucholski,kujawsko-pomorskie
+Żnin,żniński,kujawsko-pomorskie
+Wąbrzeźno,wąbrzeski,kujawsko-pomorskie
+Aleksandrów Kujawski,aleksandrowski,kujawsko-pomorskie
+Golub-Dobrzyń,golubsko-dobrzyński,kujawsko-pomorskie
+Mogilno,mogileński,kujawsko-pomorskie
+Koronowo,bydgoski,kujawsko-pomorskie
+Ciechocinek,aleksandrowski,kujawsko-pomorskie
+Szubin,nakielski,kujawsko-pomorskie
+Kruszwica,inowrocławski,kujawsko-pomorskie
+Sępólno Krajeńskie,sępoleński,kujawsko-pomorskie
+Janikowo,inowrocławski,kujawsko-pomorskie
+Barcin,żniński,kujawsko-pomorskie
+Gniewkowo,inowrocławski,kujawsko-pomorskie
+Więcbork,sępoleński,kujawsko-pomorskie
+Nowe,świecki,kujawsko-pomorskie
+Strzelno,mogileński,kujawsko-pomorskie
+Pakość,inowrocławski,kujawsko-pomorskie
+Radziejów,radziejowski,kujawsko-pomorskie
+Brześć Kujawski,włocławski,kujawsko-pomorskie
+Łabiszyn,żniński,kujawsko-pomorskie
+Kcynia,nakielski,kujawsko-pomorskie
+Piotrków Kujawski,radziejowski,kujawsko-pomorskie
+Mrocza,nakielski,kujawsko-pomorskie
+Kowalewo Pomorskie,golubsko-dobrzyński,kujawsko-pomorskie
+Jabłonowo Pomorskie,brodnicki,kujawsko-pomorskie
+Janowiec Wielkopolski,żniński,kujawsko-pomorskie
+Skępe,lipnowski,kujawsko-pomorskie
+Kowal,włocławski,kujawsko-pomorskie
+Łasin,grudziądzki,kujawsko-pomorskie
+Pruszcz,świecki,kujawsko-pomorskie
+Lubraniec,włocławski,kujawsko-pomorskie
+Izbica Kujawska,włocławski,kujawsko-pomorskie
+Kamień Krajeński,sępoleński,kujawsko-pomorskie
+Kikół,lipnowski,kujawsko-pomorskie
+Dobrzyń nad Wisłą,lipnowski,kujawsko-pomorskie
+Radzyń Chełmiński,grudziądzki,kujawsko-pomorskie
+Nieszawa,aleksandrowski,kujawsko-pomorskie
+Chodecz,włocławski,kujawsko-pomorskie
+Gąsawa,żniński,kujawsko-pomorskie
+Górzno,brodnicki,kujawsko-pomorskie
+Lubień Kujawski,włocławski,kujawsko-pomorskie
+Bobrowniki,lipnowski,kujawsko-pomorskie
+Puławy,puławski,lubelskie
+Świdnik,świdnicki,lubelskie
+Kraśnik,kraśnicki,lubelskie
+Łuków,łukowski,lubelskie
+Biłgoraj,biłgorajski,lubelskie
+Lubartów,lubartowski,lubelskie
+Tomaszów Lubelski,tomaszowski,lubelskie
+Łęczna,łęczyński,lubelskie
+Krasnystaw,krasnostawski,lubelskie
+Hrubieszów,hrubieszowski,lubelskie
+Międzyrzec Podlaski,bialski,lubelskie
+Radzyń Podlaski,radzyński,lubelskie
+Dęblin,rycki,lubelskie
+Włodawa,włodawski,lubelskie
+Janów Lubelski,janowski,lubelskie
+Parczew,parczewski,lubelskie
+Ryki,rycki,lubelskie
+Poniatowa,opolski,lubelskie
+Opole Lubelskie,opolski,lubelskie
+Bełżyce,lubelski,lubelskie
+Terespol,bialski,lubelskie
+Szczebrzeszyn,zamojski,lubelskie
+Bychawa,lubelski,lubelskie
+Rejowiec Fabryczny,chełmski,lubelskie
+Nałęczów,puławski,lubelskie
+Kazimierz Dolny,puławski,lubelskie
+Tarnogród,biłgorajski,lubelskie
+Krasnobród,zamojski,lubelskie
+Kock,lubartowski,lubelskie
+Zwierzyniec,zamojski,lubelskie
+Kurów,puławski,lubelskie
+Janów Podlaski,bialski,lubelskie
+Piaski,świdnicki,lubelskie
+Stoczek Łukowski,łukowski,lubelskie
+Józefów,biłgorajski,lubelskie
+Annopol,kraśnicki,lubelskie
+Lubycza Królewska,tomaszowski,lubelskie
+Piszczac,bialski,lubelskie
+Rejowiec,chełmski,lubelskie
+Końskowola,puławski,lubelskie
+Łaszczów,tomaszowski,lubelskie
+Ostrów Lubelski,lubartowski,lubelskie
+Tyszowce,tomaszowski,lubelskie
+Kamionka,lubartowski,lubelskie
+Urzędów,kraśnicki,lubelskie
+Izbica,krasnostawski,lubelskie
+Modliborzyce,janowski,lubelskie
+Frampol,biłgorajski,lubelskie
+Siedliszcze,chełmski,lubelskie
+Czemierniki,radzyński,lubelskie
+Wąwolnica,puławski,lubelskie
+Goraj,biłgorajski,lubelskie
+Turobin,biłgorajski,lubelskie
+Józefów nad Wisłą,opolski,lubelskie
+Nowa Sól,nowosolski,lubuskie
+Żary,żarski,lubuskie
+Żagań,żagański,lubuskie
+Świebodzin,świebodziński,lubuskie
+Kostrzyn nad Odrą,gorzowski,lubuskie
+Międzyrzecz,międzyrzecki,lubuskie
+Słubice,słubicki,lubuskie
+Gubin,krośnieński,lubuskie
+Sulechów,zielonogórski,lubuskie
+Wschowa,wschowski,lubuskie
+Lubsko,żarski,lubuskie
+Szprotawa,żagański,lubuskie
+Krosno Odrzańskie,krośnieński,lubuskie
+Sulęcin,sulęciński,lubuskie
+Strzelce Krajeńskie,strzelecko-drezdenecki,lubuskie
+Drezdenko,strzelecko-drezdenecki,lubuskie
+Skwierzyna,międzyrzecki,lubuskie
+Kożuchów,nowosolski,lubuskie
+Witnica,gorzowski,lubuskie
+Rzepin,słubicki,lubuskie
+Zbąszynek,świebodziński,lubuskie
+Nowogród Bobrzański,zielonogórski,lubuskie
+Sława,wschowski,lubuskie
+Jasień,żarski,lubuskie
+Bytom Odrzański,nowosolski,lubuskie
+Ośno Lubuskie,słubicki,lubuskie
+Babimost,zielonogórski,lubuskie
+Kargowa,zielonogórski,lubuskie
+Czerwieńsk,zielonogórski,lubuskie
+Iłowa,żagański,lubuskie
+Małomice,żagański,lubuskie
+Dobiegniew,strzelecko-drezdenecki,lubuskie
+Gozdnica,żagański,lubuskie
+Cybinka,słubicki,lubuskie
+Nowe Miasteczko,nowosolski,lubuskie
+Torzym,sulęciński,lubuskie
+Łęknica,żarski,lubuskie
+Trzciel,międzyrzecki,lubuskie
+Lubniewice,sulęciński,lubuskie
+Otyń,nowosolski,lubuskie
+Szlichtyngowa,wschowski,lubuskie
+Brody,żarski,lubuskie
+Pabianice,pabianicki,łódzkie
+Tomaszów Mazowiecki,tomaszowski,łódzkie
+Zgierz,zgierski,łódzkie
+Bełchatów,bełchatowski,łódzkie
+Radomsko,radomszczański,łódzkie
+Kutno,kutnowski,łódzkie
+Sieradz,sieradzki,łódzkie
+Zduńska Wola,zduńskowolski,łódzkie
+Łowicz,łowicki,łódzkie
+Aleksandrów Łódzki,zgierski,łódzkie
+Wieluń,wieluński,łódzkie
+Opoczno,opoczyński,łódzkie
+Konstantynów Łódzki,pabianicki,łódzkie
+Ozorków,zgierski,łódzkie
+Łask,łaski,łódzkie
+Rawa Mazowiecka,rawski,łódzkie
+Głowno,zgierski,łódzkie
+Łęczyca,łęczycki,łódzkie
+Koluszki,łódzki wschodni,łódzkie
+Brzeziny,brzeziński,łódzkie
+Wieruszów,wieruszowski,łódzkie
+Żychlin,kutnowski,łódzkie
+Tuszyn,łódzki wschodni,łódzkie
+Zelów,bełchatowski,łódzkie
+Poddębice,poddębicki,łódzkie
+Pajęczno,pajęczański,łódzkie
+Sulejów,piotrkowski,łódzkie
+Działoszyn,pajęczański,łódzkie
+Krośniewice,kutnowski,łódzkie
+Drzewica,opoczyński,łódzkie
+Rzgów,łódzki wschodni,łódzkie
+Złoczew,sieradzki,łódzkie
+Stryków,zgierski,łódzkie
+Przedbórz,radomszczański,łódzkie
+Biała Rawska,rawski,łódzkie
+Warta,sieradzki,łódzkie
+Uniejów,poddębicki,łódzkie
+Kamieńsk,radomszczański,łódzkie
+Wolbórz,piotrkowski,łódzkie
+Lututów,wieruszowski,łódzkie
+Błaszki,sieradzki,łódzkie
+Szadek,zduńskowolski,łódzkie
+Rozprza,piotrkowski,łódzkie
+Lutomiersk,pabianicki,łódzkie
+Piątek,łęczycki,łódzkie
+Ujazd,tomaszowski,łódzkie
+Osjaków,wieluński,łódzkie
+Jeżów,brzeziński,łódzkie
+Bolesławiec,wieruszowski,łódzkie
+Żarnów,opoczyński,łódzkie
+Białaczów,opoczyński,łódzkie
+Grabów,łęczycki,łódzkie
+Dąbrowice,kutnowski,łódzkie
+Parzęczew,zgierski,łódzkie
+Bolimów,skierniewicki,łódzkie
+Kiernozia,łowicki,łódzkie
+Inowłódz,tomaszowski,łódzkie
+Oświęcim,oświęcimski,małopolskie
+Chrzanów,chrzanowski,małopolskie
+Nowy Targ,nowotarski,małopolskie
+Olkusz,olkuski,małopolskie
+Bochnia,bocheński,małopolskie
+Wieliczka,wielicki,małopolskie
+Gorlice,gorlicki,małopolskie
+Zakopane,tatrzański,małopolskie
+Skawina,krakowski,małopolskie
+Trzebinia,chrzanowski,małopolskie
+Andrychów,wadowicki,małopolskie
+Myślenice,myślenicki,małopolskie
+Kęty,oświęcimski,małopolskie
+Wadowice,wadowicki,małopolskie
+Niepołomice,wielicki,małopolskie
+Brzesko,brzeski,małopolskie
+Libiąż,chrzanowski,małopolskie
+Limanowa,limanowski,małopolskie
+Rabka-Zdrój,nowotarski,małopolskie
+Dąbrowa Tarnowska,dąbrowski,małopolskie
+Miechów,miechowski,małopolskie
+Brzeszcze,oświęcimski,małopolskie
+Krzeszowice,krakowski,małopolskie
+Krynica-Zdrój,nowosądecki,małopolskie
+Bukowno,olkuski,małopolskie
+Sucha Beskidzka,suski,małopolskie
+Stary Sącz,nowosądecki,małopolskie
+Chełmek,oświęcimski,małopolskie
+Wolbrom,olkuski,małopolskie
+Mszana Dolna,limanowski,małopolskie
+Sułkowice,myślenicki,małopolskie
+Tuchów,tarnowski,małopolskie
+Dobczyce,myślenicki,małopolskie
+Grybów,nowosądecki,małopolskie
+Proszowice,proszowicki,małopolskie
+Maków Podhalański,suski,małopolskie
+Jordanów,suski,małopolskie
+Piwniczna-Zdrój,nowosądecki,małopolskie
+Szczawnica,nowotarski,małopolskie
+Muszyna,nowosądecki,małopolskie
+Biecz,gorlicki,małopolskie
+Kalwaria Zebrzydowska,wadowicki,małopolskie
+Słomniki,krakowski,małopolskie
+Żabno,tarnowski,małopolskie
+Szczucin,dąbrowski,małopolskie
+Skała,krakowski,małopolskie
+Czarny Dunajec,nowotarski,małopolskie
+Zator,oświęcimski,małopolskie
+Alwernia,chrzanowski,małopolskie
+Wojnicz,tarnowski,małopolskie
+Bobowa,gorlicki,małopolskie
+Nowy Wiśnicz,bocheński,małopolskie
+Radłów,tarnowski,małopolskie
+Ryglice,tarnowski,małopolskie
+Ciężkowice,tarnowski,małopolskie
+Świątniki Górne,krakowski,małopolskie
+Czchów,brzeski,małopolskie
+Nowe Brzesko,proszowicki,małopolskie
+Zakliczyn,tarnowski,małopolskie
+Książ Wielki,miechowski,małopolskie
+Koszyce,proszowicki,małopolskie
+Pruszków,pruszkowski,mazowieckie
+Legionowo,legionowski,mazowieckie
+Piaseczno,piaseczyński,mazowieckie
+Ząbki,wołomiński,mazowieckie
+Otwock,otwocki,mazowieckie
+Ciechanów,ciechanowski,mazowieckie
+Mińsk Mazowiecki,miński,mazowieckie
+Marki,wołomiński,mazowieckie
+Żyrardów,żyrardowski,mazowieckie
+Wołomin,wołomiński,mazowieckie
+Grodzisk Mazowiecki,grodziski,mazowieckie
+Sochaczew,sochaczewski,mazowieckie
+Mława,mławski,mazowieckie
+Nowy Dwór Mazowiecki,nowodworski,mazowieckie
+Kobyłka,wołomiński,mazowieckie
+Wyszków,wyszkowski,mazowieckie
+Piastów,pruszkowski,mazowieckie
+Ostrów Mazowiecka,ostrowski,mazowieckie
+Płońsk,płoński,mazowieckie
+Sulejówek,miński,mazowieckie
+Józefów,otwocki,mazowieckie
+Pułtusk,pułtuski,mazowieckie
+Sokołów Podlaski,sokołowski,mazowieckie
+Łomianki,warszawski zachodni,mazowieckie
+Zielonka,wołomiński,mazowieckie
+Garwolin,garwoliński,mazowieckie
+Gostynin,gostyniński,mazowieckie
+Sierpc,sierpecki,mazowieckie
+Konstancin-Jeziorna,piaseczyński,mazowieckie
+Grójec,grójecki,mazowieckie
+Milanówek,grodziski,mazowieckie
+Przasnysz,przasnyski,mazowieckie
+Pionki,radomski,mazowieckie
+Ożarów Mazowiecki,warszawski zachodni,mazowieckie
+Kozienice,kozienicki,mazowieckie
+Radzymin,wołomiński,mazowieckie
+Brwinów,pruszkowski,mazowieckie
+Błonie,warszawski zachodni,mazowieckie
+Góra Kalwaria,piaseczyński,mazowieckie
+Warka,grójecki,mazowieckie
+Węgrów,węgrowski,mazowieckie
+Szydłowiec,szydłowiecki,mazowieckie
+Karczew,otwocki,mazowieckie
+Maków Mazowiecki,makowski,mazowieckie
+Żuromin,żuromiński,mazowieckie
+Tłuszcz,wołomiński,mazowieckie
+Nasielsk,nowodworski,mazowieckie
+Zwoleń,zwoleński,mazowieckie
+Łosice,łosicki,mazowieckie
+Łochów,węgrowski,mazowieckie
+Białobrzegi,białobrzeski,mazowieckie
+Mszczonów,żyrardowski,mazowieckie
+Przysucha,przysuski,mazowieckie
+Serock,legionowski,mazowieckie
+Lipsko,lipski,mazowieckie
+Łaskarzew,garwoliński,mazowieckie
+Skaryszew,radomski,mazowieckie
+Pilawa,garwoliński,mazowieckie
+Tarczyn,piaseczyński,mazowieckie
+Iłża,radomski,mazowieckie
+Gąbin,płocki,mazowieckie
+Raciąż,płoński,mazowieckie
+Jedlnia-Letnisko,radomski,mazowieckie
+Podkowa Leśna,grodziski,mazowieckie
+Halinów,miński,mazowieckie
+Żelechów,garwoliński,mazowieckie
+Mrozy,miński,mazowieckie
+Nowe Miasto nad Pilicą,grójecki,mazowieckie
+Myszyniec,ostrołęcki,mazowieckie
+Zakroczym,nowodworski,mazowieckie
+Chorzele,przasnyski,mazowieckie
+Glinojeck,ciechanowski,mazowieckie
+Kałuszyn,miński,mazowieckie
+Drobin,płocki,mazowieckie
+Różan,makowski,mazowieckie
+Wyszogród,płocki,mazowieckie
+Cegłów,miński,mazowieckie
+Siennica,miński,mazowieckie
+Mogielnica,grójecki,mazowieckie
+Kosów Lacki,sokołowski,mazowieckie
+Sochocin,płoński,mazowieckie
+Dobre,miński,mazowieckie
+Brok,ostrowski,mazowieckie
+Sanniki,gostyniński,mazowieckie
+Bieżuń,żuromiński,mazowieckie
+Mordy,siedlecki,mazowieckie
+Nowe Miasto,płoński,mazowieckie
+Lubowidz,żuromiński,mazowieckie
+Wiskitki,żyrardowski,mazowieckie
+Maciejowice,garwoliński,mazowieckie
+Latowicz,miński,mazowieckie
+Jastrząb,szydłowiecki,mazowieckie
+Bodzanów,płocki,mazowieckie
+Osieck,otwocki,mazowieckie
+Odrzywół,przysuski,mazowieckie
+Czerwińsk nad Wisłą,płoński,mazowieckie
+Magnuszew,kozienicki,mazowieckie
+Solec nad Wisłą,lipski,mazowieckie
+Sienno,lipski,mazowieckie
+Jadów,wołomiński,mazowieckie
+Przytyk,radomski,mazowieckie
+Wyśmierzyce,białobrzeski,mazowieckie
+Głowaczów,kozienicki,mazowieckie
+Gielniów,przysuski,mazowieckie
+Ciepielów,lipski,mazowieckie
+Kazanów,zwoleński,mazowieckie
+Kędzierzyn-Koźle,kędzierzyńsko-kozielski,opolskie
+Nysa,nyski,opolskie
+Brzeg,brzeski,opolskie
+Kluczbork,kluczborski,opolskie
+Prudnik,prudnicki,opolskie
+Strzelce Opolskie,strzelecki,opolskie
+Namysłów,namysłowski,opolskie
+Krapkowice,krapkowicki,opolskie
+Głuchołazy,nyski,opolskie
+Głubczyce,głubczycki,opolskie
+Zdzieszowice,krapkowicki,opolskie
+Olesno,oleski,opolskie
+Ozimek,opolski,opolskie
+Grodków,brzeski,opolskie
+Praszka,oleski,opolskie
+Paczków,nyski,opolskie
+Gogolin,krapkowicki,opolskie
+Zawadzkie,strzelecki,opolskie
+Otmuchów,nyski,opolskie
+Niemodlin,opolski,opolskie
+Lewin Brzeski,brzeski,opolskie
+Kietrz,głubczycki,opolskie
+Głogówek,prudnicki,opolskie
+Wołczyn,kluczborski,opolskie
+Tułowice,opolski,opolskie
+Dobrodzień,oleski,opolskie
+Byczyna,kluczborski,opolskie
+Kolonowskie,strzelecki,opolskie
+Baborów,głubczycki,opolskie
+Prószków,opolski,opolskie
+Leśnica,strzelecki,opolskie
+Gorzów Śląski,oleski,opolskie
+Biała,prudnicki,opolskie
+Ujazd,strzelecki,opolskie
+Korfantów,nyski,opolskie
+Strzeleczki,krapkowicki,opolskie
+Branice,głubczycki,opolskie
+Mielec,mielecki,podkarpackie
+Stalowa Wola,stalowowolski,podkarpackie
+Dębica,dębicki,podkarpackie
+Jarosław,jarosławski,podkarpackie
+Sanok,sanocki,podkarpackie
+Jasło,jasielski,podkarpackie
+Łańcut,łańcucki,podkarpackie
+Ropczyce,ropczycko-sędziszowski,podkarpackie
+Przeworsk,przeworski,podkarpackie
+Nisko,niżański,podkarpackie
+Leżajsk,leżajski,podkarpackie
+Sędziszów Małopolski,ropczycko-sędziszowski,podkarpackie
+Lubaczów,lubaczowski,podkarpackie
+Głogów Małopolski,rzeszowski,podkarpackie
+Nowa Dęba,tarnobrzeski,podkarpackie
+Kolbuszowa,kolbuszowski,podkarpackie
+Ustrzyki Dolne,bieszczadzki,podkarpackie
+Strzyżów,strzyżowski,podkarpackie
+Brzozów,brzozowski,podkarpackie
+Rudnik nad Sanem,niżański,podkarpackie
+Boguchwała,rzeszowski,podkarpackie
+Dynów,rzeszowski,podkarpackie
+Jedlicze,krośnieński,podkarpackie
+Nowa Sarzyna,leżajski,podkarpackie
+Lesko,leski,podkarpackie
+Pilzno,dębicki,podkarpackie
+Radymno,jarosławski,podkarpackie
+Zagórz,sanocki,podkarpackie
+Tyczyn,rzeszowski,podkarpackie
+Sokołów Małopolski,rzeszowski,podkarpackie
+Pruchnik,jarosławski,podkarpackie
+Rymanów,krośnieński,podkarpackie
+Radomyśl Wielki,mielecki,podkarpackie
+Kańczuga,przeworski,podkarpackie
+Oleszyce,lubaczowski,podkarpackie
+Zaklików,stalowowolski,podkarpackie
+Brzostek,dębicki,podkarpackie
+Błażowa,rzeszowski,podkarpackie
+Sieniawa,przeworski,podkarpackie
+Narol,lubaczowski,podkarpackie
+Dukla,krośnieński,podkarpackie
+Przecław,mielecki,podkarpackie
+Cieszanów,lubaczowski,podkarpackie
+Iwonicz-Zdrój,krośnieński,podkarpackie
+Baranów Sandomierski,tarnobrzeski,podkarpackie
+Ulanów,niżański,podkarpackie
+Kołaczyce,jasielski,podkarpackie
+Jawornik Polski,przeworski,podkarpackie
+Bircza,przemyski,podkarpackie
+Dubiecko,przemyski,podkarpackie
+Augustów,augustowski,podlaskie
+Bielsk Podlaski,bielski,podlaskie
+Grajewo,grajewski,podlaskie
+Zambrów,zambrowski,podlaskie
+Hajnówka,hajnowski,podlaskie
+Sokółka,sokólski,podlaskie
+Łapy,białostocki,podlaskie
+Siemiatycze,siemiatycki,podlaskie
+Wasilków,białostocki,podlaskie
+Kolno,kolneński,podlaskie
+Mońki,moniecki,podlaskie
+Wysokie Mazowieckie,wysokomazowiecki,podlaskie
+Czarna Białostocka,białostocki,podlaskie
+Choroszcz,białostocki,podlaskie
+Dąbrowa Białostocka,sokólski,podlaskie
+Sejny,sejneński,podlaskie
+Ciechanowiec,wysokomazowiecki,podlaskie
+Supraśl,białostocki,podlaskie
+Brańsk,bielski,podlaskie
+Szczuczyn,grajewski,podlaskie
+Michałowo,białostocki,podlaskie
+Knyszyn,moniecki,podlaskie
+Zabłudów,białostocki,podlaskie
+Czyżew,wysokomazowiecki,podlaskie
+Krynki,sokólski,podlaskie
+Nowogród,łomżyński,podlaskie
+Lipsk,augustowski,podlaskie
+Suchowola,sokólski,podlaskie
+Szepietowo,wysokomazowiecki,podlaskie
+Stawiski,kolneński,podlaskie
+Tykocin,białostocki,podlaskie
+Drohiczyn,siemiatycki,podlaskie
+Goniądz,moniecki,podlaskie
+Jedwabne,łomżyński,podlaskie
+Rajgród,grajewski,podlaskie
+Kleszczele,hajnowski,podlaskie
+Suraż,białostocki,podlaskie
+Tczew,tczewski,pomorskie
+Rumia,wejherowski,pomorskie
+Wejherowo,wejherowski,pomorskie
+Starogard Gdański,starogardzki,pomorskie
+Chojnice,chojnicki,pomorskie
+Kwidzyn,kwidzyński,pomorskie
+Malbork,malborski,pomorskie
+Lębork,lęborski,pomorskie
+Pruszcz Gdański,gdański,pomorskie
+Reda,wejherowski,pomorskie
+Kościerzyna,kościerski,pomorskie
+Bytów,bytowski,pomorskie
+Kartuzy,kartuski,pomorskie
+Ustka,słupski,pomorskie
+Człuchów,człuchowski,pomorskie
+Puck,pucki,pomorskie
+Czersk,chojnicki,pomorskie
+Nowy Dwór Gdański,nowodworski,pomorskie
+Miastko,bytowski,pomorskie
+Władysławowo,pucki,pomorskie
+Sztum,sztumski,pomorskie
+Prabuty,kwidzyński,pomorskie
+Pelplin,tczewski,pomorskie
+Żukowo,kartuski,pomorskie
+Skarszewy,starogardzki,pomorskie
+Gniew,tczewski,pomorskie
+Czarne,człuchowski,pomorskie
+Brusy,chojnicki,pomorskie
+Dzierzgoń,sztumski,pomorskie
+Debrzno,człuchowski,pomorskie
+Kobylnica,słupski,pomorskie
+Nowy Staw,malborski,pomorskie
+Skórcz,starogardzki,pomorskie
+Kępice,słupski,pomorskie
+Łeba,lęborski,pomorskie
+Hel,pucki,pomorskie
+Czarna Woda,starogardzki,pomorskie
+Jastarnia,pucki,pomorskie
+Krynica Morska,nowodworski,pomorskie
+Tarnowskie Góry,tarnogórski,śląskie
+Będzin,będziński,śląskie
+Racibórz,raciborski,śląskie
+Zawiercie,zawierciański,śląskie
+Wodzisław Śląski,wodzisławski,śląskie
+Mikołów,mikołowski,śląskie
+Knurów,gliwicki,śląskie
+Czechowice-Dziedzice,bielski,śląskie
+Cieszyn,cieszyński,śląskie
+Czeladź,będziński,śląskie
+Żywiec,żywiecki,śląskie
+Myszków,myszkowski,śląskie
+Czerwionka-Leszczyny,rybnicki,śląskie
+Pszczyna,pszczyński,śląskie
+Lubliniec,lubliniecki,śląskie
+Orzesze,mikołowski,śląskie
+Łaziska Górne,mikołowski,śląskie
+Rydułtowy,wodzisławski,śląskie
+Bieruń,bieruńsko-lędziński,śląskie
+Pyskowice,gliwicki,śląskie
+Radlin,wodzisławski,śląskie
+Lędziny,bieruńsko-lędziński,śląskie
+Radzionków,tarnogórski,śląskie
+Ustroń,cieszyński,śląskie
+Skoczów,cieszyński,śląskie
+Pszów,wodzisławski,śląskie
+Kłobuck,kłobucki,śląskie
+Wisła,cieszyński,śląskie
+Imielin,bieruńsko-lędziński,śląskie
+Blachownia,częstochowski,śląskie
+Wojkowice,będziński,śląskie
+Kalety,tarnogórski,śląskie
+Poręba,zawierciański,śląskie
+Miasteczko Śląskie,tarnogórski,śląskie
+Sławków,będziński,śląskie
+Łazy,zawierciański,śląskie
+Siewierz,będziński,śląskie
+Koniecpol,częstochowski,śląskie
+Szczyrk,bielski,śląskie
+Kuźnia Raciborska,raciborski,śląskie
+Żarki,myszkowski,śląskie
+Woźniki,lubliniecki,śląskie
+Ogrodzieniec,zawierciański,śląskie
+Krzepice,kłobucki,śląskie
+Strumień,cieszyński,śląskie
+Toszek,gliwicki,śląskie
+Szczekociny,zawierciański,śląskie
+Wilamowice,bielski,śląskie
+Olsztyn,częstochowski,śląskie
+Koziegłowy,myszkowski,śląskie
+Krzanowice,raciborski,śląskie
+Sośnicowice,gliwicki,śląskie
+Pilica,zawierciański,śląskie
+Włodowice,zawierciański,śląskie
+Przyrów,częstochowski,śląskie
+Ostrowiec Świętokrzyski,ostrowiecki,świętokrzyskie
+Starachowice,starachowicki,świętokrzyskie
+Skarżysko-Kamienna,skarżyski,świętokrzyskie
+Sandomierz,sandomierski,świętokrzyskie
+Końskie,konecki,świętokrzyskie
+Busko-Zdrój,buski,świętokrzyskie
+Jędrzejów,jędrzejowski,świętokrzyskie
+Staszów,staszowski,świętokrzyskie
+Pińczów,pińczowski,świętokrzyskie
+Włoszczowa,włoszczowski,świętokrzyskie
+Suchedniów,skarżyski,świętokrzyskie
+Połaniec,staszowski,świętokrzyskie
+Sędziszów,jędrzejowski,świętokrzyskie
+Opatów,opatowski,świętokrzyskie
+Stąporków,konecki,świętokrzyskie
+Kazimierza Wielka,kazimierski,świętokrzyskie
+Chęciny,kielecki,świętokrzyskie
+Ożarów,opatowski,świętokrzyskie
+Chmielnik,kielecki,świętokrzyskie
+Małogoszcz,jędrzejowski,świętokrzyskie
+Piekoszów,kielecki,świętokrzyskie
+Radoszyce,konecki,świętokrzyskie
+Ćmielów,ostrowiecki,świętokrzyskie
+Daleszyce,kielecki,świętokrzyskie
+Kunów,ostrowiecki,świętokrzyskie
+Wąchock,starachowicki,świętokrzyskie
+Koprzywnica,sandomierski,świętokrzyskie
+Bodzentyn,kielecki,świętokrzyskie
+Osiek,staszowski,świętokrzyskie
+Morawica,kielecki,świętokrzyskie
+Klimontów,sandomierski,świętokrzyskie
+Oleśnica,staszowski,świętokrzyskie
+Zawichost,sandomierski,świętokrzyskie
+Łagów,kielecki,świętokrzyskie
+Łopuszno,kielecki,świętokrzyskie
+Nowa Słupia,kielecki,świętokrzyskie
+Pierzchnica,kielecki,świętokrzyskie
+Iwaniska,opatowski,świętokrzyskie
+Skalbmierz,kazimierski,świętokrzyskie
+Stopnica,buski,świętokrzyskie
+Pacanów,buski,świętokrzyskie
+Wodzisław,jędrzejowski,świętokrzyskie
+Szydłów,staszowski,świętokrzyskie
+Nowy Korczyn,buski,świętokrzyskie
+Działoszyce,pińczowski,świętokrzyskie
+Wiślica,buski,świętokrzyskie
+Opatowiec,kazimierski,świętokrzyskie
+Ełk,ełcki,warmińsko-mazurskie
+Iława,iławski,warmińsko-mazurskie
+Ostróda,ostródzki,warmińsko-mazurskie
+Giżycko,giżycki,warmińsko-mazurskie
+Kętrzyn,kętrzyński,warmińsko-mazurskie
+Szczytno,szczycieński,warmińsko-mazurskie
+Bartoszyce,bartoszycki,warmińsko-mazurskie
+Mrągowo,mrągowski,warmińsko-mazurskie
+Działdowo,działdowski,warmińsko-mazurskie
+Pisz,piski,warmińsko-mazurskie
+Braniewo,braniewski,warmińsko-mazurskie
+Olecko,olecki,warmińsko-mazurskie
+Lidzbark Warmiński,lidzbarski,warmińsko-mazurskie
+Gołdap,gołdapski,warmińsko-mazurskie
+Morąg,ostródzki,warmińsko-mazurskie
+Nidzica,nidzicki,warmińsko-mazurskie
+Pasłęk,elbląski,warmińsko-mazurskie
+Lubawa,iławski,warmińsko-mazurskie
+Węgorzewo,węgorzewski,warmińsko-mazurskie
+Nowe Miasto Lubawskie,nowomiejski,warmińsko-mazurskie
+Biskupiec,olsztyński,warmińsko-mazurskie
+Dobre Miasto,olsztyński,warmińsko-mazurskie
+Orneta,lidzbarski,warmińsko-mazurskie
+Barczewo,olsztyński,warmińsko-mazurskie
+Lidzbark,działdowski,warmińsko-mazurskie
+Olsztynek,olsztyński,warmińsko-mazurskie
+Orzysz,piski,warmińsko-mazurskie
+Susz,iławski,warmińsko-mazurskie
+Ruciane-Nida,piski,warmińsko-mazurskie
+Reszel,kętrzyński,warmińsko-mazurskie
+Korsze,kętrzyński,warmińsko-mazurskie
+Biała Piska,piski,warmińsko-mazurskie
+Górowo Iławeckie,bartoszycki,warmińsko-mazurskie
+Mikołajki,mrągowski,warmińsko-mazurskie
+Wielbark,szczycieński,warmińsko-mazurskie
+Jeziorany,olsztyński,warmińsko-mazurskie
+Ryn,giżycki,warmińsko-mazurskie
+Pieniężno,braniewski,warmińsko-mazurskie
+Miłomłyn,ostródzki,warmińsko-mazurskie
+Miłakowo,ostródzki,warmińsko-mazurskie
+Tolkmicko,elbląski,warmińsko-mazurskie
+Pasym,szczycieński,warmińsko-mazurskie
+Bisztynek,bartoszycki,warmińsko-mazurskie
+Frombork,braniewski,warmińsko-mazurskie
+Zalewo,iławski,warmińsko-mazurskie
+Kisielice,iławski,warmińsko-mazurskie
+Sępopol,bartoszycki,warmińsko-mazurskie
+Młynary,elbląski,warmińsko-mazurskie
+Piła,pilski,wielkopolskie
+Ostrów Wielkopolski,ostrowski,wielkopolskie
+Gniezno,gnieźnieński,wielkopolskie
+Luboń,poznański,wielkopolskie
+Września,wrzesiński,wielkopolskie
+Krotoszyn,krotoszyński,wielkopolskie
+Swarzędz,poznański,wielkopolskie
+Śrem,śremski,wielkopolskie
+Jarocin,jarociński,wielkopolskie
+Wągrowiec,wągrowiecki,wielkopolskie
+Środa Wielkopolska,średzki,wielkopolskie
+Turek,turecki,wielkopolskie
+Kościan,kościański,wielkopolskie
+Gostyń,gostyński,wielkopolskie
+Rawicz,rawicki,wielkopolskie
+Koło,kolski,wielkopolskie
+Szamotuły,szamotulski,wielkopolskie
+Złotów,złotowski,wielkopolskie
+Chodzież,chodzieski,wielkopolskie
+Oborniki,obornicki,wielkopolskie
+Pleszew,pleszewski,wielkopolskie
+Trzcianka,czarnkowsko-trzcianecki,wielkopolskie
+Grodzisk Wielkopolski,grodziski,wielkopolskie
+Mosina,poznański,wielkopolskie
+Ostrzeszów,ostrzeszowski,wielkopolskie
+Nowy Tomyśl,nowotomyski,wielkopolskie
+Kępno,kępiński,wielkopolskie
+Słupca,słupecki,wielkopolskie
+Wolsztyn,wolsztyński,wielkopolskie
+Rogoźno,obornicki,wielkopolskie
+Wronki,szamotulski,wielkopolskie
+Murowana Goślina,poznański,wielkopolskie
+Międzychód,międzychodzki,wielkopolskie
+Pobiedziska,poznański,wielkopolskie
+Kostrzyn,poznański,wielkopolskie
+Czarnków,czarnkowsko-trzcianecki,wielkopolskie
+Opalenica,nowotomyski,wielkopolskie
+Puszczykowo,poznański,wielkopolskie
+Jastrowie,złotowski,wielkopolskie
+Kórnik,poznański,wielkopolskie
+Pniewy,szamotulski,wielkopolskie
+Witkowo,gnieźnieński,wielkopolskie
+Trzemeszno,gnieźnieński,wielkopolskie
+Zbąszyń,nowotomyski,wielkopolskie
+Koźmin Wielkopolski,krotoszyński,wielkopolskie
+Krzyż Wielkopolski,czarnkowsko-trzcianecki,wielkopolskie
+Stęszew,poznański,wielkopolskie
+Kłodawa,kolski,wielkopolskie
+Sieraków,międzychodzki,wielkopolskie
+Wieleń,czarnkowsko-trzcianecki,wielkopolskie
+Śmigiel,kościański,wielkopolskie
+Buk,poznański,wielkopolskie
+Wyrzysk,pilski,wielkopolskie
+Czempiń,kościański,wielkopolskie
+Odolanów,ostrowski,wielkopolskie
+Skoki,wągrowiecki,wielkopolskie
+Budzyń,chodzieski,wielkopolskie
+Nowe Skalmierzyce,ostrowski,wielkopolskie
+Krobia,gostyński,wielkopolskie
+Zduny,krotoszyński,wielkopolskie
+Golina,koniński,wielkopolskie
+Szamocin,chodzieski,wielkopolskie
+Kleczew,koniński,wielkopolskie
+Nekla,wrzesiński,wielkopolskie
+Okonek,złotowski,wielkopolskie
+Rakoniewice,grodziski,wielkopolskie
+Opatówek,kaliski,wielkopolskie
+Krajenka,złotowski,wielkopolskie
+Miłosław,wrzesiński,wielkopolskie
+Ujście,pilski,wielkopolskie
+Sompolno,koniński,wielkopolskie
+Kobylin,krotoszyński,wielkopolskie
+Gołańcz,wągrowiecki,wielkopolskie
+Ślesin,koniński,wielkopolskie
+Miejska Górka,rawicki,wielkopolskie
+Tuliszków,turecki,wielkopolskie
+Margonin,chodzieski,wielkopolskie
+Książ Wielkopolski,śremski,wielkopolskie
+Pyzdry,wrzesiński,wielkopolskie
+Dobrzyca,pleszewski,wielkopolskie
+Lwówek,nowotomyski,wielkopolskie
+Poniec,gostyński,wielkopolskie
+Rydzyna,leszczyński,wielkopolskie
+Bojanowo,rawicki,wielkopolskie
+Kaczory,pilski,wielkopolskie
+Łobżenica,pilski,wielkopolskie
+Sulmierzyce,krotoszyński,wielkopolskie
+Zagórów,słupecki,wielkopolskie
+Zaniemyśl,średzki,wielkopolskie
+Czerniejewo,gnieźnieński,wielkopolskie
+Wysoka,pilski,wielkopolskie
+Kłecko,gnieźnieński,wielkopolskie
+Osieczna,leszczyński,wielkopolskie
+Borek Wielkopolski,gostyński,wielkopolskie
+Mieścisko,wągrowiecki,wielkopolskie
+Obrzycko,szamotulski,wielkopolskie
+Rychwał,koniński,wielkopolskie
+Raszków,ostrowski,wielkopolskie
+Żerków,jarociński,wielkopolskie
+Pogorzela,gostyński,wielkopolskie
+Grabów nad Prosną,ostrzeszowski,wielkopolskie
+Jutrosin,rawicki,wielkopolskie
+Ostroróg,szamotulski,wielkopolskie
+Koźminek,kaliski,wielkopolskie
+Dąbie,kolski,wielkopolskie
+Mikstat,ostrzeszowski,wielkopolskie
+Krzywiń,kościański,wielkopolskie
+Wielichowo,grodziski,wielkopolskie
+Chocz,pleszewski,wielkopolskie
+Dolsk,śremski,wielkopolskie
+Przedecz,kolski,wielkopolskie
+Jaraczewo,jarociński,wielkopolskie
+Stawiszyn,kaliski,wielkopolskie
+Rychtal,kępiński,wielkopolskie
+Dobra,turecki,wielkopolskie
+Miasteczko Krajeńskie,pilski,wielkopolskie
+Stargard,stargardzki,zachodniopomorskie
+Kołobrzeg,kołobrzeski,zachodniopomorskie
+Szczecinek,szczecinecki,zachodniopomorskie
+Police,policki,zachodniopomorskie
+Wałcz,wałecki,zachodniopomorskie
+Białogard,białogardzki,zachodniopomorskie
+Goleniów,goleniowski,zachodniopomorskie
+Gryfino,gryfiński,zachodniopomorskie
+Nowogard,goleniowski,zachodniopomorskie
+Gryfice,gryficki,zachodniopomorskie
+Świdwin,świdwiński,zachodniopomorskie
+Choszczno,choszczeński,zachodniopomorskie
+Barlinek,myśliborski,zachodniopomorskie
+Dębno,myśliborski,zachodniopomorskie
+Darłowo,sławieński,zachodniopomorskie
+Złocieniec,drawski,zachodniopomorskie
+Pyrzyce,pyrzycki,zachodniopomorskie
+Sławno,sławieński,zachodniopomorskie
+Drawsko Pomorskie,drawski,zachodniopomorskie
+Myślibórz,myśliborski,zachodniopomorskie
+Łobez,łobeski,zachodniopomorskie
+Trzebiatów,gryficki,zachodniopomorskie
+Kamień Pomorski,kamieński,zachodniopomorskie
+Chojna,gryfiński,zachodniopomorskie
+Połczyn-Zdrój,świdwiński,zachodniopomorskie
+Sianów,koszaliński,zachodniopomorskie
+Czaplinek,drawski,zachodniopomorskie
+Karlino,białogardzki,zachodniopomorskie
+Międzyzdroje,kamieński,zachodniopomorskie
+Borne Sulinowo,szczecinecki,zachodniopomorskie
+Wolin,kamieński,zachodniopomorskie
+Kalisz Pomorski,drawski,zachodniopomorskie
+Resko,łobeski,zachodniopomorskie
+Lipiany,pyrzycki,zachodniopomorskie
+Płoty,gryficki,zachodniopomorskie
+Bobolice,koszaliński,zachodniopomorskie
+Barwice,szczecinecki,zachodniopomorskie
+Mieszkowice,gryfiński,zachodniopomorskie
+Maszewo,goleniowski,zachodniopomorskie
+Mirosławiec,wałecki,zachodniopomorskie
+Chociwel,stargardzki,zachodniopomorskie
+Polanów,koszaliński,zachodniopomorskie
+Mielno,koszaliński,zachodniopomorskie
+Gościno,kołobrzeski,zachodniopomorskie
+Recz,choszczeński,zachodniopomorskie
+Węgorzyno,łobeski,zachodniopomorskie
+Stepnica,goleniowski,zachodniopomorskie
+Golczewo,kamieński,zachodniopomorskie
+Pełczyce,choszczeński,zachodniopomorskie
+Tychowo,białogardzki,zachodniopomorskie
+Dziwnów,kamieński,zachodniopomorskie
+Drawno,choszczeński,zachodniopomorskie
+Dobrzany,stargardzki,zachodniopomorskie
+Człopa,wałecki,zachodniopomorskie
+Biały Bór,szczecinecki,zachodniopomorskie
+Trzcińsko-Zdrój,gryfiński,zachodniopomorskie
+Dobra,łobeski,zachodniopomorskie
+Tuczno,wałecki,zachodniopomorskie
+Ińsko,stargardzki,zachodniopomorskie
+Moryń,gryfiński,zachodniopomorskie
+Cedynia,gryfiński,zachodniopomorskie
+Suchań,stargardzki,zachodniopomorskie
+Nowe Warpno,policki,zachodniopomorskie

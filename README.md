@@ -24,10 +24,14 @@ Wystarczy otworzyć `index.html` w dowolnej przeglądarce (też na telefonie) �
 
 ## Struktura repo
 
-- `index.html` — gotowa aplikacja (dane są osadzone bezpośrednio w pliku)
-- `data.json` — wygenerowany plik z danymi dla wszystkich krajów (źródło dla `index.html`)
+- `index.html` — gotowa aplikacja (HTML, CSS i dane są osadzone bezpośrednio w pliku — otwórz i działa)
+- `shell.html`, `style.css`, `script.js` — źródła, z których składany jest `index.html` (edytuj te pliki, nie `index.html` bezpośrednio)
+- `build_html.py` — skrypt składający `shell.html` + `style.css` + `script.js` + `data.json` w gotowy `index.html`
+- `data.json` — wygenerowany plik z danymi dla wszystkich krajów (źródło danych dla `index.html`)
 - `data/` — surowe dane źródłowe (CSV/JSON) zebrane z Wikipedii i oficjalnych przepisów
 - `build_poland.py`, `build_all.py` — skrypty budujące `data.json` z surowych danych w `data/`
+
+Styl wizualny (bento-grid, glassmorphism, tryb dark/light) jest zgodny z odgórnym design systemem projektów webowych Pawła (Fedora Project × Zorin OS). Po zmianie `style.css` lub `script.js` uruchom `python3 build_html.py`, żeby przebudować `index.html`.
 
 ## Źródła danych
 

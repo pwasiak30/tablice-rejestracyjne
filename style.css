@@ -1,0 +1,734 @@
+/* =====================================================================
+   TABLICE UE — style.css
+   Estetyka odgórna projektu: Fedora Project (inżynieryjna czystość,
+   bento-grid, whitespace) + Zorin OS (glassmorphism, zaokrąglenia 16px,
+   gradienty akcentujące, miękkie cienie warstwowe).
+
+   STRUKTURA PLIKU:
+   1. Custom Properties (zmienne) — motyw light/dark
+   2. Reset i ustawienia bazowe
+   3. Layout pomocniczy (container, sekcje)
+   4. Nawigacja + przełącznik motywu
+   5. Hero
+   6. Karta narzędzia (zakładki, formularze, wyniki)
+   7. Bento Grid (zakres krajów)
+   8. Stopka
+   9. Mikrointerakcje / animacje
+   10. Media queries (mobile-first)
+   11. Dostępność (focus-visible, prefers-reduced-motion)
+===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. CUSTOM PROPERTIES
+   Aby zmienić kolorystykę, edytuj wyłącznie wartości w :root i [data-theme="dark"].
+   Reszta pliku odwołuje się tylko do tych zmiennych.
+--------------------------------------------------------------------- */
+:root {
+  --font-heading: 'Red Hat Display', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, monospace;
+
+  /* Promienie zaokrągleń — 16px to sygnatura stylu Zorin OS */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* Blur efektów glassmorphism */
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 28px;
+
+  /* Skala odstępów (spacing scale, 8px base) */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4.5rem;
+  --space-7: 7rem;
+
+  --container-max: 880px;
+  --container-pad: 1.5rem;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 160ms var(--ease);
+  --transition-base: 260ms var(--ease);
+  --transition-slow: 420ms var(--ease);
+
+  /* ---- MOTYW: LIGHT (domyślny) ---- */
+  --color-bg: #f4f5f7;
+  --color-bg-alt: #eceef2;
+  --color-surface: rgba(255, 255, 255, 0.65);
+  --color-surface-solid: #ffffff;
+  --color-border: rgba(15, 23, 42, 0.08);
+  --color-text: #14181f;
+  --color-text-muted: #565f6e;
+  --color-text-subtle: #8890a0;
+
+  --accent-1: #2563eb;
+  --accent-2: #06b6d4;
+  --accent-3: #7c3aed;
+  --gradient-accent: linear-gradient(135deg, var(--accent-1) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
+  --gradient-bg-glow: radial-gradient(60% 60% at 50% 0%, rgba(37, 99, 235, 0.16), transparent 70%);
+
+  --color-success: #16a34a;
+  --color-success-bg: rgba(22, 163, 74, 0.08);
+  --color-success-border: rgba(22, 163, 74, 0.35);
+  --color-danger: #dc2626;
+  --color-danger-bg: rgba(220, 38, 38, 0.07);
+  --color-danger-border: rgba(220, 38, 38, 0.3);
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06), 0 1px 1px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 24px 60px rgba(15, 23, 42, 0.14), 0 6px 16px rgba(15, 23, 42, 0.06);
+  --shadow-glow: 0 0 0 1px rgba(37, 99, 235, 0.12), 0 12px 32px rgba(37, 99, 235, 0.18);
+
+  color-scheme: light;
+}
+
+/* ---- MOTYW: DARK ----
+   Aktywowany, gdy <html data-theme="dark">. Ustawiane przez script.js. */
+[data-theme='dark'] {
+  --color-bg: #0b0e14;
+  --color-bg-alt: #10141d;
+  --color-surface: rgba(23, 27, 38, 0.55);
+  --color-surface-solid: #151922;
+  --color-border: rgba(255, 255, 255, 0.09);
+  --color-text: #eef1f6;
+  --color-text-muted: #a4acbb;
+  --color-text-subtle: #6b7484;
+
+  --accent-1: #3b82f6;
+  --accent-2: #22d3ee;
+  --accent-3: #a855f7;
+  --gradient-accent: linear-gradient(135deg, var(--accent-1) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
+  --gradient-bg-glow: radial-gradient(60% 60% at 50% 0%, rgba(59, 130, 246, 0.22), transparent 70%);
+
+  --color-success: #4ade80;
+  --color-success-bg: rgba(74, 222, 128, 0.1);
+  --color-success-border: rgba(74, 222, 128, 0.35);
+  --color-danger: #f87171;
+  --color-danger-bg: rgba(248, 113, 113, 0.09);
+  --color-danger-border: rgba(248, 113, 113, 0.3);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --shadow-glow: 0 0 0 1px rgba(59, 130, 246, 0.25), 0 12px 40px rgba(59, 130, 246, 0.28);
+
+  color-scheme: dark;
+}
+
+/* ---------------------------------------------------------------------
+   2. RESET I USTAWIENIA BAZOWE
+--------------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  background-image: var(--gradient-bg-glow);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 16px;
+  transition: background-color var(--transition-slow), color var(--transition-slow);
+  overflow-x: hidden;
+}
+
+img, svg { display: block; max-width: 100%; }
+
+a { color: inherit; text-decoration: none; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p { margin: 0; }
+
+ul { margin: 0; padding: 0; list-style: none; }
+
+code, pre { font-family: var(--font-mono); }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+input, select {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* ---------------------------------------------------------------------
+   3. LAYOUT POMOCNICZY
+--------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-pad);
+}
+
+.section {
+  padding-block: var(--space-6);
+}
+
+.section__header {
+  max-width: 640px;
+  margin-inline: auto;
+  text-align: center;
+  margin-bottom: var(--space-4);
+}
+
+.section__label {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent-1);
+  margin-bottom: var(--space-1);
+}
+
+.section__title {
+  font-size: clamp(1.4rem, 3.5vw, 1.9rem);
+  margin-bottom: var(--space-2);
+}
+
+.section__desc {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+/* ---------------------------------------------------------------------
+   4. NAWIGACJA + PRZEŁĄCZNIK MOTYWU
+--------------------------------------------------------------------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--color-surface);
+  backdrop-filter: blur(var(--blur-md)) saturate(150%);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(150%);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+  gap: var(--space-2);
+}
+
+.navbar__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.navbar__logo strong {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.navbar__logo-mark { font-size: 1.2rem; }
+
+.navbar__meta {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-subtle);
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Przycisk przełączania motywu — okrągły, glass, z ikonami słońca/księżyca */
+.theme-toggle {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--color-surface-solid);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-text);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  transform: rotate(-8deg) scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+.theme-toggle__icon {
+  position: absolute;
+  transition: opacity var(--transition-base), transform var(--transition-base);
+}
+
+.theme-toggle__icon--moon { opacity: 0; transform: scale(0.5) rotate(45deg); }
+.theme-toggle__icon--sun { opacity: 1; transform: scale(1) rotate(0deg); }
+
+[data-theme='dark'] .theme-toggle__icon--sun { opacity: 0; transform: scale(0.5) rotate(-45deg); }
+[data-theme='dark'] .theme-toggle__icon--moon { opacity: 1; transform: scale(1) rotate(0deg); }
+
+/* ---------------------------------------------------------------------
+   5. HERO
+--------------------------------------------------------------------- */
+.hero {
+  position: relative;
+  padding-block: var(--space-5) var(--space-4);
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 85%);
+  opacity: 0.7;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-sm));
+  -webkit-backdrop-filter: blur(var(--blur-sm));
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-3);
+}
+
+.eyebrow__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2);
+}
+
+.hero__title {
+  font-size: clamp(1.9rem, 5vw, 2.75rem);
+  margin-bottom: var(--space-2);
+}
+
+.hero__title-accent {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__subtitle {
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  color: var(--color-text-muted);
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+/* ---------------------------------------------------------------------
+   6. KARTA NARZĘDZIA (zakładki, formularze, wyniki)
+--------------------------------------------------------------------- */
+.tool {
+  padding-top: var(--space-2);
+  padding-bottom: var(--space-6);
+}
+
+.tool-card {
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  box-shadow: var(--shadow-md);
+}
+
+/* Zakładki (Sprawdź numer / Szukaj po lokalizacji) */
+.tabs {
+  display: flex;
+  gap: 0.4rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem;
+  margin-bottom: var(--space-4);
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  transition: background var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast);
+  user-select: none;
+}
+
+.tab:hover { color: var(--color-text); }
+
+.tab.active {
+  background: var(--gradient-accent);
+  color: #fff;
+  box-shadow: var(--shadow-glow);
+}
+
+.tab-content[hidden] { display: none; }
+
+.field { margin-bottom: var(--space-3); }
+
+.field label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.field__hint {
+  font-size: 0.78rem;
+  color: var(--color-text-subtle);
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+select,
+input[type='text'] {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-solid);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+select:focus, input[type='text']:focus {
+  border-color: var(--accent-1);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Przycisk główny */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  white-space: nowrap;
+}
+
+.btn--primary {
+  width: 100%;
+  background: var(--gradient-accent);
+  color: #ffffff;
+  box-shadow: var(--shadow-glow);
+}
+
+.btn--primary:hover { transform: translateY(-2px); box-shadow: 0 16px 40px rgba(37, 99, 235, 0.3); }
+.btn--primary:active { transform: translateY(0); }
+
+/* Metadane kraju (format tablicy, poziom lokalizacji) */
+.country-meta {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px dashed var(--color-border);
+}
+
+.country-meta b { color: var(--color-text); }
+
+/* Wynik wyszukiwania (forward) */
+.result { margin-top: var(--space-3); }
+
+.result-hit {
+  background: var(--color-success-bg);
+  border: 1px solid var(--color-success-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.result-hit .loc { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; color: var(--color-success); }
+.result-hit .sub { color: var(--color-text-muted); font-size: 0.88rem; margin-top: 0.35rem; }
+
+.result-miss {
+  background: var(--color-danger-bg);
+  border: 1px solid var(--color-danger-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  color: var(--color-danger);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.result-nogeo {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.15rem 0.55rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--accent-1);
+  margin: 0.15rem 0.3rem 0.15rem 0;
+}
+
+/* Przełącznik systemu historycznego (Czechy) */
+.toggle-hist {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: var(--space-2);
+}
+
+.toggle-hist button {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.toggle-hist button.active {
+  background: var(--gradient-accent);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Lista wyników (reverse) */
+.tool-card--list {
+  margin-top: var(--space-3);
+  padding: 0.4rem 0.6rem;
+}
+
+.list {
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.list-item {
+  padding: 0.7rem 0.7rem;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.list-item:last-child { border-bottom: none; }
+
+.list-item .name { font-weight: 600; font-size: 0.94rem; }
+.list-item .region { font-size: 0.75rem; color: var(--color-text-subtle); margin-top: 0.15rem; }
+.list-item .codes { text-align: right; flex-shrink: 0; }
+
+.empty-hint {
+  color: var(--color-text-subtle);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: var(--space-3) var(--space-2);
+}
+
+.list::-webkit-scrollbar { width: 6px; }
+.list::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 6px; }
+
+/* ---------------------------------------------------------------------
+   7. BENTO GRID — zakres krajów
+--------------------------------------------------------------------- */
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+.bento-card {
+  position: relative;
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+  overflow: hidden;
+}
+
+.bento-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-accent);
+  opacity: 0;
+  mix-blend-mode: overlay;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+}
+
+.bento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(37, 99, 235, 0.35);
+}
+
+.bento-card:hover::after { opacity: 0.06; }
+
+.bento-card__flag { font-size: 1.4rem; margin-bottom: var(--space-1); }
+
+.bento-card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+
+.bento-card p { color: var(--color-text-muted); font-size: 0.86rem; }
+
+.bento-card__tag {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+}
+
+/* ---------------------------------------------------------------------
+   8. STOPKA
+--------------------------------------------------------------------- */
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding-block: var(--space-4);
+  text-align: center;
+}
+
+.footer p {
+  color: var(--color-text-subtle);
+  font-size: 0.82rem;
+  line-height: 1.7;
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+.footer a { color: var(--accent-1); font-weight: 600; }
+.footer a:hover { text-decoration: underline; }
+
+/* ---------------------------------------------------------------------
+   9. MIKROINTERAKCJE / ANIMACJE
+--------------------------------------------------------------------- */
+.hero__inner, .tool-card {
+  animation: rise 640ms var(--ease) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------------------------------------------------------------------
+   10. MEDIA QUERIES — MOBILE FIRST
+--------------------------------------------------------------------- */
+
+/* Tablet ≥ 640px */
+@media (min-width: 640px) {
+  .navbar__meta { display: block; }
+  .bento-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Desktop small ≥ 768px */
+@media (min-width: 768px) {
+  .tool-card { padding: var(--space-5); }
+}
+
+/* Desktop large ≥ 1024px */
+@media (min-width: 1024px) {
+  .bento-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------------------------------------------------------------------
+   11. DOSTĘPNOŚĆ
+--------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent-1);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

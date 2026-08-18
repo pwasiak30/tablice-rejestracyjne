@@ -1,135 +1,991 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title>Tablice UE — sprawdź skąd jest auto</title>
-<style>
-  :root{
-    --bg:#0f1420; --panel:#161d2e; --panel2:#1d2740; --border:#2a3450;
-    --text:#eef1f8; --muted:#93a0bd; --accent:#4f8dfd; --accent2:#38d39f;
-    --danger:#ff6b6b; --radius:14px;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>Tablice UE — sprawdź skąd jest auto</title>
+  <meta name="description" content="Offline'owe narzędzie do rozpoznawania lokalizacji po numerze rejestracyjnym w 30 krajach Europy — i wyszukiwania w drugą stronę." />
+
+  <!-- ===========================================================
+       FONTY — Google Fonts: Inter (tekst) + Red Hat Display (nagłówki) + JetBrains Mono (kod/plakietki)
+       Aby zmienić font, podmień linki poniżej oraz zmienne
+       --font-heading / --font-body / --font-mono w <style>.
+       Uwaga: jeśli brak internetu, przeglądarka użyje fontów systemowych (fallback w --font-*).
+  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+/* =====================================================================
+   TABLICE UE — style.css
+   Estetyka odgórna projektu: Fedora Project (inżynieryjna czystość,
+   bento-grid, whitespace) + Zorin OS (glassmorphism, zaokrąglenia 16px,
+   gradienty akcentujące, miękkie cienie warstwowe).
+
+   STRUKTURA PLIKU:
+   1. Custom Properties (zmienne) — motyw light/dark
+   2. Reset i ustawienia bazowe
+   3. Layout pomocniczy (container, sekcje)
+   4. Nawigacja + przełącznik motywu
+   5. Hero
+   6. Karta narzędzia (zakładki, formularze, wyniki)
+   7. Bento Grid (zakres krajów)
+   8. Stopka
+   9. Mikrointerakcje / animacje
+   10. Media queries (mobile-first)
+   11. Dostępność (focus-visible, prefers-reduced-motion)
+===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. CUSTOM PROPERTIES
+   Aby zmienić kolorystykę, edytuj wyłącznie wartości w :root i [data-theme="dark"].
+   Reszta pliku odwołuje się tylko do tych zmiennych.
+--------------------------------------------------------------------- */
+:root {
+  --font-heading: 'Red Hat Display', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Menlo, monospace;
+
+  /* Promienie zaokrągleń — 16px to sygnatura stylu Zorin OS */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* Blur efektów glassmorphism */
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 28px;
+
+  /* Skala odstępów (spacing scale, 8px base) */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4.5rem;
+  --space-7: 7rem;
+
+  --container-max: 880px;
+  --container-pad: 1.5rem;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 160ms var(--ease);
+  --transition-base: 260ms var(--ease);
+  --transition-slow: 420ms var(--ease);
+
+  /* ---- MOTYW: LIGHT (domyślny) ---- */
+  --color-bg: #f4f5f7;
+  --color-bg-alt: #eceef2;
+  --color-surface: rgba(255, 255, 255, 0.65);
+  --color-surface-solid: #ffffff;
+  --color-border: rgba(15, 23, 42, 0.08);
+  --color-text: #14181f;
+  --color-text-muted: #565f6e;
+  --color-text-subtle: #8890a0;
+
+  --accent-1: #2563eb;
+  --accent-2: #06b6d4;
+  --accent-3: #7c3aed;
+  --gradient-accent: linear-gradient(135deg, var(--accent-1) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
+  --gradient-bg-glow: radial-gradient(60% 60% at 50% 0%, rgba(37, 99, 235, 0.16), transparent 70%);
+
+  --color-success: #16a34a;
+  --color-success-bg: rgba(22, 163, 74, 0.08);
+  --color-success-border: rgba(22, 163, 74, 0.35);
+  --color-danger: #dc2626;
+  --color-danger-bg: rgba(220, 38, 38, 0.07);
+  --color-danger-border: rgba(220, 38, 38, 0.3);
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06), 0 1px 1px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 24px 60px rgba(15, 23, 42, 0.14), 0 6px 16px rgba(15, 23, 42, 0.06);
+  --shadow-glow: 0 0 0 1px rgba(37, 99, 235, 0.12), 0 12px 32px rgba(37, 99, 235, 0.18);
+
+  color-scheme: light;
+}
+
+/* ---- MOTYW: DARK ----
+   Aktywowany, gdy <html data-theme="dark">. Ustawiane przez script.js. */
+[data-theme='dark'] {
+  --color-bg: #0b0e14;
+  --color-bg-alt: #10141d;
+  --color-surface: rgba(23, 27, 38, 0.55);
+  --color-surface-solid: #151922;
+  --color-border: rgba(255, 255, 255, 0.09);
+  --color-text: #eef1f6;
+  --color-text-muted: #a4acbb;
+  --color-text-subtle: #6b7484;
+
+  --accent-1: #3b82f6;
+  --accent-2: #22d3ee;
+  --accent-3: #a855f7;
+  --gradient-accent: linear-gradient(135deg, var(--accent-1) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
+  --gradient-bg-glow: radial-gradient(60% 60% at 50% 0%, rgba(59, 130, 246, 0.22), transparent 70%);
+
+  --color-success: #4ade80;
+  --color-success-bg: rgba(74, 222, 128, 0.1);
+  --color-success-border: rgba(74, 222, 128, 0.35);
+  --color-danger: #f87171;
+  --color-danger-bg: rgba(248, 113, 113, 0.09);
+  --color-danger-border: rgba(248, 113, 113, 0.3);
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55);
+  --shadow-glow: 0 0 0 1px rgba(59, 130, 246, 0.25), 0 12px 40px rgba(59, 130, 246, 0.28);
+
+  color-scheme: dark;
+}
+
+/* ---------------------------------------------------------------------
+   2. RESET I USTAWIENIA BAZOWE
+--------------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  background-image: var(--gradient-bg-glow);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 16px;
+  transition: background-color var(--transition-slow), color var(--transition-slow);
+  overflow-x: hidden;
+}
+
+img, svg { display: block; max-width: 100%; }
+
+a { color: inherit; text-decoration: none; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p { margin: 0; }
+
+ul { margin: 0; padding: 0; list-style: none; }
+
+code, pre { font-family: var(--font-mono); }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+input, select {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* ---------------------------------------------------------------------
+   3. LAYOUT POMOCNICZY
+--------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-pad);
+}
+
+.section {
+  padding-block: var(--space-6);
+}
+
+.section__header {
+  max-width: 640px;
+  margin-inline: auto;
+  text-align: center;
+  margin-bottom: var(--space-4);
+}
+
+.section__label {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent-1);
+  margin-bottom: var(--space-1);
+}
+
+.section__title {
+  font-size: clamp(1.4rem, 3.5vw, 1.9rem);
+  margin-bottom: var(--space-2);
+}
+
+.section__desc {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
+/* ---------------------------------------------------------------------
+   4. NAWIGACJA + PRZEŁĄCZNIK MOTYWU
+--------------------------------------------------------------------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--color-surface);
+  backdrop-filter: blur(var(--blur-md)) saturate(150%);
+  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(150%);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+  gap: var(--space-2);
+}
+
+.navbar__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.navbar__logo strong {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.navbar__logo-mark { font-size: 1.2rem; }
+
+.navbar__meta {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-text-subtle);
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Przycisk przełączania motywu — okrągły, glass, z ikonami słońca/księżyca */
+.theme-toggle {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--color-surface-solid);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-text);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  transform: rotate(-8deg) scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+.theme-toggle__icon {
+  position: absolute;
+  transition: opacity var(--transition-base), transform var(--transition-base);
+}
+
+.theme-toggle__icon--moon { opacity: 0; transform: scale(0.5) rotate(45deg); }
+.theme-toggle__icon--sun { opacity: 1; transform: scale(1) rotate(0deg); }
+
+[data-theme='dark'] .theme-toggle__icon--sun { opacity: 0; transform: scale(0.5) rotate(-45deg); }
+[data-theme='dark'] .theme-toggle__icon--moon { opacity: 1; transform: scale(1) rotate(0deg); }
+
+/* ---------------------------------------------------------------------
+   5. HERO
+--------------------------------------------------------------------- */
+.hero {
+  position: relative;
+  padding-block: var(--space-5) var(--space-4);
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--color-border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-border) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent 85%);
+  opacity: 0.7;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-sm));
+  -webkit-backdrop-filter: blur(var(--blur-sm));
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-3);
+}
+
+.eyebrow__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.2);
+}
+
+.hero__title {
+  font-size: clamp(1.9rem, 5vw, 2.75rem);
+  margin-bottom: var(--space-2);
+}
+
+.hero__title-accent {
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__subtitle {
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  color: var(--color-text-muted);
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+/* ---------------------------------------------------------------------
+   6. KARTA NARZĘDZIA (zakładki, formularze, wyniki)
+--------------------------------------------------------------------- */
+.tool {
+  padding-top: var(--space-2);
+  padding-bottom: var(--space-6);
+}
+
+.tool-card {
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  box-shadow: var(--shadow-md);
+}
+
+/* Zakładki (Sprawdź numer / Szukaj po lokalizacji) */
+.tabs {
+  display: flex;
+  gap: 0.4rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  padding: 0.3rem;
+  margin-bottom: var(--space-4);
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  transition: background var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast);
+  user-select: none;
+}
+
+.tab:hover { color: var(--color-text); }
+
+.tab.active {
+  background: var(--gradient-accent);
+  color: #fff;
+  box-shadow: var(--shadow-glow);
+}
+
+.tab-content[hidden] { display: none; }
+
+.field { margin-bottom: var(--space-3); }
+
+.field label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.field__hint {
+  font-size: 0.78rem;
+  color: var(--color-text-subtle);
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+select,
+input[type='text'] {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-solid);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+select:focus, input[type='text']:focus {
+  border-color: var(--accent-1);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Przycisk główny */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  white-space: nowrap;
+}
+
+.btn--primary {
+  width: 100%;
+  background: var(--gradient-accent);
+  color: #ffffff;
+  box-shadow: var(--shadow-glow);
+}
+
+.btn--primary:hover { transform: translateY(-2px); box-shadow: 0 16px 40px rgba(37, 99, 235, 0.3); }
+.btn--primary:active { transform: translateY(0); }
+
+/* Metadane kraju (format tablicy, poziom lokalizacji) */
+.country-meta {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px dashed var(--color-border);
+}
+
+.country-meta b { color: var(--color-text); }
+
+/* Wynik wyszukiwania (forward) */
+.result { margin-top: var(--space-3); }
+
+.result-hit {
+  background: var(--color-success-bg);
+  border: 1px solid var(--color-success-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.result-hit .loc { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; color: var(--color-success); }
+.result-hit .sub { color: var(--color-text-muted); font-size: 0.88rem; margin-top: 0.35rem; }
+
+.result-miss {
+  background: var(--color-danger-bg);
+  border: 1px solid var(--color-danger-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  color: var(--color-danger);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.result-nogeo {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.15rem 0.55rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--accent-1);
+  margin: 0.15rem 0.3rem 0.15rem 0;
+}
+
+/* Przełącznik systemu historycznego (Czechy) */
+.toggle-hist {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: var(--space-2);
+}
+
+.toggle-hist button {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.toggle-hist button.active {
+  background: var(--gradient-accent);
+  color: #fff;
+  border-color: transparent;
+}
+
+/* Lista wyników (reverse) */
+.tool-card--list {
+  margin-top: var(--space-3);
+  padding: 0.4rem 0.6rem;
+}
+
+.list {
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.list-item {
+  padding: 0.7rem 0.7rem;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.list-item:last-child { border-bottom: none; }
+
+.list-item .name { font-weight: 600; font-size: 0.94rem; }
+.list-item .region { font-size: 0.75rem; color: var(--color-text-subtle); margin-top: 0.15rem; }
+.list-item .codes { text-align: right; flex-shrink: 0; }
+
+.empty-hint {
+  color: var(--color-text-subtle);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: var(--space-3) var(--space-2);
+}
+
+.list::-webkit-scrollbar { width: 6px; }
+.list::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 6px; }
+
+/* ---------------------------------------------------------------------
+   7. BENTO GRID — zakres krajów
+--------------------------------------------------------------------- */
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+.bento-card {
+  position: relative;
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+  overflow: hidden;
+}
+
+.bento-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--gradient-accent);
+  opacity: 0;
+  mix-blend-mode: overlay;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+}
+
+.bento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(37, 99, 235, 0.35);
+}
+
+.bento-card:hover::after { opacity: 0.06; }
+
+.bento-card__flag { font-size: 1.4rem; margin-bottom: var(--space-1); }
+
+.bento-card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+
+.bento-card p { color: var(--color-text-muted); font-size: 0.86rem; }
+
+.bento-card__tag {
+  display: inline-block;
+  margin-top: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-bg-alt);
+  color: var(--color-text-muted);
+}
+
+/* ---------------------------------------------------------------------
+   8. STOPKA
+--------------------------------------------------------------------- */
+.footer {
+  border-top: 1px solid var(--color-border);
+  padding-block: var(--space-4);
+  text-align: center;
+}
+
+.footer p {
+  color: var(--color-text-subtle);
+  font-size: 0.82rem;
+  line-height: 1.7;
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+.footer a { color: var(--accent-1); font-weight: 600; }
+.footer a:hover { text-decoration: underline; }
+
+/* ---------------------------------------------------------------------
+   9. MIKROINTERAKCJE / ANIMACJE
+--------------------------------------------------------------------- */
+.hero__inner, .tool-card {
+  animation: rise 640ms var(--ease) both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------------------------------------------------------------------
+   10. MEDIA QUERIES — MOBILE FIRST
+--------------------------------------------------------------------- */
+
+/* Tablet ≥ 640px */
+@media (min-width: 640px) {
+  .navbar__meta { display: block; }
+  .bento-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Desktop small ≥ 768px */
+@media (min-width: 768px) {
+  .tool-card { padding: var(--space-5); }
+}
+
+/* Desktop large ≥ 1024px */
+@media (min-width: 1024px) {
+  .bento-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------------------------------------------------------------------
+   11. DOSTĘPNOŚĆ
+--------------------------------------------------------------------- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent-1);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
-  *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;}
-  body{
-    background:radial-gradient(1200px 800px at 50% -10%, #1c2846 0%, var(--bg) 55%);
-    color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    min-height:100vh; padding-bottom:40px;
-  }
-  .wrap{max-width:720px;margin:0 auto;padding:20px 16px 60px;}
-  header{text-align:center;margin-bottom:18px;}
-  header h1{font-size:1.5rem;margin:0 0 6px;font-weight:700;}
-  header p{color:var(--muted);margin:0;font-size:0.92rem;}
-  .tabs{display:flex;gap:8px;background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:4px;margin:18px 0;}
-  .tab{flex:1;text-align:center;padding:10px 8px;border-radius:999px;cursor:pointer;font-weight:600;font-size:0.88rem;color:var(--muted);transition:all .15s;user-select:none;}
-  .tab.active{background:linear-gradient(135deg,var(--accent),#3f6fd6);color:white;}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;margin-bottom:14px;}
-  label{display:block;font-size:0.82rem;color:var(--muted);margin-bottom:6px;font-weight:600;}
-  select, input[type=text]{
-    width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--border);
-    background:var(--panel2);color:var(--text);font-size:1rem;outline:none;
-  }
-  select:focus, input[type=text]:focus{border-color:var(--accent);}
-  .row{margin-bottom:14px;}
-  button.primary{
-    width:100%;padding:13px 14px;border-radius:10px;border:none;
-    background:linear-gradient(135deg,var(--accent),#3f6fd6);color:white;font-size:1rem;font-weight:700;
-    cursor:pointer;
-  }
-  button.primary:active{transform:scale(0.99);}
-  .country-meta{font-size:0.8rem;color:var(--muted);line-height:1.5;margin-top:10px;padding-top:10px;border-top:1px dashed var(--border);}
-  .country-meta b{color:var(--text);}
-  .result{margin-top:16px;}
-  .result-hit{
-    background:linear-gradient(135deg, rgba(56,211,159,0.15), rgba(56,211,159,0.05));
-    border:1px solid rgba(56,211,159,0.4);border-radius:12px;padding:16px;
-  }
-  .result-hit .loc{font-size:1.25rem;font-weight:800;color:var(--accent2);}
-  .result-hit .sub{color:var(--muted);font-size:0.88rem;margin-top:4px;}
-  .result-miss{
-    background:rgba(255,107,107,0.08);border:1px solid rgba(255,107,107,0.35);
-    border-radius:12px;padding:16px;color:#ffb3b3;font-size:0.92rem;line-height:1.5;
-  }
-  .result-nogeo{
-    background:rgba(147,160,189,0.08);border:1px solid var(--border);
-    border-radius:12px;padding:16px;color:var(--muted);font-size:0.9rem;line-height:1.6;
-  }
-  .badge{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:6px;
-    padding:2px 8px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:700;margin:2px 4px 2px 0;font-size:0.85rem;}
-  .list{max-height:340px;overflow-y:auto;margin-top:10px;border-radius:10px;}
-  .list-item{padding:10px 12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:10px;}
-  .list-item:last-child{border-bottom:none;}
-  .list-item .name{font-weight:600;font-size:0.94rem;}
-  .list-item .region{font-size:0.75rem;color:var(--muted);}
-  .list-item .codes{text-align:right;flex-shrink:0;}
-  .empty-hint{color:var(--muted);font-size:0.85rem;text-align:center;padding:18px 8px;}
-  .toggle-hist{display:flex;gap:6px;margin-top:10px;}
-  .toggle-hist button{flex:1;padding:8px;border-radius:8px;border:1px solid var(--border);background:var(--panel2);color:var(--muted);font-size:0.8rem;cursor:pointer;font-weight:600;}
-  .toggle-hist button.active{background:var(--accent);color:white;border-color:var(--accent);}
-  footer{text-align:center;color:var(--muted);font-size:0.75rem;margin-top:26px;line-height:1.6;}
-  ::-webkit-scrollbar{width:6px;}
-  ::-webkit-scrollbar-thumb{background:var(--border);border-radius:6px;}
-</style>
+}
+
+  </style>
+
+  <!-- ===========================================================
+       ANTY-FOUC: ustawia motyw PRZED wyrenderowaniem <body>,
+       żeby uniknąć "mrugnięcia" jasnym tłem przy starcie w dark mode.
+       Klucz musi być zsynchronizowany z STORAGE_KEY w <script> na dole.
+  ============================================================ -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('tablice-ue-theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>🚘 Tablice rejestracyjne — Europa</h1>
-    <p>Sprawdź skąd jest auto po numerze, albo wyszukaj tablice dla miasta/powiatu</p>
+
+  <!-- ===========================================================
+       NAWIGACJA + PRZEŁĄCZNIK MOTYWU (Dark/Light)
+       data-theme na <html> jest ustawiane przez script na dole strony.
+  ============================================================ -->
+  <header class="navbar">
+    <div class="navbar__inner container">
+      <a href="#top" class="navbar__logo" aria-label="Tablice UE — strona główna">
+        <span class="navbar__logo-mark" aria-hidden="true">🚘</span>
+        <span>Tablice<strong>UE</strong></span>
+      </a>
+
+      <span class="navbar__meta">30 krajów · działa offline</span>
+
+      <div class="navbar__actions">
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-pressed="false"
+          aria-label="Przełącz tryb ciemny/jasny"
+        >
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M12 2.5v2.5M12 19v2.5M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2.5 12H5M19 12h2.5M4.2 19.8L6 18M18 6l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
   </header>
 
-  <div class="tabs">
-    <div class="tab active" data-tab="forward">🔍 Sprawdź numer</div>
-    <div class="tab" data-tab="reverse">📍 Szukaj po lokalizacji</div>
-  </div>
+  <main id="top">
 
-  <!-- FORWARD TAB -->
-  <div id="tab-forward" class="tab-content">
-    <div class="card">
-      <div class="row">
-        <label for="country-fwd">Kraj rejestracji</label>
-        <select id="country-fwd"></select>
-      </div>
-      <div class="row">
-        <label for="plate-input">Numer rejestracyjny</label>
-        <input type="text" id="plate-input" placeholder="np. WA 12345 lub M-AB 1234" autocapitalize="characters">
-        <div style="font-size:0.78rem;color:var(--muted);margin-top:6px;">Wpisz numer tak jak na tablicy, z myślnikiem/spacją (szczególnie ważne dla Niemiec i Austrii) — to poprawia trafność rozpoznania.</div>
-      </div>
-      <button class="primary" id="btn-check">Sprawdź</button>
-      <div id="country-meta-fwd" class="country-meta"></div>
-    </div>
-    <div id="fwd-result" class="result"></div>
-  </div>
+    <!-- ===========================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
 
-  <!-- REVERSE TAB -->
-  <div id="tab-reverse" class="tab-content" style="display:none;">
-    <div class="card">
-      <div class="row">
-        <label for="country-rev">Kraj</label>
-        <select id="country-rev"></select>
-      </div>
-      <div id="cz-toggle" class="toggle-hist" style="display:none;">
-        <button data-mode="modern" class="active">System obecny (region)</button>
-        <button data-mode="historical">System historyczny (miasto/powiat)</button>
-      </div>
-      <div class="row" style="margin-top:14px;">
-        <label for="loc-search">Miasto / powiat / region</label>
-        <input type="text" id="loc-search" placeholder="zacznij pisać nazwę...">
-      </div>
-      <div id="rev-meta" class="country-meta" style="display:none;"></div>
-    </div>
-    <div class="card" style="padding:6px 10px;">
-      <div id="rev-list" class="list"></div>
-    </div>
-  </div>
+      <div class="container hero__inner">
+        <p class="eyebrow">
+          <span class="eyebrow__dot" aria-hidden="true"></span>
+          Jeden plik · bez backendu · bez śledzenia
+        </p>
 
-  <footer>
-    Dane zebrane z Wikipedii i oficjalnych przepisów (stan orientacyjny, część systemów bywa aktualizowana — w razie wątpliwości sprawdź źródło urzędowe danego kraju).
+        <h1 class="hero__title">
+          Skąd jest to <span class="hero__title-accent">auto?</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          Wpisz numer rejestracyjny, a narzędzie rozpozna miasto, powiat lub region —
+          albo wyszukaj w drugą stronę, jakie prefiksy obowiązują w danym miejscu.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         NARZĘDZIE — karta z zakładkami (Sprawdź numer / Szukaj po lokalizacji)
+         Cała logika w script.js. Aby dodać kolejną zakładkę, skopiuj wzorzec
+         .tab + .tab-content i podepnij pod obsługę zakładek w script.js.
+    ============================================================ -->
+    <section class="tool container">
+      <div class="tool-card">
+
+        <div class="tabs" role="tablist" aria-label="Tryb wyszukiwania">
+          <div class="tab active" data-tab="forward" role="tab" aria-selected="true">🔍 Sprawdź numer</div>
+          <div class="tab" data-tab="reverse" role="tab" aria-selected="false">📍 Szukaj po lokalizacji</div>
+        </div>
+
+        <!-- ZAKŁADKA: SPRAWDŹ NUMER -->
+        <div id="tab-forward" class="tab-content">
+          <div class="field">
+            <label for="country-fwd">Kraj rejestracji</label>
+            <select id="country-fwd"></select>
+          </div>
+          <div class="field">
+            <label for="plate-input">Numer rejestracyjny</label>
+            <input type="text" id="plate-input" placeholder="np. WA 12345 lub M-AB 1234" autocapitalize="characters" />
+            <p class="field__hint">Wpisz numer tak jak na tablicy, z myślnikiem/spacją (szczególnie ważne dla Niemiec i Austrii) — to poprawia trafność rozpoznania.</p>
+          </div>
+          <button class="btn btn--primary" id="btn-check" type="button">Sprawdź</button>
+          <div id="country-meta-fwd" class="country-meta"></div>
+          <div id="fwd-result" class="result"></div>
+        </div>
+
+        <!-- ZAKŁADKA: SZUKAJ PO LOKALIZACJI -->
+        <div id="tab-reverse" class="tab-content" hidden>
+          <div class="field">
+            <label for="country-rev">Kraj</label>
+            <select id="country-rev"></select>
+          </div>
+          <div id="cz-toggle" class="toggle-hist" hidden>
+            <button data-mode="modern" class="active" type="button">System obecny (region)</button>
+            <button data-mode="historical" type="button">System historyczny (miasto/powiat)</button>
+          </div>
+          <div class="field" style="margin-top: var(--space-3);">
+            <label for="loc-search">Miasto / powiat / region</label>
+            <input type="text" id="loc-search" placeholder="zacznij pisać nazwę..." />
+          </div>
+          <div id="rev-meta" class="country-meta" hidden></div>
+
+          <div class="tool-card tool-card--list">
+            <div id="rev-list" class="list"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===========================================================
+         BENTO GRID — zakres krajów
+         Karty podsumowują poziom szczegółowości danych per kraj/grupa krajów.
+         Aby dodać kraj, skopiuj .bento-card i umieść w .bento-grid.
+    ============================================================ -->
+    <section class="section" id="zakres">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__label">Zakres danych</p>
+          <h2 class="section__title">30 krajów, różny poziom szczegółowości</h2>
+          <p class="section__desc">
+            Tam, gdzie system tablic koduje lokalizację, narzędzie rozpoznaje ją
+            z dokładnością do powiatu lub regionu. Tam, gdzie nie koduje —
+            wyraźnie to komunikuje zamiast zgadywać.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🇵🇱</div>
+            <h3>Polska</h3>
+            <p>Powiat / miasto na prawach powiatu (380 jednostek) + wyszukiwanie po ~953 miastach w powiecie ziemskim.</p>
+            <span class="bento-card__tag">najwyższa szczegółowość</span>
+          </article>
+
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🇩🇪</div>
+            <h3>Niemcy</h3>
+            <p>Kreis / kreisfreie Stadt — 731 kodów rozpoznawanych po prefiksie tablicy.</p>
+          </article>
+
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🇦🇹</div>
+            <h3>Austria</h3>
+            <p>Bezirk / Statutarstadt — powiaty i miasta na prawach powiatu.</p>
+          </article>
+
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🇨🇿</div>
+            <h3>Czechy</h3>
+            <p>Kraj (region) w systemie obecnym od 2001 r. + osobny system historyczny okresów sprzed reformy.</p>
+            <span class="bento-card__tag">dwa systemy</span>
+          </article>
+
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🇸🇰</div>
+            <h3>Słowacja</h3>
+            <p>Okres (powiat) — pełne pokrycie kodów.</p>
+          </article>
+
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🌍</div>
+            <h3>Region / prefektura / hrabstwo</h3>
+            <p>Rumunia, Bułgaria, Chorwacja, Słowenia, Grecja, Irlandia, Wielka Brytania — poziom zależny od kraju.</p>
+          </article>
+
+          <article class="bento-card">
+            <div class="bento-card__flag" aria-hidden="true">🇺🇦</div>
+            <h3>Ukraina i Białoruś</h3>
+            <p>Obwód / obłast rozpoznawany po kodzie numerycznym.</p>
+          </article>
+
+          <article class="bento-card bento-card--wide" style="grid-column: span 2;">
+            <div class="bento-card__flag" aria-hidden="true">⚠️</div>
+            <h3>Systemy niegeograficzne</h3>
+            <p>
+              Francja, Włochy, Hiszpania, Holandia, Belgia, Luksemburg, Portugalia, Szwecja, Dania,
+              Finlandia, Litwa, Łotwa, Estonia, Cypr, Malta i Węgry — obecny system tablic nie koduje
+              miejsca rejestracji. Narzędzie oznacza je wprost zamiast zgadywać.
+            </p>
+            <span class="bento-card__tag">jawnie oznaczone</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===========================================================
+       STOPKA
+  ============================================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p>
+        Dane zebrane głównie z Wikipedii (strony „Vehicle registration plates of X” oraz
+        „Tablice rejestracyjne w Polsce”) i oficjalnych przepisów, m.in. załącznika nr 13
+        do rozporządzenia Ministra Infrastruktury z 8 listopada 2024 r. (Dz.U. 2024 poz. 1709).
+        To narzędzie orientacyjne, nie oficjalna baza rządowa — w razie wątpliwości sprawdź
+        źródło urzędowe danego kraju.
+        <br /><br />
+        © <span id="year"></span> ·
+        <a href="https://github.com/pwasiak30/tablice-rejestracyjne" target="_blank" rel="noopener noreferrer">kod na GitHubie</a>
+        · licencja MIT
+      </p>
+    </div>
   </footer>
-</div>
 
-<script id="plate-data" type="application/json">{
+  <!-- ===========================================================
+       DANE — osadzone jako JSON, żeby cała aplikacja działała
+       offline z jednego pliku (bez fetch/backendu).
+       Źródło: data.json (generowane przez build_poland.py / build_all.py).
+  ============================================================ -->
+  <script id="plate-data" type="application/json">{
  "PL": {
   "name": "Polska",
   "flag": "🇵🇱",
@@ -23105,256 +23961,362 @@
   "entries": []
  }
 }</script>
-<script>
-const DATA = JSON.parse(document.getElementById('plate-data').textContent);
-const countryOrder = Object.keys(DATA);
 
-function countryLabel(code){
-  const c = DATA[code];
-  return `${c.flag} ${c.name}`;
-}
+  <script>
+/* =====================================================================
+   TABLICE UE — script.js
+   Vanilla JS. Dwie części:
+   1. Przełączanie motywu Dark/Light (wzorzec z base-template projektu)
+   2. Logika narzędzia: rozpoznawanie lokalizacji po numerze rejestracyjnym
+      (zakładka "Sprawdź numer") oraz wyszukiwanie w drugą stronę
+      (zakładka "Szukaj po lokalizacji")
 
-function populateCountrySelect(sel){
-  sel.innerHTML = '';
-  const geo = countryOrder.filter(c => DATA[c].type === 'geographic');
-  const nongeo = countryOrder.filter(c => DATA[c].type !== 'geographic');
-  const g1 = document.createElement('optgroup'); g1.label = 'Systemy geograficzne (można rozpoznać region)';
-  geo.forEach(code=>{
-    const o = document.createElement('option'); o.value = code; o.textContent = countryLabel(code); g1.appendChild(o);
-  });
-  const g2 = document.createElement('optgroup'); g2.label = 'Systemy niegeograficzne';
-  nongeo.forEach(code=>{
-    const o = document.createElement('option'); o.value = code; o.textContent = countryLabel(code); g2.appendChild(o);
-  });
-  sel.appendChild(g1); sel.appendChild(g2);
-}
+   Dane (DATA) są wczytywane z osadzonego <script id="plate-data">,
+   żeby cała aplikacja działała offline z jednego pliku index.html.
+===================================================================== */
 
-const selFwd = document.getElementById('country-fwd');
-const selRev = document.getElementById('country-rev');
-populateCountrySelect(selFwd);
-populateCountrySelect(selRev);
-selFwd.value = 'PL';
-selRev.value = 'PL';
+(function () {
+  'use strict';
 
-// ---------- TABS ----------
-document.querySelectorAll('.tab').forEach(t=>{
-  t.addEventListener('click', ()=>{
-    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
-    t.classList.add('active');
-    const tab = t.dataset.tab;
-    document.getElementById('tab-forward').style.display = tab==='forward' ? '' : 'none';
-    document.getElementById('tab-reverse').style.display = tab==='reverse' ? '' : 'none';
-  });
-});
+  /* -------------------------------------------------------------------
+     1. PRZEŁĄCZANIE MOTYWU (DARK / LIGHT)
+  ------------------------------------------------------------------- */
+  const STORAGE_KEY = 'tablice-ue-theme';
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('theme-toggle');
 
-// ---------- FORWARD LOOKUP ----------
-function normalizeLetters(s){
-  return s.toUpperCase();
-}
-
-function updateFwdMeta(){
-  const code = selFwd.value;
-  const c = DATA[code];
-  const el = document.getElementById('country-meta-fwd');
-  if(c.type === 'geographic'){
-    el.innerHTML = `<b>Format:</b> ${c.plateFormat}<br><b>Poziom lokalizacji:</b> ${c.level}<br>${c.parseNote}`;
-  } else {
-    el.innerHTML = `⚠️ ${c.parseNote}`;
-  }
-}
-selFwd.addEventListener('change', updateFwdMeta);
-updateFwdMeta();
-
-function extractLeadingLetters(raw){
-  const upper = raw.toUpperCase().trim();
-  // Jeśli w numerze jest wyraźny separator (spacja/myślnik/kropka), prefiks regionu
-  // to zwykle dokładnie to, co przed pierwszym separatorem (np. "M-AB 1234" -> "M").
-  const sepMatch = upper.match(/^([A-ZΑ-ΩА-Я]+)[\s\-\.]/);
-  if(sepMatch) return {letters: sepMatch[1]};
-
-  // Brak separatora - weź wiodący ciąg liter aż do pierwszej cyfry.
-  let s = upper.replace(/[\s\-\.]/g,'');
-  let letters = '';
-  for(const ch of s){
-    if(/[A-ZΑ-ΩА-Я]/.test(ch)) letters += ch; else break;
-  }
-  return {letters};
-}
-
-function findMatch(countryCode, rawInput){
-  const c = DATA[countryCode];
-  if(c.type !== 'geographic') return {status:'nogeo', country:c};
-
-  // Specjalny przypadek: Białoruś - kod regionu to cyfra po myślniku na końcu
-  if(countryCode === 'BY'){
-    const m = rawInput.trim().match(/-(\d)\s*$/) || rawInput.trim().match(/(\d)\s*$/);
-    if(m){
-      const digit = m[1];
-      const hit = c.entries.find(e => e.codes.includes(digit));
-      if(hit) return {status:'hit', entry:hit, country:c, matchedCode:digit};
-    }
-    return {status:'miss', country:c};
+  function getPreferredTheme() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved === 'light' || saved === 'dark') return saved;
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return prefersDark ? 'dark' : 'light';
   }
 
-  const {letters} = extractLeadingLetters(rawInput);
-  if(!letters) return {status:'miss', country:c};
+  function applyTheme(theme) {
+    root.setAttribute('data-theme', theme);
+    if (toggleBtn) toggleBtn.setAttribute('aria-pressed', String(theme === 'dark'));
+  }
 
-  // zbuduj mapę code->entry raz (cache)
-  if(!c._codeMap){
-    c._codeMap = {};
-    c.entries.forEach(e=>{
-      e.codes.forEach(code=>{ c._codeMap[code] = e; });
+  function toggleTheme() {
+    const current = root.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    localStorage.setItem(STORAGE_KEY, next);
+  }
+
+  applyTheme(getPreferredTheme());
+  if (toggleBtn) toggleBtn.addEventListener('click', toggleTheme);
+
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!localStorage.getItem(STORAGE_KEY)) applyTheme(e.matches ? 'dark' : 'light');
+  });
+
+  /* -------------------------------------------------------------------
+     2. DANE
+  ------------------------------------------------------------------- */
+  const DATA = JSON.parse(document.getElementById('plate-data').textContent);
+  const countryOrder = Object.keys(DATA);
+
+  function countryLabel(code) {
+    const c = DATA[code];
+    return `${c.flag} ${c.name}`;
+  }
+
+  function populateCountrySelect(sel) {
+    sel.innerHTML = '';
+    const geo = countryOrder.filter((c) => DATA[c].type === 'geographic');
+    const nongeo = countryOrder.filter((c) => DATA[c].type !== 'geographic');
+
+    const g1 = document.createElement('optgroup');
+    g1.label = 'Systemy geograficzne (można rozpoznać region)';
+    geo.forEach((code) => {
+      const o = document.createElement('option');
+      o.value = code;
+      o.textContent = countryLabel(code);
+      g1.appendChild(o);
     });
-    (c.historicalEntries||[]).forEach(e=>{
-      e.codes.forEach(code=>{ if(!c._codeMap[code]) c._codeMapHist = c._codeMapHist||{}, c._codeMapHist[code]=e; });
+
+    const g2 = document.createElement('optgroup');
+    g2.label = 'Systemy niegeograficzne';
+    nongeo.forEach((code) => {
+      const o = document.createElement('option');
+      o.value = code;
+      o.textContent = countryLabel(code);
+      g2.appendChild(o);
     });
+
+    sel.appendChild(g1);
+    sel.appendChild(g2);
   }
 
-  // próbuj od najdłuższego prefiksu (max 3) w dół do 1 znaku
-  const maxLen = Math.min(letters.length, 3);
-  for(let len=maxLen; len>=1; len--){
-    const candidate = letters.slice(0,len);
-    if(c._codeMap[candidate]){
-      return {status:'hit', entry:c._codeMap[candidate], country:c, matchedCode:candidate};
+  const selFwd = document.getElementById('country-fwd');
+  const selRev = document.getElementById('country-rev');
+  populateCountrySelect(selFwd);
+  populateCountrySelect(selRev);
+  selFwd.value = 'PL';
+  selRev.value = 'PL';
+
+  /* -------------------------------------------------------------------
+     3. ZAKŁADKI (Sprawdź numer / Szukaj po lokalizacji)
+  ------------------------------------------------------------------- */
+  const tabButtons = document.querySelectorAll('.tab');
+  const tabForward = document.getElementById('tab-forward');
+  const tabReverse = document.getElementById('tab-reverse');
+
+  tabButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      tabButtons.forEach((b) => {
+        b.classList.remove('active');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-selected', 'true');
+      const tab = btn.dataset.tab;
+      tabForward.hidden = tab !== 'forward';
+      tabReverse.hidden = tab !== 'reverse';
+    });
+  });
+
+  /* -------------------------------------------------------------------
+     4. WYSZUKIWANIE W PRZÓD (numer → lokalizacja)
+  ------------------------------------------------------------------- */
+  function updateFwdMeta() {
+    const code = selFwd.value;
+    const c = DATA[code];
+    const el = document.getElementById('country-meta-fwd');
+    if (c.type === 'geographic') {
+      el.innerHTML = `<b>Format:</b> ${c.plateFormat}<br><b>Poziom lokalizacji:</b> ${c.level}<br>${c.parseNote}`;
+    } else {
+      el.innerHTML = `⚠️ ${c.parseNote}`;
     }
   }
-  // spróbuj też historycznych (np. Czechy)
-  if(c._codeMapHist){
-    for(let len=maxLen; len>=1; len--){
-      const candidate = letters.slice(0,len);
-      if(c._codeMapHist[candidate]){
-        return {status:'hit-historical', entry:c._codeMapHist[candidate], country:c, matchedCode:candidate};
+  selFwd.addEventListener('change', updateFwdMeta);
+  updateFwdMeta();
+
+  function extractLeadingLetters(raw) {
+    const upper = raw.toUpperCase().trim();
+    // Jeśli w numerze jest wyraźny separator (spacja/myślnik/kropka), prefiks regionu
+    // to zwykle dokładnie to, co przed pierwszym separatorem (np. "M-AB 1234" -> "M").
+    const sepMatch = upper.match(/^([A-ZΑ-ΩА-Я]+)[\s\-.]/);
+    if (sepMatch) return { letters: sepMatch[1] };
+
+    // Brak separatora — weź wiodący ciąg liter aż do pierwszej cyfry.
+    const s = upper.replace(/[\s\-.]/g, '');
+    let letters = '';
+    for (const ch of s) {
+      if (/[A-ZΑ-ΩА-Я]/.test(ch)) letters += ch;
+      else break;
+    }
+    return { letters };
+  }
+
+  function findMatch(countryCode, rawInput) {
+    const c = DATA[countryCode];
+    if (c.type !== 'geographic') return { status: 'nogeo', country: c };
+
+    // Specjalny przypadek: Białoruś — kod regionu to cyfra po myślniku na końcu.
+    if (countryCode === 'BY') {
+      const m = rawInput.trim().match(/-(\d)\s*$/) || rawInput.trim().match(/(\d)\s*$/);
+      if (m) {
+        const digit = m[1];
+        const hit = c.entries.find((e) => e.codes.includes(digit));
+        if (hit) return { status: 'hit', entry: hit, country: c, matchedCode: digit };
+      }
+      return { status: 'miss', country: c };
+    }
+
+    const { letters } = extractLeadingLetters(rawInput);
+    if (!letters) return { status: 'miss', country: c };
+
+    // zbuduj mapę code -> entry raz (cache)
+    if (!c._codeMap) {
+      c._codeMap = {};
+      c.entries.forEach((e) => {
+        e.codes.forEach((code) => {
+          c._codeMap[code] = e;
+        });
+      });
+      (c.historicalEntries || []).forEach((e) => {
+        e.codes.forEach((code) => {
+          if (!c._codeMap[code]) {
+            c._codeMapHist = c._codeMapHist || {};
+            c._codeMapHist[code] = e;
+          }
+        });
+      });
+    }
+
+    // próbuj od najdłuższego prefiksu (max 3) w dół do 1 znaku
+    const maxLen = Math.min(letters.length, 3);
+    for (let len = maxLen; len >= 1; len--) {
+      const candidate = letters.slice(0, len);
+      if (c._codeMap[candidate]) {
+        return { status: 'hit', entry: c._codeMap[candidate], country: c, matchedCode: candidate };
       }
     }
+    // spróbuj też historycznych (np. Czechy)
+    if (c._codeMapHist) {
+      for (let len = maxLen; len >= 1; len--) {
+        const candidate = letters.slice(0, len);
+        if (c._codeMapHist[candidate]) {
+          return { status: 'hit-historical', entry: c._codeMapHist[candidate], country: c, matchedCode: candidate };
+        }
+      }
+    }
+    return { status: 'miss', country: c };
   }
-  return {status:'miss', country:c};
-}
 
-function renderFwdResult(res){
-  const el = document.getElementById('fwd-result');
-  if(res.status === 'nogeo'){
-    el.innerHTML = `<div class="result-nogeo"><b>${res.country.flag} ${res.country.name}</b> nie koduje lokalizacji na tablicy rejestracyjnej.<br><br>${res.country.parseNote}</div>`;
-    return;
-  }
-  if(res.status === 'miss'){
-    el.innerHTML = `<div class="result-miss">Nie rozpoznano prefiksu dla <b>${res.country.name}</b>. Sprawdź czy numer jest wpisany poprawnie (format: ${res.country.plateFormat||'—'}).</div>`;
-    return;
-  }
-  const e = res.entry;
-  const histNote = res.status === 'hit-historical' ? '<div class="sub">⏱️ Kod z historycznego systemu (sprzed reformy) — może dotyczyć starszego pojazdu.</div>' : '';
-  el.innerHTML = `
-    <div class="result-hit">
-      <div class="loc">${e.location}</div>
-      <div class="sub">${res.country.flag} ${res.country.name}${e.region ? ' • '+e.region : ''}${e.unit ? ' • '+e.unit : ''}</div>
-      <div class="sub">Rozpoznany kod: <span class="badge">${res.matchedCode}</span></div>
-      ${histNote}
-    </div>
-  `;
-}
-
-document.getElementById('btn-check').addEventListener('click', ()=>{
-  const val = document.getElementById('plate-input').value.trim();
-  if(!val){ document.getElementById('fwd-result').innerHTML=''; return; }
-  const res = findMatch(selFwd.value, val);
-  renderFwdResult(res);
-});
-document.getElementById('plate-input').addEventListener('keydown', (e)=>{
-  if(e.key === 'Enter') document.getElementById('btn-check').click();
-});
-
-// ---------- REVERSE LOOKUP ----------
-let czMode = 'modern';
-const czToggle = document.getElementById('cz-toggle');
-
-function currentRevEntries(){
-  const c = DATA[selRev.value];
-  if(selRev.value === 'CZ'){
-    return czMode === 'modern' ? c.entries : (c.historicalEntries||[]);
-  }
-  if(selRev.value === 'PL' && c.citiesIndex){
-    return c.entries.concat(c.citiesIndex);
-  }
-  return c.entries;
-}
-
-function updateRevMeta(){
-  const c = DATA[selRev.value];
-  const metaEl = document.getElementById('rev-meta');
-  czToggle.style.display = (selRev.value === 'CZ') ? 'flex' : 'none';
-  if(c.type !== 'geographic'){
-    metaEl.style.display = '';
-    metaEl.innerHTML = `⚠️ ${c.parseNote}`;
-  } else {
-    metaEl.style.display = '';
-    metaEl.innerHTML = `<b>Format:</b> ${c.plateFormat}<br><b>Poziom lokalizacji:</b> ${c.level}`;
-  }
-  renderRevList('');
-}
-
-function normalizeText(s){
-  return s.toLowerCase()
-    .replace(/ł/g,'l')
-    .normalize('NFD').replace(/[̀-ͯ]/g,''); // usuń akcenty/diakrytyki (ą,ć,ę,ń,ó,ś,ź,ż)
-}
-
-function fuzzyMatch(query, text){
-  if(!query) return true;
-  const nq = normalizeText(query);
-  const nt = normalizeText(text);
-  if(nt.includes(nq) || nq.includes(nt)) return true;
-  // dopasowanie po wspólnym rdzeniu słowa (np. "brzeziny" vs "brzezinski", "warszawa" vs "warszawski")
-  const minLen = Math.min(nq.length, nt.length);
-  if(minLen < 4) return false;
-  let common = 0;
-  while(common < minLen && nq[common] === nt[common]) common++;
-  return common >= 5 || (common >= 4 && common >= minLen - 2);
-}
-
-function renderRevList(query){
-  const listEl = document.getElementById('rev-list');
-  const c = DATA[selRev.value];
-  if(c.type !== 'geographic'){
-    listEl.innerHTML = `<div class="empty-hint">Brak danych geograficznych dla tego kraju.</div>`;
-    return;
-  }
-  const entries = currentRevEntries();
-  const q = query.trim();
-  let filtered = entries;
-  if(q){
-    filtered = entries.filter(e => fuzzyMatch(q, e.location) || fuzzyMatch(q, e.region||''));
-  }
-  filtered = filtered.slice().sort((a,b)=>a.location.localeCompare(b.location,'pl'));
-  if(filtered.length === 0){
-    listEl.innerHTML = `<div class="empty-hint">Brak wyników. Spróbuj innej nazwy.</div>`;
-    return;
-  }
-  const cap = 200;
-  const shown = filtered.slice(0, cap);
-  listEl.innerHTML = shown.map(e => `
-    <div class="list-item">
-      <div>
-        <div class="name">${e.location}</div>
-        ${(e.region||e.unit) ? `<div class="region">${[e.region,e.unit].filter(Boolean).join(' • ')}</div>` : ''}
+  function renderFwdResult(res) {
+    const el = document.getElementById('fwd-result');
+    if (res.status === 'nogeo') {
+      el.innerHTML = `<div class="result-nogeo"><b>${res.country.flag} ${res.country.name}</b> nie koduje lokalizacji na tablicy rejestracyjnej.<br><br>${res.country.parseNote}</div>`;
+      return;
+    }
+    if (res.status === 'miss') {
+      el.innerHTML = `<div class="result-miss">Nie rozpoznano prefiksu dla <b>${res.country.name}</b>. Sprawdź czy numer jest wpisany poprawnie (format: ${res.country.plateFormat || '—'}).</div>`;
+      return;
+    }
+    const e = res.entry;
+    const histNote =
+      res.status === 'hit-historical'
+        ? '<div class="sub">⏱️ Kod z historycznego systemu (sprzed reformy) — może dotyczyć starszego pojazdu.</div>'
+        : '';
+    el.innerHTML = `
+      <div class="result-hit">
+        <div class="loc">${e.location}</div>
+        <div class="sub">${res.country.flag} ${res.country.name}${e.region ? ' • ' + e.region : ''}${e.unit ? ' • ' + e.unit : ''}</div>
+        <div class="sub">Rozpoznany kod: <span class="badge">${res.matchedCode}</span></div>
+        ${histNote}
       </div>
-      <div class="codes">${e.codes.map(code=>`<span class="badge">${code}</span>`).join('')}</div>
-    </div>
-  `).join('') + (filtered.length > cap ? `<div class="empty-hint">…i ${filtered.length-cap} więcej. Doprecyzuj wyszukiwanie.</div>` : '');
-}
+    `;
+  }
 
-selRev.addEventListener('change', updateRevMeta);
-document.getElementById('loc-search').addEventListener('input', (e)=>{
-  renderRevList(e.target.value);
-});
-czToggle.querySelectorAll('button').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    czToggle.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    czMode = btn.dataset.mode;
-    renderRevList(document.getElementById('loc-search').value);
+  const btnCheck = document.getElementById('btn-check');
+  const plateInput = document.getElementById('plate-input');
+
+  btnCheck.addEventListener('click', () => {
+    const val = plateInput.value.trim();
+    if (!val) {
+      document.getElementById('fwd-result').innerHTML = '';
+      return;
+    }
+    renderFwdResult(findMatch(selFwd.value, val));
   });
-});
 
-updateRevMeta();
-</script>
+  plateInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') btnCheck.click();
+  });
+
+  /* -------------------------------------------------------------------
+     5. WYSZUKIWANIE W DRUGĄ STRONĘ (lokalizacja → kody)
+  ------------------------------------------------------------------- */
+  let czMode = 'modern';
+  const czToggle = document.getElementById('cz-toggle');
+
+  function currentRevEntries() {
+    const c = DATA[selRev.value];
+    if (selRev.value === 'CZ') {
+      return czMode === 'modern' ? c.entries : c.historicalEntries || [];
+    }
+    if (selRev.value === 'PL' && c.citiesIndex) {
+      return c.entries.concat(c.citiesIndex);
+    }
+    return c.entries;
+  }
+
+  function updateRevMeta() {
+    const c = DATA[selRev.value];
+    const metaEl = document.getElementById('rev-meta');
+    czToggle.hidden = selRev.value !== 'CZ';
+    metaEl.hidden = false;
+    if (c.type !== 'geographic') {
+      metaEl.innerHTML = `⚠️ ${c.parseNote}`;
+    } else {
+      metaEl.innerHTML = `<b>Format:</b> ${c.plateFormat}<br><b>Poziom lokalizacji:</b> ${c.level}`;
+    }
+    renderRevList('');
+  }
+
+  function normalizeText(s) {
+    return s
+      .toLowerCase()
+      .replace(/ł/g, 'l')
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, ''); // usuń akcenty/diakrytyki (ą,ć,ę,ń,ó,ś,ź,ż)
+  }
+
+  function fuzzyMatch(query, text) {
+    if (!query) return true;
+    const nq = normalizeText(query);
+    const nt = normalizeText(text);
+    if (nt.includes(nq) || nq.includes(nt)) return true;
+    // dopasowanie po wspólnym rdzeniu słowa (np. "brzeziny" vs "brzezinski")
+    const minLen = Math.min(nq.length, nt.length);
+    if (minLen < 4) return false;
+    let common = 0;
+    while (common < minLen && nq[common] === nt[common]) common++;
+    return common >= 5 || (common >= 4 && common >= minLen - 2);
+  }
+
+  function renderRevList(query) {
+    const listEl = document.getElementById('rev-list');
+    const c = DATA[selRev.value];
+    if (c.type !== 'geographic') {
+      listEl.innerHTML = `<div class="empty-hint">Brak danych geograficznych dla tego kraju.</div>`;
+      return;
+    }
+    const entries = currentRevEntries();
+    const q = query.trim();
+    let filtered = entries;
+    if (q) {
+      filtered = entries.filter((e) => fuzzyMatch(q, e.location) || fuzzyMatch(q, e.region || ''));
+    }
+    filtered = filtered.slice().sort((a, b) => a.location.localeCompare(b.location, 'pl'));
+    if (filtered.length === 0) {
+      listEl.innerHTML = `<div class="empty-hint">Brak wyników. Spróbuj innej nazwy.</div>`;
+      return;
+    }
+    const cap = 200;
+    const shown = filtered.slice(0, cap);
+    listEl.innerHTML =
+      shown
+        .map(
+          (e) => `
+        <div class="list-item">
+          <div>
+            <div class="name">${e.location}</div>
+            ${(e.region || e.unit) ? `<div class="region">${[e.region, e.unit].filter(Boolean).join(' • ')}</div>` : ''}
+          </div>
+          <div class="codes">${e.codes.map((code) => `<span class="badge">${code}</span>`).join('')}</div>
+        </div>
+      `
+        )
+        .join('') +
+      (filtered.length > cap ? `<div class="empty-hint">…i ${filtered.length - cap} więcej. Doprecyzuj wyszukiwanie.</div>` : '');
+  }
+
+  selRev.addEventListener('change', updateRevMeta);
+  document.getElementById('loc-search').addEventListener('input', (e) => {
+    renderRevList(e.target.value);
+  });
+  czToggle.querySelectorAll('button').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      czToggle.querySelectorAll('button').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      czMode = btn.dataset.mode;
+      renderRevList(document.getElementById('loc-search').value);
+    });
+  });
+
+  updateRevMeta();
+
+  /* -------------------------------------------------------------------
+     6. ROK W STOPCE
+  ------------------------------------------------------------------- */
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
+})();
+
+  </script>
 </body>
 </html>

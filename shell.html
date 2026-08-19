@@ -228,6 +228,28 @@
   </main>
 
   <!-- ===========================================================
+       SOCIAL FAB — stały, statyczny pasek z linkami autora.
+       OBOWIĄZKOWY na każdej stronie w tym design systemie (patrz
+       claude/styl-wizualny.md w projekcie „Projekty spoza psychologii").
+       Bez JS do rozwijania — zwykła lista linków, zawsze widoczna.
+       Mobile: pigułka na dole. Desktop (≥768px): pionowa kolumna
+       przy lewej krawędzi. Ten sam zestaw linków jest też w stopce
+       (.social-links) — przy zmianie zaktualizuj OBA miejsca.
+  ============================================================ -->
+  <nav class="social-fab" aria-label="Media społecznościowe">
+    <ul class="social-fab__list">
+      <li><a class="social-fab__link" href="https://x.com/wasiak_dsm" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">X</a></li>
+      <li><a class="social-fab__link" href="https://www.linkedin.com/in/pwasiak30" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a></li>
+      <li><a class="social-fab__link" href="https://www.youtube.com/@psychologia.wasiak" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YT</a></li>
+      <li><a class="social-fab__link" href="https://www.instagram.com/psychologia.wasiak/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a></li>
+      <li><a class="social-fab__link" href="https://www.facebook.com/psychologia.wasiak" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a></li>
+      <li><a class="social-fab__link" href="https://github.com/pwasiak30" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a></li>
+      <li><a class="social-fab__link" href="https://mastodon.social/@s3in610" target="_blank" rel="noopener noreferrer" aria-label="Mastodon">MA</a></li>
+      <li><a class="social-fab__link" href="https://linktree.wasiakpawel.pl/" target="_blank" rel="noopener noreferrer" aria-label="Linktree">LT</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===========================================================
        STOPKA
   ============================================================ -->
   <footer class="footer" id="footer">
@@ -242,34 +264,24 @@
         © <span id="year"></span> ·
         <a href="https://github.com/pwasiak30/tablice-rejestracyjne" target="_blank" rel="noopener noreferrer">kod na GitHubie</a>
         · licencja MIT
-        <br />
-        <span class="footer__portfolio">
-          Więcej narzędzi i projektów: <a href="https://pwasiak30.github.io/pawel-wasiak-portfolio/" target="_blank" rel="noopener noreferrer">portfolio Pawła Wasiaka</a>
-        </span>
       </p>
+
+      <!-- Rząd ikon social — ten sam zestaw co .social-fab powyżej -->
+      <ul class="social-links" aria-label="Media społecznościowe">
+        <li><a class="social-links__link" href="https://x.com/wasiak_dsm" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">X</a></li>
+        <li><a class="social-links__link" href="https://www.linkedin.com/in/pwasiak30" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a></li>
+        <li><a class="social-links__link" href="https://www.youtube.com/@psychologia.wasiak" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YT</a></li>
+        <li><a class="social-links__link" href="https://www.instagram.com/psychologia.wasiak/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a></li>
+        <li><a class="social-links__link" href="https://www.facebook.com/psychologia.wasiak" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a></li>
+        <li><a class="social-links__link" href="https://github.com/pwasiak30" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a></li>
+        <li><a class="social-links__link" href="https://mastodon.social/@s3in610" target="_blank" rel="noopener noreferrer" aria-label="Mastodon">MA</a></li>
+        <li><a class="social-links__link" href="https://linktree.wasiakpawel.pl/" target="_blank" rel="noopener noreferrer" aria-label="Linktree">LT</a></li>
+      </ul>
+
+      <!-- Odwołanie tekstowe do portfolio — obowiązkowe, pod linią copyright -->
+      <p class="footer__portfolio">Więcej projektów: <a href="https://linktree.wasiakpawel.pl/" target="_blank" rel="noopener noreferrer">portfolio Pawła Wasiaka</a></p>
     </div>
   </footer>
-
-  <!-- ===========================================================
-       PŁYWAK Z LINKAMI (link-dock)
-       Stały element w prawym dolnym rogu, obecny na każdej stronie
-       zgodnie z odgórnym stylem projektu (wzorem linktree.wasiakpawel.pl).
-       Aby dodać/zmienić link, skopiuj wzorzec .link-dock__item.
-  ============================================================ -->
-  <nav class="link-dock" aria-label="Szybkie linki">
-    <a class="link-dock__item" href="https://pwasiak30.github.io/pawel-wasiak-portfolio/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio / strona główna" title="Portfolio">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </a>
-    <a class="link-dock__item" href="https://github.com/pwasiak30" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.5v-1.75c-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.9-1.33 2.74-1.05 2.74-1.05.56 1.41.21 2.46.1 2.72.65.72 1.03 1.64 1.03 2.76 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .28.18.61.69.5A10.03 10.03 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z" fill="currentColor"/></svg>
-    </a>
-    <a class="link-dock__item" href="https://suppi.pl/pawelwasiak" target="_blank" rel="noopener noreferrer" aria-label="Postaw kawę (Suppi)" title="Postaw kawę">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 9.5h1.5a2.5 2.5 0 0 1 0 5H17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M7 2.5c-.5 1 0 1.5-.5 2.5M11 2.5c-.5 1 0 1.5-.5 2.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-    </a>
-    <a class="link-dock__item link-dock__item--accent" href="https://linktree.wasiakpawel.pl/" target="_blank" rel="noopener noreferrer" aria-label="Pełny linktree" title="Wszystkie linki">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.5 13.5 13.5 10.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M8.5 15.5 6.4 17.6a3 3 0 0 1-4.24-4.24L4.3 11.2a3 3 0 0 1 4.24 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 8.5l2.1-2.1a3 3 0 1 1 4.24 4.24L19.7 12.8a3 3 0 0 1-4.24 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    </a>
-  </nav>
 
   <!-- ===========================================================
        DANE — osadzone jako JSON, żeby cała aplikacja działała

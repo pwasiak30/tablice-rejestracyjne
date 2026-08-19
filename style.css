@@ -13,9 +13,10 @@
    6. Karta narzędzia (zakładki, formularze, wyniki)
    7. Bento Grid (zakres krajów)
    8. Stopka
-   9. Mikrointerakcje / animacje
-   10. Media queries (mobile-first)
-   11. Dostępność (focus-visible, prefers-reduced-motion)
+   9. Social FAB + linki społecznościowe (obowiązkowe na każdej stronie)
+   10. Mikrointerakcje / animacje
+   11. Media queries (mobile-first)
+   12. Dostępność (focus-visible, prefers-reduced-motion)
 ===================================================================== */
 
 /* ---------------------------------------------------------------------
@@ -680,63 +681,120 @@ select:focus, input[type='text']:focus {
 .footer a { color: var(--accent-1); font-weight: 600; }
 .footer a:hover { text-decoration: underline; }
 
-.footer__portfolio {
-  display: inline-block;
-  margin-top: var(--space-1);
-}
-
-/* ---------------------------------------------------------------------
-   8b. PŁYWAK Z LINKAMI (link-dock)
-   Stały element w prawym dolnym rogu, obecny na każdej stronie —
-   wzorem linktree.wasiakpawel.pl (patrz odgórny styl projektu).
---------------------------------------------------------------------- */
-.link-dock {
-  position: fixed;
-  right: var(--space-2);
-  bottom: var(--space-2);
-  z-index: 60;
+/* Rząd ikon social w stopce — ten sam zestaw co .social-fab, wyśrodkowany */
+.social-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  padding: 0.4rem;
-  border-radius: var(--radius-pill);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  backdrop-filter: blur(var(--blur-md)) saturate(150%);
-  -webkit-backdrop-filter: blur(var(--blur-md)) saturate(150%);
-  box-shadow: var(--shadow-lg);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: var(--space-3);
 }
 
-.link-dock__item {
+.social-links__link {
+  width: 36px;
+  height: 36px;
   display: grid;
   place-items: center;
-  width: 32px;
-  height: 32px;
   border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  transition: color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.social-links__link:hover {
+  color: var(--accent-1);
+  border-color: var(--accent-1);
+  transform: translateY(-2px);
+}
+
+.footer__portfolio {
+  margin-top: var(--space-2);
+  font-size: 0.82rem;
+}
+
+.footer__portfolio a { color: var(--accent-1); font-weight: 600; }
+.footer__portfolio a:hover { text-decoration: underline; }
+
+/* ---------------------------------------------------------------------
+   9. SOCIAL FAB — pasek z linkami autora (obowiązkowy, patrz
+   claude/styl-wizualny.md). Statyczny, bez JS do rozwijania.
+   Mobile (<768px): pozioma pigułka na dole. Desktop (≥768px): pionowa
+   kolumna przy lewej krawędzi. Ten sam zestaw linków co .social-links
+   w stopce powyżej — przy zmianie zaktualizuj OBA miejsca.
+--------------------------------------------------------------------- */
+.social-fab {
+  position: fixed;
+  z-index: 60;
+  display: flex;
+  gap: 0.35rem;
+  padding: 0.4rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  box-shadow: var(--shadow-lg);
+
+  /* Mobile: pozioma pigułka, wyśrodkowana na dole ekranu */
+  left: 50%;
+  bottom: var(--space-2);
+  transform: translateX(-50%);
+  border-radius: var(--radius-pill);
+  max-width: calc(100vw - var(--space-3));
+  overflow-x: auto;
+}
+
+.social-fab__list {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.social-fab__link {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   color: var(--color-text-muted);
   background: var(--color-surface-solid);
   border: 1px solid var(--color-border);
-  transition: transform var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast);
+  transition: color var(--transition-fast), background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.link-dock__item svg { width: 15px; height: 15px; }
-
-.link-dock__item:hover {
-  transform: translateY(-2px) scale(1.05);
-  color: var(--accent-1);
-  box-shadow: var(--shadow-md);
-}
-
-.link-dock__item--accent {
+.social-fab__link:hover {
   color: #fff;
   background: var(--gradient-accent);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-glow);
 }
 
-.link-dock__item--accent:hover { color: #fff; }
+/* Desktop ≥768px: FAB przechodzi w pionową kolumnę przy lewej krawędzi */
+@media (min-width: 768px) {
+  .social-fab {
+    left: var(--space-2);
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: var(--radius-lg);
+    max-width: none;
+    overflow-x: visible;
+  }
+
+  .social-fab__list {
+    flex-direction: column;
+  }
+}
 
 /* ---------------------------------------------------------------------
-   9. MIKROINTERAKCJE / ANIMACJE
+   10. MIKROINTERAKCJE / ANIMACJE
 --------------------------------------------------------------------- */
 .hero__inner, .tool-card {
   animation: rise 640ms var(--ease) both;
@@ -748,23 +806,13 @@ select:focus, input[type='text']:focus {
 }
 
 /* ---------------------------------------------------------------------
-   10. MEDIA QUERIES — MOBILE FIRST
+   11. MEDIA QUERIES — MOBILE FIRST
 --------------------------------------------------------------------- */
 
 /* Tablet ≥ 640px */
 @media (min-width: 640px) {
   .navbar__meta { display: block; }
   .bento-grid { grid-template-columns: repeat(2, 1fr); }
-
-  .link-dock {
-    right: var(--space-3);
-    bottom: var(--space-3);
-    gap: 0.6rem;
-    padding: 0.6rem;
-  }
-
-  .link-dock__item { width: 40px; height: 40px; }
-  .link-dock__item svg { width: 18px; height: 18px; }
 }
 
 /* Desktop small ≥ 768px */
@@ -778,7 +826,7 @@ select:focus, input[type='text']:focus {
 }
 
 /* ---------------------------------------------------------------------
-   11. DOSTĘPNOŚĆ
+   12. DOSTĘPNOŚĆ
 --------------------------------------------------------------------- */
 a:focus-visible,
 button:focus-visible,

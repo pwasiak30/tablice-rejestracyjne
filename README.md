@@ -31,7 +31,7 @@ Wystarczy otworzyć `index.html` w dowolnej przeglądarce (też na telefonie) �
 - `data/` — surowe dane źródłowe (CSV/JSON) zebrane z Wikipedii i oficjalnych przepisów
 - `build_poland.py`, `build_all.py` — skrypty budujące `data.json` z surowych danych w `data/`
 
-Styl wizualny (bento-grid, glassmorphism, tryb dark/light) jest zgodny z odgórnym design systemem projektów webowych Pawła (Fedora Project × Zorin OS). Po zmianie `style.css` lub `script.js` uruchom `python3 build_html.py`, żeby przebudować `index.html`.
+Styl wizualny (bento-grid, glassmorphism, tryb dark/light, Social FAB z linkami autora) jest zgodny z odgórnym design systemem projektów webowych Pawła (Fedora Project × Zorin OS). Po zmianie `style.css` lub `shell.html` uruchom `python3 build_html.py`, żeby przebudować `index.html`.
 
 ## Źródła danych
 
